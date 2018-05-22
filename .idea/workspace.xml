@@ -48,8 +48,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="298">
+              <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -190,41 +190,6 @@
             <path>
               <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
-              <item name="ServiceTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -494,7 +459,7 @@
       <workItem from="1526957088146" duration="2606000" />
       <workItem from="1526961011709" duration="4536000" />
       <workItem from="1526979716630" duration="1492000" />
-      <workItem from="1526981266129" duration="1708000" />
+      <workItem from="1526981266129" duration="2501000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1526958039008</created>
@@ -539,7 +504,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198971000" />
+    <option name="totallyTimeSpent" value="199764000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -807,8 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="298">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
         </state>
       </provider>
     </entry>
