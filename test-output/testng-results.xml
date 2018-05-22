@@ -1,0 +1,1557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="5" ignored="0" total="44" passed="35">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutomatedTestingFrameworkOfLibrary" duration-ms="944531" started-at="2018-05-22T05:21:17Z" finished-at="2018-05-22T05:37:01Z">
+    <groups>
+    </groups>
+    <test name="AccountRelatedTest" duration-ms="42186" started-at="2018-05-22T05:21:17Z" finished-at="2018-05-22T05:21:59Z">
+      <class name="TestCase.AccountRelatedTest.AccountInfo">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.AccountRelatedTest.AccountInfo@4c203ea1]" name="beforeClass" is-config="true" duration-ms="10640" started-at="2018-05-22T05:21:17Z" finished-at="2018-05-22T05:21:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="accountInfoTest()[pri:0, instance:TestCase.AccountRelatedTest.AccountInfo@4c203ea1]" name="accountInfoTest" duration-ms="20159" started-at="2018-05-22T05:21:28Z" finished-at="2018-05-22T05:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountInfoTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.AccountRelatedTest.AccountInfo@4c203ea1]" name="afterClass" is-config="true" duration-ms="799" started-at="2018-05-22T05:21:48Z" finished-at="2018-05-22T05:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.AccountRelatedTest.AccountInfo -->
+      <class name="TestCase.AccountRelatedTest.Login">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.AccountRelatedTest.Login@27f674d]" name="beforeClass" is-config="true" duration-ms="2276" started-at="2018-05-22T05:21:49Z" finished-at="2018-05-22T05:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestCase.AccountRelatedTest.Login@27f674d]" name="loginTest" duration-ms="7547" started-at="2018-05-22T05:21:51Z" finished-at="2018-05-22T05:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.AccountRelatedTest.Login@27f674d]" name="afterClass" is-config="true" duration-ms="750" started-at="2018-05-22T05:21:58Z" finished-at="2018-05-22T05:21:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.AccountRelatedTest.Login -->
+    </test> <!-- AccountRelatedTest -->
+    <test name="ActivityTest" duration-ms="45465" started-at="2018-05-22T05:21:59Z" finished-at="2018-05-22T05:22:45Z">
+      <class name="TestCase.ActivityTest.Appreciate">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Appreciate@7f690630]" name="beforeClass" is-config="true" duration-ms="2364" started-at="2018-05-22T05:22:06Z" finished-at="2018-05-22T05:22:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="appreciateTest()[pri:0, instance:TestCase.ActivityTest.Appreciate@7f690630]" name="appreciateTest" duration-ms="3660" started-at="2018-05-22T05:22:09Z" finished-at="2018-05-22T05:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appreciateTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Appreciate@7f690630]" name="afterClass" is-config="true" duration-ms="746" started-at="2018-05-22T05:22:12Z" finished-at="2018-05-22T05:22:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ActivityTest.Appreciate -->
+      <class name="TestCase.ActivityTest.Read">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Read@566776ad]" name="beforeClass" is-config="true" duration-ms="2555" started-at="2018-05-22T05:22:27Z" finished-at="2018-05-22T05:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="readTest()[pri:0, instance:TestCase.ActivityTest.Read@566776ad]" name="readTest" duration-ms="4959" started-at="2018-05-22T05:22:30Z" finished-at="2018-05-22T05:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Read@566776ad]" name="afterClass" is-config="true" duration-ms="762" started-at="2018-05-22T05:22:34Z" finished-at="2018-05-22T05:22:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ActivityTest.Read -->
+      <class name="TestCase.ActivityTest.Other">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Other@2f7a2457]" name="beforeClass" is-config="true" duration-ms="2344" started-at="2018-05-22T05:22:20Z" finished-at="2018-05-22T05:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="otherTest()[pri:0, instance:TestCase.ActivityTest.Other@2f7a2457]" name="otherTest" duration-ms="3596" started-at="2018-05-22T05:22:23Z" finished-at="2018-05-22T05:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Other@2f7a2457]" name="afterClass" is-config="true" duration-ms="750" started-at="2018-05-22T05:22:26Z" finished-at="2018-05-22T05:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ActivityTest.Other -->
+      <class name="TestCase.ActivityTest.Activity">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Activity@35f983a6]" name="beforeClass" is-config="true" duration-ms="2506" started-at="2018-05-22T05:21:59Z" finished-at="2018-05-22T05:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="activityTest()[pri:0, instance:TestCase.ActivityTest.Activity@35f983a6]" name="activityTest" duration-ms="3863" started-at="2018-05-22T05:22:02Z" finished-at="2018-05-22T05:22:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activityTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Activity@35f983a6]" name="afterClass" is-config="true" duration-ms="743" started-at="2018-05-22T05:22:06Z" finished-at="2018-05-22T05:22:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ActivityTest.Activity -->
+      <class name="TestCase.ActivityTest.Salon">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Salon@6108b2d7]" name="beforeClass" is-config="true" duration-ms="4797" started-at="2018-05-22T05:22:35Z" finished-at="2018-05-22T05:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="salonTest()[pri:0, instance:TestCase.ActivityTest.Salon@6108b2d7]" name="salonTest" duration-ms="3826" started-at="2018-05-22T05:22:40Z" finished-at="2018-05-22T05:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salonTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Salon@6108b2d7]" name="afterClass" is-config="true" duration-ms="756" started-at="2018-05-22T05:22:44Z" finished-at="2018-05-22T05:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ActivityTest.Salon -->
+      <class name="TestCase.ActivityTest.Lecture">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Lecture@edf4efb]" name="beforeClass" is-config="true" duration-ms="2689" started-at="2018-05-22T05:22:13Z" finished-at="2018-05-22T05:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="lectureTest()[pri:0, instance:TestCase.ActivityTest.Lecture@edf4efb]" name="lectureTest" duration-ms="3814" started-at="2018-05-22T05:22:16Z" finished-at="2018-05-22T05:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lectureTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Lecture@edf4efb]" name="afterClass" is-config="true" duration-ms="734" started-at="2018-05-22T05:22:20Z" finished-at="2018-05-22T05:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ActivityTest.Lecture -->
+    </test> <!-- ActivityTest -->
+    <test name="InfoTest" duration-ms="45644" started-at="2018-05-22T05:22:45Z" finished-at="2018-05-22T05:23:30Z">
+      <class name="TestCase.InfoTest.ResourceDynamics">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.InfoTest.ResourceDynamics@21bcffb5]" name="beforeClass" is-config="true" duration-ms="5627" started-at="2018-05-22T05:23:18Z" finished-at="2018-05-22T05:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="resourceDynamicsTest()[pri:0, instance:TestCase.InfoTest.ResourceDynamics@21bcffb5]" name="resourceDynamicsTest" duration-ms="5821" started-at="2018-05-22T05:23:24Z" finished-at="2018-05-22T05:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resourceDynamicsTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.InfoTest.ResourceDynamics@21bcffb5]" name="afterClass" is-config="true" duration-ms="748" started-at="2018-05-22T05:23:30Z" finished-at="2018-05-22T05:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.InfoTest.ResourceDynamics -->
+      <class name="TestCase.InfoTest.Notice">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.InfoTest.Notice@3d8c7aca]" name="beforeClass" is-config="true" duration-ms="5086" started-at="2018-05-22T05:22:45Z" finished-at="2018-05-22T05:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="noticeTest()[pri:0, instance:TestCase.InfoTest.Notice@3d8c7aca]" name="noticeTest" duration-ms="6254" started-at="2018-05-22T05:22:50Z" finished-at="2018-05-22T05:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noticeTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.InfoTest.Notice@3d8c7aca]" name="afterClass" is-config="true" duration-ms="737" started-at="2018-05-22T05:22:56Z" finished-at="2018-05-22T05:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.InfoTest.Notice -->
+      <class name="TestCase.InfoTest.RealTimeInfo">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.InfoTest.RealTimeInfo@5ebec15]" name="beforeClass" is-config="true" duration-ms="10085" started-at="2018-05-22T05:22:57Z" finished-at="2018-05-22T05:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="realTimeInfoTest()[pri:0, instance:TestCase.InfoTest.RealTimeInfo@5ebec15]" name="realTimeInfoTest" duration-ms="10536" started-at="2018-05-22T05:23:07Z" finished-at="2018-05-22T05:23:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- realTimeInfoTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.InfoTest.RealTimeInfo@5ebec15]" name="afterClass" is-config="true" duration-ms="749" started-at="2018-05-22T05:23:17Z" finished-at="2018-05-22T05:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.InfoTest.RealTimeInfo -->
+    </test> <!-- InfoTest -->
+    <test name="LearningCenterTest" duration-ms="171700" started-at="2018-05-22T05:23:30Z" finished-at="2018-05-22T05:26:22Z">
+      <class name="TestCase.LearningCenterTest.EddieCorsonMedia">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonMedia@5f2050f6]" name="beforeClass" is-config="true" duration-ms="5533" started-at="2018-05-22T05:23:41Z" finished-at="2018-05-22T05:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="eddieCorsonMediaTest()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonMedia@5f2050f6]" name="eddieCorsonMediaTest" duration-ms="6634" started-at="2018-05-22T05:23:46Z" finished-at="2018-05-22T05:23:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eddieCorsonMediaTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonMedia@5f2050f6]" name="afterClass" is-config="true" duration-ms="804" started-at="2018-05-22T05:23:53Z" finished-at="2018-05-22T05:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.EddieCorsonMedia -->
+      <class name="TestCase.LearningCenterTest.EddieCorsonReportingHall">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonReportingHall@3b81a1bc]" name="beforeClass" is-config="true" duration-ms="5212" started-at="2018-05-22T05:23:54Z" finished-at="2018-05-22T05:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="eddieCorsonReportingHallTest()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonReportingHall@3b81a1bc]" name="eddieCorsonReportingHallTest" duration-ms="4219" started-at="2018-05-22T05:23:59Z" finished-at="2018-05-22T05:24:03Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[网页标题与预期不符合 expected [爱迪科森网上报告厅] but found [无法找到资源。]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 网页标题与预期不符合 expected [爱迪科森网上报告厅] but found [无法找到资源。]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at Utils.ActionBot.titleAssert(ActionBot.java:294)
+at TestCase.LearningCenterTest.EddieCorsonReportingHall.eddieCorsonReportingHallTest(EddieCorsonReportingHall.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eddieCorsonReportingHallTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonReportingHall@3b81a1bc]" name="afterClass" is-config="true" duration-ms="769" started-at="2018-05-22T05:24:03Z" finished-at="2018-05-22T05:24:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.EddieCorsonReportingHall -->
+      <class name="TestCase.LearningCenterTest.StartPoint">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.StartPoint@17550481]" name="beforeClass" is-config="true" duration-ms="13582" started-at="2018-05-22T05:25:45Z" finished-at="2018-05-22T05:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startPointTest()[pri:0, instance:TestCase.LearningCenterTest.StartPoint@17550481]" name="startPointTest" duration-ms="22870" started-at="2018-05-22T05:25:58Z" finished-at="2018-05-22T05:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startPointTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.StartPoint@17550481]" name="afterClass" is-config="true" duration-ms="834" started-at="2018-05-22T05:26:21Z" finished-at="2018-05-22T05:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.StartPoint -->
+      <class name="TestCase.LearningCenterTest.Credit">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.Credit@26ba2a48]" name="beforeClass" is-config="true" duration-ms="5385" started-at="2018-05-22T05:23:30Z" finished-at="2018-05-22T05:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="creditTest()[pri:0, instance:TestCase.LearningCenterTest.Credit@26ba2a48]" name="creditTest" duration-ms="4230" started-at="2018-05-22T05:23:36Z" finished-at="2018-05-22T05:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.Credit@26ba2a48]" name="afterClass" is-config="true" duration-ms="804" started-at="2018-05-22T05:23:40Z" finished-at="2018-05-22T05:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.Credit -->
+      <class name="TestCase.LearningCenterTest.LearningCenterOL">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.LearningCenterOL@64616ca2]" name="beforeClass" is-config="true" duration-ms="5081" started-at="2018-05-22T05:24:04Z" finished-at="2018-05-22T05:24:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="learningCenterOLTest()[pri:0, instance:TestCase.LearningCenterTest.LearningCenterOL@64616ca2]" name="learningCenterOLTest" duration-ms="4172" started-at="2018-05-22T05:24:09Z" finished-at="2018-05-22T05:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- learningCenterOLTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.LearningCenterOL@64616ca2]" name="afterClass" is-config="true" duration-ms="755" started-at="2018-05-22T05:24:13Z" finished-at="2018-05-22T05:24:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.LearningCenterOL -->
+      <class name="TestCase.LearningCenterTest.Mooc">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.Mooc@13fee20c]" name="beforeClass" is-config="true" duration-ms="4174" started-at="2018-05-22T05:24:14Z" finished-at="2018-05-22T05:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="moocTest()[pri:0, instance:TestCase.LearningCenterTest.Mooc@13fee20c]" name="moocTest" duration-ms="3398" started-at="2018-05-22T05:24:18Z" finished-at="2018-05-22T05:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moocTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.Mooc@13fee20c]" name="afterClass" is-config="true" duration-ms="758" started-at="2018-05-22T05:24:21Z" finished-at="2018-05-22T05:24:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.Mooc -->
+      <class name="TestCase.LearningCenterTest.PublicAwareness">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.PublicAwareness@783e6358]" name="beforeClass" is-config="true" duration-ms="6787" started-at="2018-05-22T05:25:34Z" finished-at="2018-05-22T05:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="publicAwarenessTest()[pri:0, instance:TestCase.LearningCenterTest.PublicAwareness@783e6358]" name="publicAwarenessTest" duration-ms="2858" started-at="2018-05-22T05:25:41Z" finished-at="2018-05-22T05:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publicAwarenessTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.PublicAwareness@783e6358]" name="afterClass" is-config="true" duration-ms="769" started-at="2018-05-22T05:25:44Z" finished-at="2018-05-22T05:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.PublicAwareness -->
+      <class name="TestCase.LearningCenterTest.MultimediaAccountingVideo">
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.MultimediaAccountingVideo@4e04a765]" name="beforeClass" is-config="true" duration-ms="71320" started-at="2018-05-22T05:24:22Z" finished-at="2018-05-22T05:25:34Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: e94ae95ee1da2dd0eefa65549a603821
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: e94ae95ee1da2dd0eefa65549a603821
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at Utils.ActionBot.findElemetnByXpath(ActionBot.java:58)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.HomePage.closePrompt(HomePage.java:205)
+at Base.BaseTest.init(BaseTest.java:39)
+at TestCase.LearningCenterTest.MultimediaAccountingVideo.beforeClass(MultimediaAccountingVideo.java:12)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="multimediaAccountingVideoTest()[pri:0, instance:TestCase.LearningCenterTest.MultimediaAccountingVideo@4e04a765]" name="multimediaAccountingVideoTest" duration-ms="0" started-at="2018-05-22T05:25:34Z" finished-at="2018-05-22T05:25:34Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: e94ae95ee1da2dd0eefa65549a603821
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: e94ae95ee1da2dd0eefa65549a603821
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at Utils.ActionBot.findElemetnByXpath(ActionBot.java:58)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.HomePage.closePrompt(HomePage.java:205)
+at Base.BaseTest.init(BaseTest.java:39)
+at TestCase.LearningCenterTest.MultimediaAccountingVideo.beforeClass(MultimediaAccountingVideo.java:12)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multimediaAccountingVideoTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.MultimediaAccountingVideo@4e04a765]" name="afterClass" is-config="true" duration-ms="735" started-at="2018-05-22T05:25:34Z" finished-at="2018-05-22T05:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.MultimediaAccountingVideo -->
+    </test> <!-- LearningCenterTest -->
+    <test name="RecommendationTest" duration-ms="52805" started-at="2018-05-22T05:26:22Z" finished-at="2018-05-22T05:27:15Z">
+      <class name="TestCase.RecommendationTest.NewArrivals">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.RecommendationTest.NewArrivals@2ef9b8bc]" name="beforeClass" is-config="true" duration-ms="9023" started-at="2018-05-22T05:26:22Z" finished-at="2018-05-22T05:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="newArrivalsTest()[pri:0, instance:TestCase.RecommendationTest.NewArrivals@2ef9b8bc]" name="newArrivalsTest" duration-ms="3081" started-at="2018-05-22T05:26:31Z" finished-at="2018-05-22T05:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newArrivalsTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.RecommendationTest.NewArrivals@2ef9b8bc]" name="afterClass" is-config="true" duration-ms="749" started-at="2018-05-22T05:26:34Z" finished-at="2018-05-22T05:26:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.RecommendationTest.NewArrivals -->
+      <class name="TestCase.RecommendationTest.ThemeRecommendation">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.RecommendationTest.ThemeRecommendation@5d624da6]" name="beforeClass" is-config="true" duration-ms="10565" started-at="2018-05-22T05:26:35Z" finished-at="2018-05-22T05:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="themeRecommendationTest()[pri:0, instance:TestCase.RecommendationTest.ThemeRecommendation@5d624da6]" name="themeRecommendationTest" duration-ms="28594" started-at="2018-05-22T05:26:45Z" finished-at="2018-05-22T05:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themeRecommendationTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.RecommendationTest.ThemeRecommendation@5d624da6]" name="afterClass" is-config="true" duration-ms="792" started-at="2018-05-22T05:27:14Z" finished-at="2018-05-22T05:27:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.RecommendationTest.ThemeRecommendation -->
+    </test> <!-- RecommendationTest -->
+    <test name="ResourceTest" duration-ms="378385" started-at="2018-05-22T05:27:15Z" finished-at="2018-05-22T05:33:33Z">
+      <class name="TestCase.ResourceTest.ChineseIndexOrLiterature">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChineseIndexOrLiterature@4909b8da]" name="beforeClass" is-config="true" duration-ms="9800" started-at="2018-05-22T05:27:45Z" finished-at="2018-05-22T05:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="chineseIndexOrLiteratureTest()[pri:0, instance:TestCase.ResourceTest.ChineseIndexOrLiterature@4909b8da]" name="chineseIndexOrLiteratureTest" duration-ms="1366" started-at="2018-05-22T05:27:55Z" finished-at="2018-05-22T05:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chineseIndexOrLiteratureTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChineseIndexOrLiterature@4909b8da]" name="afterClass" is-config="true" duration-ms="745" started-at="2018-05-22T05:27:56Z" finished-at="2018-05-22T05:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ChineseIndexOrLiterature -->
+      <class name="TestCase.ResourceTest.OffcampusAccess">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.OffcampusAccess@7225790e]" name="beforeClass" is-config="true" duration-ms="9659" started-at="2018-05-22T05:33:22Z" finished-at="2018-05-22T05:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="offcampusAccessTest()[pri:0, instance:TestCase.ResourceTest.OffcampusAccess@7225790e]" name="offcampusAccessTest" duration-ms="1215" started-at="2018-05-22T05:33:31Z" finished-at="2018-05-22T05:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- offcampusAccessTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.OffcampusAccess@7225790e]" name="afterClass" is-config="true" duration-ms="746" started-at="2018-05-22T05:33:33Z" finished-at="2018-05-22T05:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.OffcampusAccess -->
+      <class name="TestCase.ResourceTest.ElectronicBooks">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ElectronicBooks@34b7bfc0]" name="beforeClass" is-config="true" duration-ms="10094" started-at="2018-05-22T05:29:19Z" finished-at="2018-05-22T05:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="electronicBooksTest()[pri:0, instance:TestCase.ResourceTest.ElectronicBooks@34b7bfc0]" name="electronicBooksTest" duration-ms="1997" started-at="2018-05-22T05:29:30Z" finished-at="2018-05-22T05:29:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- electronicBooksTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ElectronicBooks@34b7bfc0]" name="afterClass" is-config="true" duration-ms="749" started-at="2018-05-22T05:29:32Z" finished-at="2018-05-22T05:29:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ElectronicBooks -->
+      <class name="TestCase.ResourceTest.ChinesePeriodicalNewspaper">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChinesePeriodicalNewspaper@617c74e5]" name="beforeClass" is-config="true" duration-ms="9226" started-at="2018-05-22T05:28:22Z" finished-at="2018-05-22T05:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="chinesePeriodicalNewspaperTest()[pri:0, instance:TestCase.ResourceTest.ChinesePeriodicalNewspaper@617c74e5]" name="chinesePeriodicalNewspaperTest" duration-ms="1753" started-at="2018-05-22T05:28:31Z" finished-at="2018-05-22T05:28:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chinesePeriodicalNewspaperTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChinesePeriodicalNewspaper@617c74e5]" name="afterClass" is-config="true" duration-ms="755" started-at="2018-05-22T05:28:33Z" finished-at="2018-05-22T05:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ChinesePeriodicalNewspaper -->
+      <class name="TestCase.ResourceTest.DissertationsAndTheses">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.DissertationsAndTheses@67b6d4ae]" name="beforeClass" is-config="true" duration-ms="10176" started-at="2018-05-22T05:28:58Z" finished-at="2018-05-22T05:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="dissertationsAndThesesTest()[pri:0, instance:TestCase.ResourceTest.DissertationsAndTheses@67b6d4ae]" name="dissertationsAndThesesTest" duration-ms="10951" started-at="2018-05-22T05:29:08Z" finished-at="2018-05-22T05:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dissertationsAndThesesTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.DissertationsAndTheses@67b6d4ae]" name="afterClass" is-config="true" duration-ms="743" started-at="2018-05-22T05:29:19Z" finished-at="2018-05-22T05:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.DissertationsAndTheses -->
+      <class name="TestCase.ResourceTest.ChinesePatentAndStandard">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChinesePatentAndStandard@2d3fcdbd]" name="beforeClass" is-config="true" duration-ms="10230" started-at="2018-05-22T05:28:08Z" finished-at="2018-05-22T05:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="chinesePatentAndStandardTest()[pri:0, instance:TestCase.ResourceTest.ChinesePatentAndStandard@2d3fcdbd]" name="chinesePatentAndStandardTest" duration-ms="3571" started-at="2018-05-22T05:28:18Z" finished-at="2018-05-22T05:28:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chinesePatentAndStandardTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChinesePatentAndStandard@2d3fcdbd]" name="afterClass" is-config="true" duration-ms="755" started-at="2018-05-22T05:28:21Z" finished-at="2018-05-22T05:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ChinesePatentAndStandard -->
+      <class name="TestCase.ResourceTest.MultimediaLearningLibrary">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.MultimediaLearningLibrary@35fb3008]" name="beforeClass" is-config="true" duration-ms="8566" started-at="2018-05-22T05:33:08Z" finished-at="2018-05-22T05:33:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="multimediaLearningLibraryTest()[pri:0, instance:TestCase.ResourceTest.MultimediaLearningLibrary@35fb3008]" name="multimediaLearningLibraryTest" duration-ms="3822" started-at="2018-05-22T05:33:17Z" finished-at="2018-05-22T05:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multimediaLearningLibraryTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.MultimediaLearningLibrary@35fb3008]" name="afterClass" is-config="true" duration-ms="785" started-at="2018-05-22T05:33:21Z" finished-at="2018-05-22T05:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.MultimediaLearningLibrary -->
+      <class name="TestCase.ResourceTest.GlobalOpenCurriculumResources">
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.GlobalOpenCurriculumResources@3cbbc1e0]" name="beforeClass" is-config="true" duration-ms="71344" started-at="2018-05-22T05:31:56Z" finished-at="2018-05-22T05:33:08Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 91f5047953a98851f76fe83802acddb0
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 91f5047953a98851f76fe83802acddb0
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at Utils.ActionBot.findElemetnByXpath(ActionBot.java:58)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.HomePage.closePrompt(HomePage.java:205)
+at Base.BaseTest.init(BaseTest.java:39)
+at TestCase.ResourceTest.GlobalOpenCurriculumResources.beforeClass(GlobalOpenCurriculumResources.java:12)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.GlobalOpenCurriculumResources@3cbbc1e0]" name="afterClass" is-config="true" duration-ms="736" started-at="2018-05-22T05:33:08Z" finished-at="2018-05-22T05:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="globalOpenCurriculumResourcesTest()[pri:0, instance:TestCase.ResourceTest.GlobalOpenCurriculumResources@3cbbc1e0]" name="globalOpenCurriculumResourcesTest" duration-ms="0" started-at="2018-05-22T05:33:08Z" finished-at="2018-05-22T05:33:08Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 91f5047953a98851f76fe83802acddb0
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 91f5047953a98851f76fe83802acddb0
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at Utils.ActionBot.findElemetnByXpath(ActionBot.java:58)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.HomePage.closePrompt(HomePage.java:205)
+at Base.BaseTest.init(BaseTest.java:39)
+at TestCase.ResourceTest.GlobalOpenCurriculumResources.beforeClass(GlobalOpenCurriculumResources.java:12)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalOpenCurriculumResourcesTest -->
+      </class> <!-- TestCase.ResourceTest.GlobalOpenCurriculumResources -->
+      <class name="TestCase.ResourceTest.CharacteristicResources">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.CharacteristicResources@6615435c]" name="beforeClass" is-config="true" duration-ms="4207" started-at="2018-05-22T05:27:15Z" finished-at="2018-05-22T05:27:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="characteristicResourcesTest()[pri:0, instance:TestCase.ResourceTest.CharacteristicResources@6615435c]" name="characteristicResourcesTest" duration-ms="24938" started-at="2018-05-22T05:27:19Z" finished-at="2018-05-22T05:27:44Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 35404233af27afa69b8e4b6c928c8f72]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 35404233af27afa69b8e4b6c928c8f72
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:277)
+at Utils.ActionBot.getTitle(ActionBot.java:209)
+at Utils.ActionBot.titleAssert(ActionBot.java:294)
+at TestCase.ResourceTest.CharacteristicResources.characteristicResourcesTest(CharacteristicResources.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- characteristicResourcesTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.CharacteristicResources@6615435c]" name="afterClass" is-config="true" duration-ms="747" started-at="2018-05-22T05:27:44Z" finished-at="2018-05-22T05:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.CharacteristicResources -->
+      <class name="TestCase.ResourceTest.ChineseYearbook">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChineseYearbook@6537cf78]" name="beforeClass" is-config="true" duration-ms="12703" started-at="2018-05-22T05:28:34Z" finished-at="2018-05-22T05:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="chineseYearbookTest()[pri:0, instance:TestCase.ResourceTest.ChineseYearbook@6537cf78]" name="chineseYearbookTest" duration-ms="10167" started-at="2018-05-22T05:28:47Z" finished-at="2018-05-22T05:28:57Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"中国知网年鉴数据库（2013年－2016年）"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 8e5aa8f5175f62f6e77032ae2a76a432
+*** Element info: {Using=link text, value=中国知网年鉴数据库（2013年－2016年）}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"中国知网年鉴数据库（2013年－2016年）"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 8e5aa8f5175f62f6e77032ae2a76a432
+*** Element info: {Using=link text, value=中国知网年鉴数据库（2013年－2016年）}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:373)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at Utils.ActionBot.findElementByLinkText(ActionBot.java:48)
+at Utils.ActionBot.clickByLinkText(ActionBot.java:108)
+at PageObject.ResourcePage.goChineseYearbook(ResourcePage.java:39)
+at TestCase.ResourceTest.ChineseYearbook.chineseYearbookTest(ChineseYearbook.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chineseYearbookTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChineseYearbook@6537cf78]" name="afterClass" is-config="true" duration-ms="735" started-at="2018-05-22T05:28:57Z" finished-at="2018-05-22T05:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ChineseYearbook -->
+      <class name="TestCase.ResourceTest.ChineseNumericValueOrFact">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChineseNumericValueOrFact@3a03464]" name="beforeClass" is-config="true" duration-ms="5324" started-at="2018-05-22T05:27:57Z" finished-at="2018-05-22T05:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="chineseNumericValueOrFactTest()[pri:0, instance:TestCase.ResourceTest.ChineseNumericValueOrFact@3a03464]" name="chineseNumericValueOrFactTest" duration-ms="4881" started-at="2018-05-22T05:28:02Z" finished-at="2018-05-22T05:28:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chineseNumericValueOrFactTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChineseNumericValueOrFact@3a03464]" name="afterClass" is-config="true" duration-ms="758" started-at="2018-05-22T05:28:07Z" finished-at="2018-05-22T05:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ChineseNumericValueOrFact -->
+      <class name="TestCase.ResourceTest.FreeResources">
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.FreeResources@6df97b55]" name="beforeClass" is-config="true" duration-ms="71311" started-at="2018-05-22T05:30:44Z" finished-at="2018-05-22T05:31:56Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 9a75e92be0c89ad3f42387c0d5b4cb35
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 9a75e92be0c89ad3f42387c0d5b4cb35
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at Utils.ActionBot.findElemetnByXpath(ActionBot.java:58)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.HomePage.closePrompt(HomePage.java:205)
+at Base.BaseTest.init(BaseTest.java:39)
+at TestCase.ResourceTest.FreeResources.beforeClass(FreeResources.java:12)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.FreeResources@6df97b55]" name="afterClass" is-config="true" duration-ms="718" started-at="2018-05-22T05:31:56Z" finished-at="2018-05-22T05:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="freeResourcesTest()[pri:0, instance:TestCase.ResourceTest.FreeResources@6df97b55]" name="freeResourcesTest" duration-ms="0" started-at="2018-05-22T05:31:56Z" finished-at="2018-05-22T05:31:56Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 9a75e92be0c89ad3f42387c0d5b4cb35
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 9a75e92be0c89ad3f42387c0d5b4cb35
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at Utils.ActionBot.findElemetnByXpath(ActionBot.java:58)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.HomePage.closePrompt(HomePage.java:205)
+at Base.BaseTest.init(BaseTest.java:39)
+at TestCase.ResourceTest.FreeResources.beforeClass(FreeResources.java:12)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeResourcesTest -->
+      </class> <!-- TestCase.ResourceTest.FreeResources -->
+      <class name="TestCase.ResourceTest.ForeignElectronicPeriodicals">
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ForeignElectronicPeriodicals@366e2eef]" name="beforeClass" is-config="true" duration-ms="71318" started-at="2018-05-22T05:29:32Z" finished-at="2018-05-22T05:30:44Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: a3b75f27e4392bf0d4f40663d7284436
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: a3b75f27e4392bf0d4f40663d7284436
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at Utils.ActionBot.findElemetnByXpath(ActionBot.java:58)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.HomePage.closePrompt(HomePage.java:205)
+at Base.BaseTest.init(BaseTest.java:39)
+at TestCase.ResourceTest.ForeignElectronicPeriodicals.beforeClass(ForeignElectronicPeriodicals.java:12)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ForeignElectronicPeriodicals@366e2eef]" name="afterClass" is-config="true" duration-ms="719" started-at="2018-05-22T05:30:44Z" finished-at="2018-05-22T05:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="foreignElectronicPeriodicalsTest()[pri:0, instance:TestCase.ResourceTest.ForeignElectronicPeriodicals@366e2eef]" name="foreignElectronicPeriodicalsTest" duration-ms="0" started-at="2018-05-22T05:30:44Z" finished-at="2018-05-22T05:30:44Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: a3b75f27e4392bf0d4f40663d7284436
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/img[1]"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: a3b75f27e4392bf0d4f40663d7284436
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/img[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at Utils.ActionBot.findElemetnByXpath(ActionBot.java:58)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.HomePage.closePrompt(HomePage.java:205)
+at Base.BaseTest.init(BaseTest.java:39)
+at TestCase.ResourceTest.ForeignElectronicPeriodicals.beforeClass(ForeignElectronicPeriodicals.java:12)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foreignElectronicPeriodicalsTest -->
+      </class> <!-- TestCase.ResourceTest.ForeignElectronicPeriodicals -->
+    </test> <!-- ResourceTest -->
+    <test name="ServiceTest" duration-ms="208082" started-at="2018-05-22T05:33:33Z" finished-at="2018-05-22T05:37:01Z">
+      <class name="TestCase.ServiceTest.PatentService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.PatentService@26f67b76]" name="beforeClass" is-config="true" duration-ms="13411" started-at="2018-05-22T05:35:21Z" finished-at="2018-05-22T05:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="patentServicekTest()[pri:0, instance:TestCase.ServiceTest.PatentService@26f67b76]" name="patentServicekTest" duration-ms="1580" started-at="2018-05-22T05:35:34Z" finished-at="2018-05-22T05:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patentServicekTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.PatentService@26f67b76]" name="afterClass" is-config="true" duration-ms="745" started-at="2018-05-22T05:35:36Z" finished-at="2018-05-22T05:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.PatentService -->
+      <class name="TestCase.ServiceTest.SubjectService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.SubjectService@13a57a3b]" name="beforeClass" is-config="true" duration-ms="2283" started-at="2018-05-22T05:36:42Z" finished-at="2018-05-22T05:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="subjectServiceTest()[pri:0, instance:TestCase.ServiceTest.SubjectService@13a57a3b]" name="subjectServiceTest" duration-ms="10595" started-at="2018-05-22T05:36:45Z" finished-at="2018-05-22T05:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subjectServiceTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.SubjectService@13a57a3b]" name="afterClass" is-config="true" duration-ms="823" started-at="2018-05-22T05:36:55Z" finished-at="2018-05-22T05:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.SubjectService -->
+      <class name="TestCase.ServiceTest.QuestionAnswer">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.QuestionAnswer@153f5a29]" name="beforeClass" is-config="true" duration-ms="6374" started-at="2018-05-22T05:35:37Z" finished-at="2018-05-22T05:35:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="questionAnswerTest()[pri:0, instance:TestCase.ServiceTest.QuestionAnswer@153f5a29]" name="questionAnswerTest" duration-ms="1884" started-at="2018-05-22T05:35:43Z" finished-at="2018-05-22T05:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- questionAnswerTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.QuestionAnswer@153f5a29]" name="afterClass" is-config="true" duration-ms="744" started-at="2018-05-22T05:35:45Z" finished-at="2018-05-22T05:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.QuestionAnswer -->
+      <class name="TestCase.ServiceTest.CheckAndCheck">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.CheckAndCheck@13c78c0b]" name="beforeClass" is-config="true" duration-ms="17884" started-at="2018-05-22T05:33:33Z" finished-at="2018-05-22T05:33:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="checkAndCheckTest()[pri:0, instance:TestCase.ServiceTest.CheckAndCheck@13c78c0b]" name="checkAndCheckTest" duration-ms="3878" started-at="2018-05-22T05:33:51Z" finished-at="2018-05-22T05:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAndCheckTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.CheckAndCheck@13c78c0b]" name="afterClass" is-config="true" duration-ms="791" started-at="2018-05-22T05:33:55Z" finished-at="2018-05-22T05:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.CheckAndCheck -->
+      <class name="TestCase.ServiceTest.TeachingAndTraining">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.TeachingAndTraining@7ca48474]" name="beforeClass" is-config="true" duration-ms="2504" started-at="2018-05-22T05:36:56Z" finished-at="2018-05-22T05:36:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="teachingAndTrainingTest()[pri:0, instance:TestCase.ServiceTest.TeachingAndTraining@7ca48474]" name="teachingAndTrainingTest" duration-ms="2134" started-at="2018-05-22T05:36:59Z" finished-at="2018-05-22T05:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teachingAndTrainingTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.TeachingAndTraining@7ca48474]" name="afterClass" is-config="true" duration-ms="714" started-at="2018-05-22T05:37:01Z" finished-at="2018-05-22T05:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.TeachingAndTraining -->
+      <class name="TestCase.ServiceTest.ReaderService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.ReaderService@7f560810]" name="beforeClass" is-config="true" duration-ms="5877" started-at="2018-05-22T05:35:46Z" finished-at="2018-05-22T05:35:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="readerServiceTest()[pri:0, instance:TestCase.ServiceTest.ReaderService@7f560810]" name="readerServiceTest" duration-ms="28227" started-at="2018-05-22T05:35:51Z" finished-at="2018-05-22T05:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readerServiceTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.ReaderService@7f560810]" name="afterClass" is-config="true" duration-ms="751" started-at="2018-05-22T05:36:20Z" finished-at="2018-05-22T05:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.ReaderService -->
+      <class name="TestCase.ServiceTest.ReservationService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.ReservationService@69d9c55]" name="beforeClass" is-config="true" duration-ms="18383" started-at="2018-05-22T05:36:20Z" finished-at="2018-05-22T05:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="reservationServiceTest()[pri:0, instance:TestCase.ServiceTest.ReservationService@69d9c55]" name="reservationServiceTest" duration-ms="2757" started-at="2018-05-22T05:36:39Z" finished-at="2018-05-22T05:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservationServiceTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.ReservationService@69d9c55]" name="afterClass" is-config="true" duration-ms="789" started-at="2018-05-22T05:36:42Z" finished-at="2018-05-22T05:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.ReservationService -->
+      <class name="TestCase.ServiceTest.NoveltySearch">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.NoveltySearch@97e1986]" name="beforeClass" is-config="true" duration-ms="13446" started-at="2018-05-22T05:35:04Z" finished-at="2018-05-22T05:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="noveltySearchTest()[pri:0, instance:TestCase.ServiceTest.NoveltySearch@97e1986]" name="noveltySearchTest" duration-ms="2485" started-at="2018-05-22T05:35:18Z" finished-at="2018-05-22T05:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noveltySearchTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.NoveltySearch@97e1986]" name="afterClass" is-config="true" duration-ms="757" started-at="2018-05-22T05:35:20Z" finished-at="2018-05-22T05:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.NoveltySearch -->
+      <class name="TestCase.ServiceTest.InformationService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.InformationService@3dd3bcd]" name="beforeClass" is-config="true" duration-ms="7882" started-at="2018-05-22T05:34:13Z" finished-at="2018-05-22T05:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="informationServiceTest()[pri:0, instance:TestCase.ServiceTest.InformationService@3dd3bcd]" name="informationServiceTest" duration-ms="42614" started-at="2018-05-22T05:34:21Z" finished-at="2018-05-22T05:35:03Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: ecb2fcf28ca7c7c5a06ce655cb7a6672]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: ecb2fcf28ca7c7c5a06ce655cb7a6672
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.JointReferencePage.clickSimilarityDetectionInPaper(JointReferencePage.java:91)
+at TestCase.ServiceTest.InformationService.informationServiceTest(InformationService.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- informationServiceTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.InformationService@3dd3bcd]" name="afterClass" is-config="true" duration-ms="744" started-at="2018-05-22T05:35:03Z" finished-at="2018-05-22T05:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.InformationService -->
+      <class name="TestCase.ServiceTest.DocumentDelivery">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.DocumentDelivery@12843fce]" name="beforeClass" is-config="true" duration-ms="6115" started-at="2018-05-22T05:33:56Z" finished-at="2018-05-22T05:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="documentDeliveryTest()[pri:0, instance:TestCase.ServiceTest.DocumentDelivery@12843fce]" name="documentDeliveryTest" duration-ms="10138" started-at="2018-05-22T05:34:02Z" finished-at="2018-05-22T05:34:12Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[3]/div[2]/a[4]/img"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: b4885127c4cf5d89d280fc41c58fd67e
+*** Element info: {Using=xpath, value=/html/body/div[3]/div[3]/div[2]/a[4]/img}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[3]/div[2]/a[4]/img"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: b4885127c4cf5d89d280fc41c58fd67e
+*** Element info: {Using=xpath, value=/html/body/div[3]/div[3]/div[2]/a[4]/img}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at Utils.ActionBot.findElemetnByXpath(ActionBot.java:58)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.ServicePage.goDocumentDelivery(ServicePage.java:44)
+at TestCase.ServiceTest.DocumentDelivery.documentDeliveryTest(DocumentDelivery.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documentDeliveryTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.DocumentDelivery@12843fce]" name="afterClass" is-config="true" duration-ms="750" started-at="2018-05-22T05:34:12Z" finished-at="2018-05-22T05:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.DocumentDelivery -->
+    </test> <!-- ServiceTest -->
+  </suite> <!-- AutomatedTestingFrameworkOfLibrary -->
+</testng-results>

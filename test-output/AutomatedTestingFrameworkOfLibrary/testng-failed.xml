@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [AutomatedTestingFrameworkOfLibrary]">
+  <test thread-count="5" verbose="2" name="LearningCenterTest(failed)">
+    <classes>
+      <class name="TestCase.LearningCenterTest.EddieCorsonReportingHall">
+        <methods>
+          <include name="eddieCorsonReportingHallTest"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestCase.LearningCenterTest.EddieCorsonReportingHall -->
+      <class name="TestCase.LearningCenterTest.MultimediaAccountingVideo">
+        <methods>
+          <include name="afterClass"/>
+          <include name="multimediaAccountingVideoTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestCase.LearningCenterTest.MultimediaAccountingVideo -->
+    </classes>
+  </test> <!-- LearningCenterTest(failed) -->
+  <test thread-count="5" verbose="2" name="ResourceTest(failed)">
+    <classes>
+      <class name="TestCase.ResourceTest.ForeignElectronicPeriodicals">
+        <methods>
+          <include name="afterClass"/>
+          <include name="foreignElectronicPeriodicalsTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestCase.ResourceTest.ForeignElectronicPeriodicals -->
+      <class name="TestCase.ResourceTest.GlobalOpenCurriculumResources">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="globalOpenCurriculumResourcesTest"/>
+        </methods>
+      </class> <!-- TestCase.ResourceTest.GlobalOpenCurriculumResources -->
+      <class name="TestCase.ResourceTest.CharacteristicResources">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="characteristicResourcesTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestCase.ResourceTest.CharacteristicResources -->
+      <class name="TestCase.ResourceTest.ChineseYearbook">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="chineseYearbookTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestCase.ResourceTest.ChineseYearbook -->
+      <class name="TestCase.ResourceTest.FreeResources">
+        <methods>
+          <include name="freeResourcesTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestCase.ResourceTest.FreeResources -->
+    </classes>
+  </test> <!-- ResourceTest(failed) -->
+  <test thread-count="5" verbose="2" name="ServiceTest(failed)">
+    <classes>
+      <class name="TestCase.ServiceTest.DocumentDelivery">
+        <methods>
+          <include name="afterClass"/>
+          <include name="documentDeliveryTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestCase.ServiceTest.DocumentDelivery -->
+      <class name="TestCase.ServiceTest.InformationService">
+        <methods>
+          <include name="afterClass"/>
+          <include name="informationServiceTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestCase.ServiceTest.InformationService -->
+    </classes>
+  </test> <!-- ServiceTest(failed) -->
+</suite> <!-- Failed suite [AutomatedTestingFrameworkOfLibrary] -->
