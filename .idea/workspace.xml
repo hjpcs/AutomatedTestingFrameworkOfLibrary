@@ -18,11 +18,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="113">
               <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartPoint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/LearningCenterTest/StartPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-176">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeachingAndTraining.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/ServiceTest/TeachingAndTraining.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -143,7 +170,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -167,12 +194,37 @@
             <path>
               <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -442,7 +494,7 @@
       <workItem from="1526957088146" duration="2606000" />
       <workItem from="1526961011709" duration="4536000" />
       <workItem from="1526979716630" duration="1492000" />
-      <workItem from="1526981266129" duration="760000" />
+      <workItem from="1526981266129" duration="1708000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1526958039008</created>
@@ -455,9 +507,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SubjectService_subjectServiceTest - 2018.05.21 at 18h 44m 24s.xml">
-      <configuration name="SubjectService.subjectServiceTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CharacteristicResources - 2018.05.21 at 18h 45m 02s.xml">
       <configuration name="CharacteristicResources" configurationId="TestNG" />
     </history-entry>
@@ -485,9 +534,12 @@
     <history-entry file="C__idea_IdeaProjects_AutomatedTestingFrameworkOfLibrary_testng_xml - 2018.05.22 at 13h 37m 03s.xml">
       <configuration name="C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__idea_IdeaProjects_AutomatedTestingFrameworkOfLibrary_testng_xml - 2018.05.22 at 17h 39m 49s.xml">
+      <configuration name="C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198023000" />
+    <option name="totallyTimeSpent" value="198971000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,6 +552,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
@@ -511,7 +564,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4226804" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4226804" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298969" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -558,8 +611,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/ChineseNumericValueOrFact.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/ChinesePatentAndStandard.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/ChinesePeriodicalNewspaper.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/ElectronicBooks.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/DissertationsAndTheses.java" />
@@ -590,6 +641,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6610">
           <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -710,13 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AutomatedTestingFrameworkOfLibrary.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -741,6 +788,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/LearningCenterTest/StartPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/ServiceTest/TeachingAndTraining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
         </state>
       </provider>
     </entry>
