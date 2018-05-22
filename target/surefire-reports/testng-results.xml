@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="10" ignored="0" total="44" passed="34">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutomatedTestingFrameworkOfLibrary" duration-ms="914130" started-at="2018-05-22T12:13:20Z" finished-at="2018-05-22T12:28:34Z">
+    <groups>
+    </groups>
+    <test name="AccountRelatedTest" duration-ms="55759" started-at="2018-05-22T12:13:20Z" finished-at="2018-05-22T12:14:16Z">
+      <class name="TestCase.AccountRelatedTest.AccountInfo">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.AccountRelatedTest.AccountInfo@1e67b872]" name="beforeClass" is-config="true" duration-ms="13198" started-at="2018-05-22T12:13:20Z" finished-at="2018-05-22T12:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="accountInfoTest()[pri:0, instance:TestCase.AccountRelatedTest.AccountInfo@1e67b872]" name="accountInfoTest" duration-ms="23012" started-at="2018-05-22T12:13:33Z" finished-at="2018-05-22T12:13:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountInfoTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.AccountRelatedTest.AccountInfo@1e67b872]" name="afterClass" is-config="true" duration-ms="746" started-at="2018-05-22T12:13:56Z" finished-at="2018-05-22T12:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.AccountRelatedTest.AccountInfo -->
+      <class name="TestCase.AccountRelatedTest.Login">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.AccountRelatedTest.Login@60addb54]" name="beforeClass" is-config="true" duration-ms="9696" started-at="2018-05-22T12:13:57Z" finished-at="2018-05-22T12:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestCase.AccountRelatedTest.Login@60addb54]" name="loginTest" duration-ms="8374" started-at="2018-05-22T12:14:07Z" finished-at="2018-05-22T12:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.AccountRelatedTest.Login@60addb54]" name="afterClass" is-config="true" duration-ms="725" started-at="2018-05-22T12:14:15Z" finished-at="2018-05-22T12:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.AccountRelatedTest.Login -->
+    </test> <!-- AccountRelatedTest -->
+    <test name="ActivityTest" duration-ms="120349" started-at="2018-05-22T12:14:16Z" finished-at="2018-05-22T12:16:16Z">
+      <class name="TestCase.ActivityTest.Appreciate">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Appreciate@97e1986]" name="beforeClass" is-config="true" duration-ms="10346" started-at="2018-05-22T12:14:42Z" finished-at="2018-05-22T12:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="appreciateTest()[pri:0, instance:TestCase.ActivityTest.Appreciate@97e1986]" name="appreciateTest" duration-ms="3746" started-at="2018-05-22T12:14:52Z" finished-at="2018-05-22T12:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appreciateTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Appreciate@97e1986]" name="afterClass" is-config="true" duration-ms="753" started-at="2018-05-22T12:14:56Z" finished-at="2018-05-22T12:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ActivityTest.Appreciate -->
+      <class name="TestCase.ActivityTest.Read">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Read@7f560810]" name="beforeClass" is-config="true" duration-ms="7867" started-at="2018-05-22T12:15:45Z" finished-at="2018-05-22T12:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="readTest()[pri:0, instance:TestCase.ActivityTest.Read@7f560810]" name="readTest" duration-ms="3911" started-at="2018-05-22T12:15:53Z" finished-at="2018-05-22T12:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Read@7f560810]" name="afterClass" is-config="true" duration-ms="745" started-at="2018-05-22T12:15:57Z" finished-at="2018-05-22T12:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ActivityTest.Read -->
+      <class name="TestCase.ActivityTest.Other">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Other@153f5a29]" name="beforeClass" is-config="true" duration-ms="8279" started-at="2018-05-22T12:15:16Z" finished-at="2018-05-22T12:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="otherTest()[pri:0, instance:TestCase.ActivityTest.Other@153f5a29]" name="otherTest" duration-ms="20105" started-at="2018-05-22T12:15:24Z" finished-at="2018-05-22T12:15:44Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: e0a8443afe3646b85da9e88022908142]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: e0a8443afe3646b85da9e88022908142
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.HomePage.goActivity(HomePage.java:97)
+at TestCase.ActivityTest.Other.otherTest(Other.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Other@153f5a29]" name="afterClass" is-config="true" duration-ms="727" started-at="2018-05-22T12:15:44Z" finished-at="2018-05-22T12:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ActivityTest.Other -->
+      <class name="TestCase.ActivityTest.Activity">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Activity@3dd3bcd]" name="beforeClass" is-config="true" duration-ms="19708" started-at="2018-05-22T12:14:16Z" finished-at="2018-05-22T12:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="activityTest()[pri:0, instance:TestCase.ActivityTest.Activity@3dd3bcd]" name="activityTest" duration-ms="5549" started-at="2018-05-22T12:14:36Z" finished-at="2018-05-22T12:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activityTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Activity@3dd3bcd]" name="afterClass" is-config="true" duration-ms="775" started-at="2018-05-22T12:14:41Z" finished-at="2018-05-22T12:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ActivityTest.Activity -->
+      <class name="TestCase.ActivityTest.Salon">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Salon@69d9c55]" name="beforeClass" is-config="true" duration-ms="13291" started-at="2018-05-22T12:15:57Z" finished-at="2018-05-22T12:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="salonTest()[pri:0, instance:TestCase.ActivityTest.Salon@69d9c55]" name="salonTest" duration-ms="4834" started-at="2018-05-22T12:16:11Z" finished-at="2018-05-22T12:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salonTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Salon@69d9c55]" name="afterClass" is-config="true" duration-ms="744" started-at="2018-05-22T12:16:16Z" finished-at="2018-05-22T12:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ActivityTest.Salon -->
+      <class name="TestCase.ActivityTest.Lecture">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Lecture@26f67b76]" name="beforeClass" is-config="true" duration-ms="5533" started-at="2018-05-22T12:14:57Z" finished-at="2018-05-22T12:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="lectureTest()[pri:0, instance:TestCase.ActivityTest.Lecture@26f67b76]" name="lectureTest" duration-ms="12636" started-at="2018-05-22T12:15:02Z" finished-at="2018-05-22T12:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lectureTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Lecture@26f67b76]" name="afterClass" is-config="true" duration-ms="786" started-at="2018-05-22T12:15:15Z" finished-at="2018-05-22T12:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ActivityTest.Lecture -->
+    </test> <!-- ActivityTest -->
+    <test name="InfoTest" duration-ms="39896" started-at="2018-05-22T12:16:16Z" finished-at="2018-05-22T12:16:56Z">
+      <class name="TestCase.InfoTest.ResourceDynamics">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.InfoTest.ResourceDynamics@b97c004]" name="beforeClass" is-config="true" duration-ms="6327" started-at="2018-05-22T12:16:43Z" finished-at="2018-05-22T12:16:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="resourceDynamicsTest()[pri:0, instance:TestCase.InfoTest.ResourceDynamics@b97c004]" name="resourceDynamicsTest" duration-ms="6319" started-at="2018-05-22T12:16:49Z" finished-at="2018-05-22T12:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resourceDynamicsTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.InfoTest.ResourceDynamics@b97c004]" name="afterClass" is-config="true" duration-ms="736" started-at="2018-05-22T12:16:56Z" finished-at="2018-05-22T12:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.InfoTest.ResourceDynamics -->
+      <class name="TestCase.InfoTest.Notice">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.InfoTest.Notice@3c09711b]" name="beforeClass" is-config="true" duration-ms="7787" started-at="2018-05-22T12:16:16Z" finished-at="2018-05-22T12:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="noticeTest()[pri:0, instance:TestCase.InfoTest.Notice@3c09711b]" name="noticeTest" duration-ms="4747" started-at="2018-05-22T12:16:24Z" finished-at="2018-05-22T12:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noticeTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.InfoTest.Notice@3c09711b]" name="afterClass" is-config="true" duration-ms="733" started-at="2018-05-22T12:16:29Z" finished-at="2018-05-22T12:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.InfoTest.Notice -->
+      <class name="TestCase.InfoTest.RealTimeInfo">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.InfoTest.RealTimeInfo@5cc7c2a6]" name="beforeClass" is-config="true" duration-ms="4054" started-at="2018-05-22T12:16:30Z" finished-at="2018-05-22T12:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="realTimeInfoTest()[pri:0, instance:TestCase.InfoTest.RealTimeInfo@5cc7c2a6]" name="realTimeInfoTest" duration-ms="8464" started-at="2018-05-22T12:16:34Z" finished-at="2018-05-22T12:16:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- realTimeInfoTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.InfoTest.RealTimeInfo@5cc7c2a6]" name="afterClass" is-config="true" duration-ms="729" started-at="2018-05-22T12:16:42Z" finished-at="2018-05-22T12:16:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.InfoTest.RealTimeInfo -->
+    </test> <!-- InfoTest -->
+    <test name="LearningCenterTest" duration-ms="108268" started-at="2018-05-22T12:16:56Z" finished-at="2018-05-22T12:18:45Z">
+      <class name="TestCase.LearningCenterTest.EddieCorsonMedia">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonMedia@6a2bcfcb]" name="beforeClass" is-config="true" duration-ms="4289" started-at="2018-05-22T12:17:08Z" finished-at="2018-05-22T12:17:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="eddieCorsonMediaTest()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonMedia@6a2bcfcb]" name="eddieCorsonMediaTest" duration-ms="4268" started-at="2018-05-22T12:17:13Z" finished-at="2018-05-22T12:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eddieCorsonMediaTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonMedia@6a2bcfcb]" name="afterClass" is-config="true" duration-ms="799" started-at="2018-05-22T12:17:17Z" finished-at="2018-05-22T12:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.EddieCorsonMedia -->
+      <class name="TestCase.LearningCenterTest.EddieCorsonReportingHall">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonReportingHall@4de8b406]" name="beforeClass" is-config="true" duration-ms="5170" started-at="2018-05-22T12:17:18Z" finished-at="2018-05-22T12:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="eddieCorsonReportingHallTest()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonReportingHall@4de8b406]" name="eddieCorsonReportingHallTest" duration-ms="4422" started-at="2018-05-22T12:17:23Z" finished-at="2018-05-22T12:17:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[网页标题与预期不符合 expected [爱迪科森网上报告厅] but found [无法找到资源。]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 网页标题与预期不符合 expected [爱迪科森网上报告厅] but found [无法找到资源。]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at Utils.ActionBot.titleAssert(ActionBot.java:294)
+at TestCase.LearningCenterTest.EddieCorsonReportingHall.eddieCorsonReportingHallTest(EddieCorsonReportingHall.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eddieCorsonReportingHallTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonReportingHall@4de8b406]" name="afterClass" is-config="true" duration-ms="780" started-at="2018-05-22T12:17:27Z" finished-at="2018-05-22T12:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.EddieCorsonReportingHall -->
+      <class name="TestCase.LearningCenterTest.StartPoint">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.StartPoint@573f2bb1]" name="beforeClass" is-config="true" duration-ms="5128" started-at="2018-05-22T12:18:29Z" finished-at="2018-05-22T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startPointTest()[pri:0, instance:TestCase.LearningCenterTest.StartPoint@573f2bb1]" name="startPointTest" duration-ms="9163" started-at="2018-05-22T12:18:35Z" finished-at="2018-05-22T12:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startPointTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.StartPoint@573f2bb1]" name="afterClass" is-config="true" duration-ms="814" started-at="2018-05-22T12:18:44Z" finished-at="2018-05-22T12:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.StartPoint -->
+      <class name="TestCase.LearningCenterTest.Credit">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.Credit@1efbd816]" name="beforeClass" is-config="true" duration-ms="9169" started-at="2018-05-22T12:16:56Z" finished-at="2018-05-22T12:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="creditTest()[pri:0, instance:TestCase.LearningCenterTest.Credit@1efbd816]" name="creditTest" duration-ms="2253" started-at="2018-05-22T12:17:05Z" finished-at="2018-05-22T12:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.Credit@1efbd816]" name="afterClass" is-config="true" duration-ms="763" started-at="2018-05-22T12:17:08Z" finished-at="2018-05-22T12:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.Credit -->
+      <class name="TestCase.LearningCenterTest.LearningCenterOL">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.LearningCenterOL@3c756e4d]" name="beforeClass" is-config="true" duration-ms="9300" started-at="2018-05-22T12:17:28Z" finished-at="2018-05-22T12:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="learningCenterOLTest()[pri:0, instance:TestCase.LearningCenterTest.LearningCenterOL@3c756e4d]" name="learningCenterOLTest" duration-ms="20714" started-at="2018-05-22T12:17:37Z" finished-at="2018-05-22T12:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- learningCenterOLTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.LearningCenterOL@3c756e4d]" name="afterClass" is-config="true" duration-ms="755" started-at="2018-05-22T12:17:58Z" finished-at="2018-05-22T12:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.LearningCenterOL -->
+      <class name="TestCase.LearningCenterTest.Mooc">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.Mooc@7c0e2abd]" name="beforeClass" is-config="true" duration-ms="5370" started-at="2018-05-22T12:17:59Z" finished-at="2018-05-22T12:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="moocTest()[pri:0, instance:TestCase.LearningCenterTest.Mooc@7c0e2abd]" name="moocTest" duration-ms="2977" started-at="2018-05-22T12:18:04Z" finished-at="2018-05-22T12:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moocTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.Mooc@7c0e2abd]" name="afterClass" is-config="true" duration-ms="756" started-at="2018-05-22T12:18:07Z" finished-at="2018-05-22T12:18:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.Mooc -->
+      <class name="TestCase.LearningCenterTest.MultimediaAccountingVideo">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.MultimediaAccountingVideo@48eff760]" name="beforeClass" is-config="true" duration-ms="5437" started-at="2018-05-22T12:18:08Z" finished-at="2018-05-22T12:18:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="multimediaAccountingVideoTest()[pri:0, instance:TestCase.LearningCenterTest.MultimediaAccountingVideo@48eff760]" name="multimediaAccountingVideoTest" duration-ms="4144" started-at="2018-05-22T12:18:13Z" finished-at="2018-05-22T12:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multimediaAccountingVideoTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.MultimediaAccountingVideo@48eff760]" name="afterClass" is-config="true" duration-ms="748" started-at="2018-05-22T12:18:18Z" finished-at="2018-05-22T12:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.MultimediaAccountingVideo -->
+      <class name="TestCase.LearningCenterTest.PublicAwareness">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.PublicAwareness@402f32ff]" name="beforeClass" is-config="true" duration-ms="5798" started-at="2018-05-22T12:18:18Z" finished-at="2018-05-22T12:18:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="publicAwarenessTest()[pri:0, instance:TestCase.LearningCenterTest.PublicAwareness@402f32ff]" name="publicAwarenessTest" duration-ms="4489" started-at="2018-05-22T12:18:24Z" finished-at="2018-05-22T12:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publicAwarenessTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.PublicAwareness@402f32ff]" name="afterClass" is-config="true" duration-ms="759" started-at="2018-05-22T12:18:29Z" finished-at="2018-05-22T12:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.LearningCenterTest.PublicAwareness -->
+    </test> <!-- LearningCenterTest -->
+    <test name="RecommendationTest" duration-ms="21431" started-at="2018-05-22T12:18:45Z" finished-at="2018-05-22T12:19:06Z">
+      <class name="TestCase.RecommendationTest.NewArrivals">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.RecommendationTest.NewArrivals@1810399e]" name="beforeClass" is-config="true" duration-ms="5058" started-at="2018-05-22T12:18:45Z" finished-at="2018-05-22T12:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="newArrivalsTest()[pri:0, instance:TestCase.RecommendationTest.NewArrivals@1810399e]" name="newArrivalsTest" duration-ms="1866" started-at="2018-05-22T12:18:50Z" finished-at="2018-05-22T12:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newArrivalsTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.RecommendationTest.NewArrivals@1810399e]" name="afterClass" is-config="true" duration-ms="732" started-at="2018-05-22T12:18:51Z" finished-at="2018-05-22T12:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.RecommendationTest.NewArrivals -->
+      <class name="TestCase.RecommendationTest.ThemeRecommendation">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.RecommendationTest.ThemeRecommendation@32d992b2]" name="beforeClass" is-config="true" duration-ms="5289" started-at="2018-05-22T12:18:52Z" finished-at="2018-05-22T12:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="themeRecommendationTest()[pri:0, instance:TestCase.RecommendationTest.ThemeRecommendation@32d992b2]" name="themeRecommendationTest" duration-ms="7678" started-at="2018-05-22T12:18:58Z" finished-at="2018-05-22T12:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themeRecommendationTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.RecommendationTest.ThemeRecommendation@32d992b2]" name="afterClass" is-config="true" duration-ms="807" started-at="2018-05-22T12:19:05Z" finished-at="2018-05-22T12:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.RecommendationTest.ThemeRecommendation -->
+    </test> <!-- RecommendationTest -->
+    <test name="ResourceTest" duration-ms="249036" started-at="2018-05-22T12:19:06Z" finished-at="2018-05-22T12:23:15Z">
+      <class name="TestCase.ResourceTest.ChineseIndexOrLiterature">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChineseIndexOrLiterature@62ee68d8]" name="beforeClass" is-config="true" duration-ms="9432" started-at="2018-05-22T12:19:41Z" finished-at="2018-05-22T12:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="chineseIndexOrLiteratureTest()[pri:0, instance:TestCase.ResourceTest.ChineseIndexOrLiterature@62ee68d8]" name="chineseIndexOrLiteratureTest" duration-ms="8842" started-at="2018-05-22T12:19:51Z" finished-at="2018-05-22T12:20:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chineseIndexOrLiteratureTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChineseIndexOrLiterature@62ee68d8]" name="afterClass" is-config="true" duration-ms="747" started-at="2018-05-22T12:20:00Z" finished-at="2018-05-22T12:20:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ChineseIndexOrLiterature -->
+      <class name="TestCase.ResourceTest.OffcampusAccess">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.OffcampusAccess@2a2d45ba]" name="beforeClass" is-config="true" duration-ms="5434" started-at="2018-05-22T12:23:04Z" finished-at="2018-05-22T12:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="offcampusAccessTest()[pri:0, instance:TestCase.ResourceTest.OffcampusAccess@2a2d45ba]" name="offcampusAccessTest" duration-ms="4630" started-at="2018-05-22T12:23:10Z" finished-at="2018-05-22T12:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- offcampusAccessTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.OffcampusAccess@2a2d45ba]" name="afterClass" is-config="true" duration-ms="761" started-at="2018-05-22T12:23:14Z" finished-at="2018-05-22T12:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.OffcampusAccess -->
+      <class name="TestCase.ResourceTest.ChinesePeriodicalNewspaper">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChinesePeriodicalNewspaper@4520ebad]" name="beforeClass" is-config="true" duration-ms="11272" started-at="2018-05-22T12:20:56Z" finished-at="2018-05-22T12:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="chinesePeriodicalNewspaperTest()[pri:0, instance:TestCase.ResourceTest.ChinesePeriodicalNewspaper@4520ebad]" name="chinesePeriodicalNewspaperTest" duration-ms="2240" started-at="2018-05-22T12:21:07Z" finished-at="2018-05-22T12:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chinesePeriodicalNewspaperTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChinesePeriodicalNewspaper@4520ebad]" name="afterClass" is-config="true" duration-ms="765" started-at="2018-05-22T12:21:09Z" finished-at="2018-05-22T12:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ChinesePeriodicalNewspaper -->
+      <class name="TestCase.ResourceTest.ElectronicBooks">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ElectronicBooks@d2cc05a]" name="beforeClass" is-config="true" duration-ms="3971" started-at="2018-05-22T12:21:55Z" finished-at="2018-05-22T12:21:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="electronicBooksTest()[pri:0, instance:TestCase.ResourceTest.ElectronicBooks@d2cc05a]" name="electronicBooksTest" duration-ms="2124" started-at="2018-05-22T12:21:59Z" finished-at="2018-05-22T12:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- electronicBooksTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ElectronicBooks@d2cc05a]" name="afterClass" is-config="true" duration-ms="794" started-at="2018-05-22T12:22:01Z" finished-at="2018-05-22T12:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ElectronicBooks -->
+      <class name="TestCase.ResourceTest.ChinesePatentAndStandard">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChinesePatentAndStandard@58651fd0]" name="beforeClass" is-config="true" duration-ms="3941" started-at="2018-05-22T12:20:25Z" finished-at="2018-05-22T12:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="chinesePatentAndStandardTest()[pri:0, instance:TestCase.ResourceTest.ChinesePatentAndStandard@58651fd0]" name="chinesePatentAndStandardTest" duration-ms="26313" started-at="2018-05-22T12:20:29Z" finished-at="2018-05-22T12:20:55Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: bcdea528ad9308c2c03fffdcc8711d78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: bcdea528ad9308c2c03fffdcc8711d78
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:275)
+at Utils.ActionBot.getTitle(ActionBot.java:209)
+at Utils.ActionBot.titleAssert(ActionBot.java:294)
+at TestCase.ResourceTest.ChinesePatentAndStandard.chinesePatentAndStandardTest(ChinesePatentAndStandard.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chinesePatentAndStandardTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChinesePatentAndStandard@58651fd0]" name="afterClass" is-config="true" duration-ms="747" started-at="2018-05-22T12:20:55Z" finished-at="2018-05-22T12:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ChinesePatentAndStandard -->
+      <class name="TestCase.ResourceTest.DissertationsAndTheses">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.DissertationsAndTheses@7dc7cbad]" name="beforeClass" is-config="true" duration-ms="9753" started-at="2018-05-22T12:21:33Z" finished-at="2018-05-22T12:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="dissertationsAndThesesTest()[pri:0, instance:TestCase.ResourceTest.DissertationsAndTheses@7dc7cbad]" name="dissertationsAndThesesTest" duration-ms="11684" started-at="2018-05-22T12:21:42Z" finished-at="2018-05-22T12:21:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dissertationsAndThesesTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.DissertationsAndTheses@7dc7cbad]" name="afterClass" is-config="true" duration-ms="780" started-at="2018-05-22T12:21:54Z" finished-at="2018-05-22T12:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.DissertationsAndTheses -->
+      <class name="TestCase.ResourceTest.MultimediaLearningLibrary">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.MultimediaLearningLibrary@7c16905e]" name="beforeClass" is-config="true" duration-ms="5098" started-at="2018-05-22T12:22:55Z" finished-at="2018-05-22T12:23:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="multimediaLearningLibraryTest()[pri:0, instance:TestCase.ResourceTest.MultimediaLearningLibrary@7c16905e]" name="multimediaLearningLibraryTest" duration-ms="3692" started-at="2018-05-22T12:23:00Z" finished-at="2018-05-22T12:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multimediaLearningLibraryTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.MultimediaLearningLibrary@7c16905e]" name="afterClass" is-config="true" duration-ms="809" started-at="2018-05-22T12:23:03Z" finished-at="2018-05-22T12:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.MultimediaLearningLibrary -->
+      <class name="TestCase.ResourceTest.GlobalOpenCurriculumResources">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.GlobalOpenCurriculumResources@1753acfe]" name="beforeClass" is-config="true" duration-ms="9998" started-at="2018-05-22T12:22:23Z" finished-at="2018-05-22T12:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="globalOpenCurriculumResourcesTest()[pri:0, instance:TestCase.ResourceTest.GlobalOpenCurriculumResources@1753acfe]" name="globalOpenCurriculumResourcesTest" duration-ms="21314" started-at="2018-05-22T12:22:33Z" finished-at="2018-05-22T12:22:54Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 78d2e0f157f3aaadbc710144f761e40b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 78d2e0f157f3aaadbc710144f761e40b
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:275)
+at Utils.ActionBot.getTitle(ActionBot.java:209)
+at Utils.ActionBot.titleAssert(ActionBot.java:294)
+at TestCase.ResourceTest.GlobalOpenCurriculumResources.globalOpenCurriculumResourcesTest(GlobalOpenCurriculumResources.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalOpenCurriculumResourcesTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.GlobalOpenCurriculumResources@1753acfe]" name="afterClass" is-config="true" duration-ms="760" started-at="2018-05-22T12:22:54Z" finished-at="2018-05-22T12:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.GlobalOpenCurriculumResources -->
+      <class name="TestCase.ResourceTest.CharacteristicResources">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.CharacteristicResources@9629756]" name="beforeClass" is-config="true" duration-ms="9469" started-at="2018-05-22T12:19:06Z" finished-at="2018-05-22T12:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="characteristicResourcesTest()[pri:0, instance:TestCase.ResourceTest.CharacteristicResources@9629756]" name="characteristicResourcesTest" duration-ms="25013" started-at="2018-05-22T12:19:15Z" finished-at="2018-05-22T12:19:40Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 69c1098312aec90a5d0fc4253b6b00cd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 69c1098312aec90a5d0fc4253b6b00cd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:275)
+at Utils.ActionBot.getTitle(ActionBot.java:209)
+at Utils.ActionBot.titleAssert(ActionBot.java:294)
+at TestCase.ResourceTest.CharacteristicResources.characteristicResourcesTest(CharacteristicResources.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- characteristicResourcesTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.CharacteristicResources@9629756]" name="afterClass" is-config="true" duration-ms="743" started-at="2018-05-22T12:19:40Z" finished-at="2018-05-22T12:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.CharacteristicResources -->
+      <class name="TestCase.ResourceTest.ChineseYearbook">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChineseYearbook@5419f379]" name="beforeClass" is-config="true" duration-ms="5754" started-at="2018-05-22T12:21:10Z" finished-at="2018-05-22T12:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="chineseYearbookTest()[pri:0, instance:TestCase.ResourceTest.ChineseYearbook@5419f379]" name="chineseYearbookTest" duration-ms="16382" started-at="2018-05-22T12:21:16Z" finished-at="2018-05-22T12:21:32Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[网页标题与预期不符合 expected [中国年鉴网络出版总库] but found [欢迎使用 KNS5.5 数据库平台]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 网页标题与预期不符合 expected [中国年鉴网络出版总库] but found [欢迎使用 KNS5.5 数据库平台]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at Utils.ActionBot.titleAssert(ActionBot.java:294)
+at TestCase.ResourceTest.ChineseYearbook.chineseYearbookTest(ChineseYearbook.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chineseYearbookTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChineseYearbook@5419f379]" name="afterClass" is-config="true" duration-ms="769" started-at="2018-05-22T12:21:32Z" finished-at="2018-05-22T12:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ChineseYearbook -->
+      <class name="TestCase.ResourceTest.ChineseNumericValueOrFact">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChineseNumericValueOrFact@735b5592]" name="beforeClass" is-config="true" duration-ms="9463" started-at="2018-05-22T12:20:00Z" finished-at="2018-05-22T12:20:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="chineseNumericValueOrFactTest()[pri:0, instance:TestCase.ResourceTest.ChineseNumericValueOrFact@735b5592]" name="chineseNumericValueOrFactTest" duration-ms="14052" started-at="2018-05-22T12:20:10Z" finished-at="2018-05-22T12:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chineseNumericValueOrFactTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChineseNumericValueOrFact@735b5592]" name="afterClass" is-config="true" duration-ms="795" started-at="2018-05-22T12:20:24Z" finished-at="2018-05-22T12:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ChineseNumericValueOrFact -->
+      <class name="TestCase.ResourceTest.FreeResources">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.FreeResources@548a9f61]" name="beforeClass" is-config="true" duration-ms="5214" started-at="2018-05-22T12:22:11Z" finished-at="2018-05-22T12:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="freeResourcesTest()[pri:0, instance:TestCase.ResourceTest.FreeResources@548a9f61]" name="freeResourcesTest" duration-ms="5466" started-at="2018-05-22T12:22:16Z" finished-at="2018-05-22T12:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeResourcesTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.FreeResources@548a9f61]" name="afterClass" is-config="true" duration-ms="788" started-at="2018-05-22T12:22:22Z" finished-at="2018-05-22T12:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.FreeResources -->
+      <class name="TestCase.ResourceTest.ForeignElectronicPeriodicals">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ForeignElectronicPeriodicals@4f933fd1]" name="beforeClass" is-config="true" duration-ms="5188" started-at="2018-05-22T12:22:02Z" finished-at="2018-05-22T12:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="foreignElectronicPeriodicalsTest()[pri:0, instance:TestCase.ResourceTest.ForeignElectronicPeriodicals@4f933fd1]" name="foreignElectronicPeriodicalsTest" duration-ms="3273" started-at="2018-05-22T12:22:07Z" finished-at="2018-05-22T12:22:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foreignElectronicPeriodicalsTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ForeignElectronicPeriodicals@4f933fd1]" name="afterClass" is-config="true" duration-ms="759" started-at="2018-05-22T12:22:10Z" finished-at="2018-05-22T12:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ForeignElectronicPeriodicals -->
+    </test> <!-- ResourceTest -->
+    <test name="ServiceTest" duration-ms="319217" started-at="2018-05-22T12:23:15Z" finished-at="2018-05-22T12:28:34Z">
+      <class name="TestCase.ServiceTest.PatentService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.PatentService@cc285f4]" name="beforeClass" is-config="true" duration-ms="15825" started-at="2018-05-22T12:24:22Z" finished-at="2018-05-22T12:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="patentServicekTest()[pri:0, instance:TestCase.ServiceTest.PatentService@cc285f4]" name="patentServicekTest" duration-ms="6535" started-at="2018-05-22T12:24:38Z" finished-at="2018-05-22T12:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patentServicekTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.PatentService@cc285f4]" name="afterClass" is-config="true" duration-ms="777" started-at="2018-05-22T12:24:44Z" finished-at="2018-05-22T12:24:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.PatentService -->
+      <class name="TestCase.ServiceTest.SubjectService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.SubjectService@cb5822]" name="beforeClass" is-config="true" duration-ms="41346" started-at="2018-05-22T12:26:04Z" finished-at="2018-05-22T12:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="subjectServiceTest()[pri:0, instance:TestCase.ServiceTest.SubjectService@cb5822]" name="subjectServiceTest" duration-ms="72299" started-at="2018-05-22T12:26:46Z" finished-at="2018-05-22T12:27:58Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 1ad742ba292195914c6df29837ca23a2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 1ad742ba292195914c6df29837ca23a2
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.ServicePage.goSubjectService(ServicePage.java:32)
+at TestCase.ServiceTest.SubjectService.subjectServiceTest(SubjectService.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subjectServiceTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.SubjectService@cb5822]" name="afterClass" is-config="true" duration-ms="809" started-at="2018-05-22T12:27:58Z" finished-at="2018-05-22T12:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.SubjectService -->
+      <class name="TestCase.ServiceTest.QuestionAnswer">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.QuestionAnswer@55f3ddb1]" name="beforeClass" is-config="true" duration-ms="12114" started-at="2018-05-22T12:24:45Z" finished-at="2018-05-22T12:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="questionAnswerTest()[pri:0, instance:TestCase.ServiceTest.QuestionAnswer@55f3ddb1]" name="questionAnswerTest" duration-ms="18145" started-at="2018-05-22T12:24:57Z" finished-at="2018-05-22T12:25:15Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"name","selector":"keyword"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 4153ff41db77c8f703435b862e7c9bc0
+*** Element info: {Using=name, value=keyword}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"keyword"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 4153ff41db77c8f703435b862e7c9bc0
+*** Element info: {Using=name, value=keyword}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:395)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at Utils.ActionBot.findElementByName(ActionBot.java:33)
+at Utils.ActionBot.sendkeysByName(ActionBot.java:134)
+at PageObject.JointReferencePage.setKeyword(JointReferencePage.java:99)
+at TestCase.ServiceTest.QuestionAnswer.questionAnswerTest(QuestionAnswer.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- questionAnswerTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.QuestionAnswer@55f3ddb1]" name="afterClass" is-config="true" duration-ms="776" started-at="2018-05-22T12:25:15Z" finished-at="2018-05-22T12:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.QuestionAnswer -->
+      <class name="TestCase.ServiceTest.CheckAndCheck">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.CheckAndCheck@4678c730]" name="beforeClass" is-config="true" duration-ms="12786" started-at="2018-05-22T12:23:15Z" finished-at="2018-05-22T12:23:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="checkAndCheckTest()[pri:0, instance:TestCase.ServiceTest.CheckAndCheck@4678c730]" name="checkAndCheckTest" duration-ms="2454" started-at="2018-05-22T12:23:28Z" finished-at="2018-05-22T12:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAndCheckTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.CheckAndCheck@4678c730]" name="afterClass" is-config="true" duration-ms="775" started-at="2018-05-22T12:23:30Z" finished-at="2018-05-22T12:23:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.CheckAndCheck -->
+      <class name="TestCase.ServiceTest.TeachingAndTraining">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.TeachingAndTraining@4b9e13df]" name="beforeClass" is-config="true" duration-ms="24610" started-at="2018-05-22T12:27:59Z" finished-at="2018-05-22T12:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="teachingAndTrainingTest()[pri:0, instance:TestCase.ServiceTest.TeachingAndTraining@4b9e13df]" name="teachingAndTrainingTest" duration-ms="10102" started-at="2018-05-22T12:28:23Z" finished-at="2018-05-22T12:28:34Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[3]/div[2]/a[8]/img"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: af926b5adf2999cfd64950b04ce7365d
+*** Element info: {Using=xpath, value=/html/body/div[3]/div[3]/div[2]/a[8]/img}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[3]/div[2]/a[8]/img"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: af926b5adf2999cfd64950b04ce7365d
+*** Element info: {Using=xpath, value=/html/body/div[3]/div[3]/div[2]/a[8]/img}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at Utils.ActionBot.findElemetnByXpath(ActionBot.java:58)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.ServicePage.goTeachingAndTraining(ServicePage.java:60)
+at TestCase.ServiceTest.TeachingAndTraining.teachingAndTrainingTest(TeachingAndTraining.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teachingAndTrainingTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.TeachingAndTraining@4b9e13df]" name="afterClass" is-config="true" duration-ms="735" started-at="2018-05-22T12:28:34Z" finished-at="2018-05-22T12:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.TeachingAndTraining -->
+      <class name="TestCase.ServiceTest.ReservationService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.ReservationService@18be83e4]" name="beforeClass" is-config="true" duration-ms="20190" started-at="2018-05-22T12:25:31Z" finished-at="2018-05-22T12:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="reservationServiceTest()[pri:0, instance:TestCase.ServiceTest.ReservationService@18be83e4]" name="reservationServiceTest" duration-ms="12784" started-at="2018-05-22T12:25:51Z" finished-at="2018-05-22T12:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservationServiceTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.ReservationService@18be83e4]" name="afterClass" is-config="true" duration-ms="792" started-at="2018-05-22T12:26:04Z" finished-at="2018-05-22T12:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.ReservationService -->
+      <class name="TestCase.ServiceTest.ReaderService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.ReaderService@8bd1b6a]" name="beforeClass" is-config="true" duration-ms="3844" started-at="2018-05-22T12:25:16Z" finished-at="2018-05-22T12:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="readerServiceTest()[pri:0, instance:TestCase.ServiceTest.ReaderService@8bd1b6a]" name="readerServiceTest" duration-ms="10152" started-at="2018-05-22T12:25:20Z" finished-at="2018-05-22T12:25:30Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[5]/div[2]/a[1]/img"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: ef5980ba73538fbb4423a2d63c09ff12
+*** Element info: {Using=xpath, value=/html/body/div[3]/div[5]/div[2]/a[1]/img}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[5]/div[2]/a[1]/img"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: ef5980ba73538fbb4423a2d63c09ff12
+*** Element info: {Using=xpath, value=/html/body/div[3]/div[5]/div[2]/a[1]/img}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at Utils.ActionBot.findElemetnByXpath(ActionBot.java:58)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.ServicePage.goCollectionDistribution(ServicePage.java:80)
+at TestCase.ServiceTest.ReaderService.readerServiceTest(ReaderService.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readerServiceTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.ReaderService@8bd1b6a]" name="afterClass" is-config="true" duration-ms="753" started-at="2018-05-22T12:25:30Z" finished-at="2018-05-22T12:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.ReaderService -->
+      <class name="TestCase.ServiceTest.NoveltySearch">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.NoveltySearch@c038203]" name="beforeClass" is-config="true" duration-ms="18195" started-at="2018-05-22T12:23:59Z" finished-at="2018-05-22T12:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="noveltySearchTest()[pri:0, instance:TestCase.ServiceTest.NoveltySearch@c038203]" name="noveltySearchTest" duration-ms="3768" started-at="2018-05-22T12:24:17Z" finished-at="2018-05-22T12:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noveltySearchTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.NoveltySearch@c038203]" name="afterClass" is-config="true" duration-ms="759" started-at="2018-05-22T12:24:21Z" finished-at="2018-05-22T12:24:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.NoveltySearch -->
+      <class name="TestCase.ServiceTest.InformationService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.InformationService@29ee9faa]" name="beforeClass" is-config="true" duration-ms="10018" started-at="2018-05-22T12:23:40Z" finished-at="2018-05-22T12:23:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="informationServiceTest()[pri:0, instance:TestCase.ServiceTest.InformationService@29ee9faa]" name="informationServiceTest" duration-ms="8412" started-at="2018-05-22T12:23:50Z" finished-at="2018-05-22T12:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- informationServiceTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.InformationService@29ee9faa]" name="afterClass" is-config="true" duration-ms="777" started-at="2018-05-22T12:23:58Z" finished-at="2018-05-22T12:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.InformationService -->
+      <class name="TestCase.ServiceTest.DocumentDelivery">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.DocumentDelivery@6767c1fc]" name="beforeClass" is-config="true" duration-ms="6165" started-at="2018-05-22T12:23:31Z" finished-at="2018-05-22T12:23:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="documentDeliveryTest()[pri:0, instance:TestCase.ServiceTest.DocumentDelivery@6767c1fc]" name="documentDeliveryTest" duration-ms="1763" started-at="2018-05-22T12:23:37Z" finished-at="2018-05-22T12:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documentDeliveryTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.DocumentDelivery@6767c1fc]" name="afterClass" is-config="true" duration-ms="755" started-at="2018-05-22T12:23:39Z" finished-at="2018-05-22T12:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.DocumentDelivery -->
+    </test> <!-- ServiceTest -->
+  </suite> <!-- AutomatedTestingFrameworkOfLibrary -->
+</testng-results>

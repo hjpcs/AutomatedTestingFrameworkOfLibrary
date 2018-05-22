@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="915.176" tests="44" errors="0" skipped="0" failures="10">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="C:\idea\IdeaProjects\AutomatedTestingFrameworkOfLibrary\target\test-classes;C:\idea\IdeaProjects\AutomatedTestingFrameworkOfLibrary\target\classes;C:\Users\GoldOil\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\GoldOil\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\GoldOil\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\GoldOil\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\GoldOil\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\GoldOil\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\GoldOil\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\GoldOil\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\GoldOil\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\GoldOil\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\GoldOil\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\GoldOil\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\GoldOil\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\GoldOil\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\GoldOil\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\GoldOil\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\GoldOil\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\GoldOil\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\GoldOil\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\GoldOil\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\GoldOil\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\JDK\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\GoldOil\AppData\Local\Temp\surefire3213589409809896592\surefirebooter4758208440841465684.jar C:\Users\GoldOil\AppData\Local\Temp\surefire3213589409809896592 2018-05-22T20-13-16_757-jvmRun1 surefire3906446243653686321tmp surefire_02044189506297819092tmp"/>
+    <property name="surefire.test.class.path" value="C:\idea\IdeaProjects\AutomatedTestingFrameworkOfLibrary\target\test-classes;C:\idea\IdeaProjects\AutomatedTestingFrameworkOfLibrary\target\classes;C:\Users\GoldOil\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\GoldOil\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\GoldOil\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\GoldOil\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\GoldOil\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\GoldOil\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\GoldOil\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\GoldOil\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\GoldOil\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\GoldOil\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\GoldOil\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\GoldOil\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\GoldOil\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\GoldOil\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\GoldOil\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\GoldOil\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\GoldOil\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\GoldOil\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\GoldOil\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\GoldOil\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\GoldOil\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\GoldOil\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\GoldOil"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\JDK\jre"/>
+    <property name="basedir" value="C:\idea\IdeaProjects\AutomatedTestingFrameworkOfLibrary"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\GoldOil\AppData\Local\Temp\surefire3213589409809896592\surefirebooter4758208440841465684.jar"/>
+    <property name="sun.boot.class.path" value="C:\JDK\jre\lib\resources.jar;C:\JDK\jre\lib\rt.jar;C:\JDK\jre\lib\sunrsasign.jar;C:\JDK\jre\lib\jsse.jar;C:\JDK\jre\lib\jce.jar;C:\JDK\jre\lib\charsets.jar;C:\JDK\jre\lib\jfr.jar;C:\JDK\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_73-b02"/>
+    <property name="user.name" value="GoldOil"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\JDK\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\GoldOil\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\GoldOil\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_73"/>
+    <property name="user.dir" value="C:\idea\IdeaProjects\AutomatedTestingFrameworkOfLibrary\target"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\JDK\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\JDK\bin;C:\JRE\bin;C:\mysql-5.6\bin;C:\tomcat\bin;C:\tomcat\lib;C:\tomcat 8\bin;C:\tomcat 8\lib;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Git\cmd;C:\android\sdk\tools;C:\android\sdk\platform-tools;C:\Driver;C:\AppiumAbout\android-sdk\platform-tools;C:\AppiumAbout\android-sdk\tools;C:\AppiumAbout\Appium;C:\AppiumAbout\Appium\node_modules\.bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\apache-ant-1.10.3\bin;C:\apache-maven-3.5.3\bin;C:\Users\GoldOil\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.73-b02"/>
+    <property name="java.ext.dirs" value="C:\JDK\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="accountInfoTest" classname="TestCase.AccountRelatedTest.AccountInfo" time="23.012"/>
+  <testcase name="loginTest" classname="TestCase.AccountRelatedTest.Login" time="8.374"/>
+  <testcase name="activityTest" classname="TestCase.ActivityTest.Activity" time="5.549"/>
+  <testcase name="appreciateTest" classname="TestCase.ActivityTest.Appreciate" time="3.746"/>
+  <testcase name="lectureTest" classname="TestCase.ActivityTest.Lecture" time="12.636"/>
+  <testcase name="otherTest" classname="TestCase.ActivityTest.Other" time="20.116">
+    <failure message="timeout&#10;  (Session info: chrome=66.0.3359.181)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}&#10;Session ID: e0a8443afe3646b85da9e88022908142" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: e0a8443afe3646b85da9e88022908142
+	at TestCase.ActivityTest.Other.otherTest(Other.java:22)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 27495
+Only local connections are allowed.
+五月 22, 2018 8:15:17 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+[1526991344.654][SEVERE]: Timed out receiving message from renderer: 20.000
+[1526991344.655][SEVERE]: Timed out receiving message from renderer: -0.001
+]]></system-err>
+  </testcase>
+  <testcase name="readTest" classname="TestCase.ActivityTest.Read" time="3.911"/>
+  <testcase name="salonTest" classname="TestCase.ActivityTest.Salon" time="4.834"/>
+  <testcase name="noticeTest" classname="TestCase.InfoTest.Notice" time="4.747"/>
+  <testcase name="realTimeInfoTest" classname="TestCase.InfoTest.RealTimeInfo" time="8.464"/>
+  <testcase name="resourceDynamicsTest" classname="TestCase.InfoTest.ResourceDynamics" time="6.319"/>
+  <testcase name="creditTest" classname="TestCase.LearningCenterTest.Credit" time="2.252"/>
+  <testcase name="eddieCorsonMediaTest" classname="TestCase.LearningCenterTest.EddieCorsonMedia" time="4.268"/>
+  <testcase name="eddieCorsonReportingHallTest" classname="TestCase.LearningCenterTest.EddieCorsonReportingHall" time="4.422">
+    <failure message="网页标题与预期不符合 expected [爱迪科森网上报告厅] but found [无法找到资源。]" type="java.lang.AssertionError">java.lang.AssertionError: 网页标题与预期不符合 expected [爱迪科森网上报告厅] but found [无法找到资源。]
+	at TestCase.LearningCenterTest.EddieCorsonReportingHall.eddieCorsonReportingHallTest(EddieCorsonReportingHall.java:25)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 47593
+Only local connections are allowed.
+五月 22, 2018 8:17:19 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="learningCenterOLTest" classname="TestCase.LearningCenterTest.LearningCenterOL" time="20.714"/>
+  <testcase name="moocTest" classname="TestCase.LearningCenterTest.Mooc" time="2.977"/>
+  <testcase name="multimediaAccountingVideoTest" classname="TestCase.LearningCenterTest.MultimediaAccountingVideo" time="4.144"/>
+  <testcase name="publicAwarenessTest" classname="TestCase.LearningCenterTest.PublicAwareness" time="4.489"/>
+  <testcase name="startPointTest" classname="TestCase.LearningCenterTest.StartPoint" time="9.163"/>
+  <testcase name="newArrivalsTest" classname="TestCase.RecommendationTest.NewArrivals" time="1.866"/>
+  <testcase name="themeRecommendationTest" classname="TestCase.RecommendationTest.ThemeRecommendation" time="7.678"/>
+  <testcase name="characteristicResourcesTest" classname="TestCase.ResourceTest.CharacteristicResources" time="25.015">
+    <failure message="timeout&#10;  (Session info: chrome=66.0.3359.181)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}&#10;Session ID: 69c1098312aec90a5d0fc4253b6b00cd" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 69c1098312aec90a5d0fc4253b6b00cd
+	at TestCase.ResourceTest.CharacteristicResources.characteristicResourcesTest(CharacteristicResources.java:25)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 41097
+Only local connections are allowed.
+五月 22, 2018 8:19:07 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+[1526991580.971][SEVERE]: Timed out receiving message from renderer: 20.000
+[1526991580.975][SEVERE]: Timed out receiving message from renderer: -0.004
+]]></system-err>
+  </testcase>
+  <testcase name="chineseIndexOrLiteratureTest" classname="TestCase.ResourceTest.ChineseIndexOrLiterature" time="8.842"/>
+  <testcase name="chineseNumericValueOrFactTest" classname="TestCase.ResourceTest.ChineseNumericValueOrFact" time="14.052"/>
+  <testcase name="chinesePatentAndStandardTest" classname="TestCase.ResourceTest.ChinesePatentAndStandard" time="26.316">
+    <failure message="timeout&#10;  (Session info: chrome=66.0.3359.181)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}&#10;Session ID: bcdea528ad9308c2c03fffdcc8711d78" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: bcdea528ad9308c2c03fffdcc8711d78
+	at TestCase.ResourceTest.ChinesePatentAndStandard.chinesePatentAndStandardTest(ChinesePatentAndStandard.java:25)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 32477
+Only local connections are allowed.
+五月 22, 2018 8:20:26 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+[1526991655.302][SEVERE]: Timed out receiving message from renderer: 20.000
+[1526991655.306][SEVERE]: Timed out receiving message from renderer: -0.004
+]]></system-err>
+  </testcase>
+  <testcase name="chinesePeriodicalNewspaperTest" classname="TestCase.ResourceTest.ChinesePeriodicalNewspaper" time="2.24"/>
+  <testcase name="chineseYearbookTest" classname="TestCase.ResourceTest.ChineseYearbook" time="16.382">
+    <failure message="网页标题与预期不符合 expected [中国年鉴网络出版总库] but found [欢迎使用 KNS5.5 数据库平台]" type="java.lang.AssertionError">java.lang.AssertionError: 网页标题与预期不符合 expected [中国年鉴网络出版总库] but found [欢迎使用 KNS5.5 数据库平台]
+	at TestCase.ResourceTest.ChineseYearbook.chineseYearbookTest(ChineseYearbook.java:25)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 45121
+Only local connections are allowed.
+五月 22, 2018 8:21:11 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="dissertationsAndThesesTest" classname="TestCase.ResourceTest.DissertationsAndTheses" time="11.684"/>
+  <testcase name="electronicBooksTest" classname="TestCase.ResourceTest.ElectronicBooks" time="2.124"/>
+  <testcase name="foreignElectronicPeriodicalsTest" classname="TestCase.ResourceTest.ForeignElectronicPeriodicals" time="3.272"/>
+  <testcase name="freeResourcesTest" classname="TestCase.ResourceTest.FreeResources" time="5.466"/>
+  <testcase name="globalOpenCurriculumResourcesTest" classname="TestCase.ResourceTest.GlobalOpenCurriculumResources" time="21.321">
+    <failure message="timeout&#10;  (Session info: chrome=66.0.3359.181)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}&#10;Session ID: 78d2e0f157f3aaadbc710144f761e40b" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 78d2e0f157f3aaadbc710144f761e40b
+	at TestCase.ResourceTest.GlobalOpenCurriculumResources.globalOpenCurriculumResourcesTest(GlobalOpenCurriculumResources.java:25)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 24478
+Only local connections are allowed.
+五月 22, 2018 8:22:24 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+[1526991774.336][SEVERE]: Timed out receiving message from renderer: 20.000
+[1526991774.337][SEVERE]: Timed out receiving message from renderer: -0.001
+]]></system-err>
+  </testcase>
+  <testcase name="multimediaLearningLibraryTest" classname="TestCase.ResourceTest.MultimediaLearningLibrary" time="3.692"/>
+  <testcase name="offcampusAccessTest" classname="TestCase.ResourceTest.OffcampusAccess" time="4.63"/>
+  <testcase name="checkAndCheckTest" classname="TestCase.ServiceTest.CheckAndCheck" time="2.454"/>
+  <testcase name="documentDeliveryTest" classname="TestCase.ServiceTest.DocumentDelivery" time="1.764"/>
+  <testcase name="informationServiceTest" classname="TestCase.ServiceTest.InformationService" time="8.412"/>
+  <testcase name="noveltySearchTest" classname="TestCase.ServiceTest.NoveltySearch" time="3.768"/>
+  <testcase name="patentServicekTest" classname="TestCase.ServiceTest.PatentService" time="6.535"/>
+  <testcase name="questionAnswerTest" classname="TestCase.ServiceTest.QuestionAnswer" time="18.145">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;keyword&quot;}&#10;  (Session info: chrome=66.0.3359.181)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}&#10;Session ID: 4153ff41db77c8f703435b862e7c9bc0&#10;*** Element info: {Using=name, value=keyword}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"name","selector":"keyword"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 4153ff41db77c8f703435b862e7c9bc0
+*** Element info: {Using=name, value=keyword}
+	at TestCase.ServiceTest.QuestionAnswer.questionAnswerTest(QuestionAnswer.java:26)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 41408
+Only local connections are allowed.
+五月 22, 2018 8:24:46 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="readerServiceTest" classname="TestCase.ServiceTest.ReaderService" time="10.151">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[3]/div[5]/div[2]/a[1]/img&quot;}&#10;  (Session info: chrome=66.0.3359.181)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}&#10;Session ID: ef5980ba73538fbb4423a2d63c09ff12&#10;*** Element info: {Using=xpath, value=/html/body/div[3]/div[5]/div[2]/a[1]/img}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[5]/div[2]/a[1]/img"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: ef5980ba73538fbb4423a2d63c09ff12
+*** Element info: {Using=xpath, value=/html/body/div[3]/div[5]/div[2]/a[1]/img}
+	at TestCase.ServiceTest.ReaderService.readerServiceTest(ReaderService.java:24)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 21586
+Only local connections are allowed.
+五月 22, 2018 8:25:17 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="reservationServiceTest" classname="TestCase.ServiceTest.ReservationService" time="12.784"/>
+  <testcase name="subjectServiceTest" classname="TestCase.ServiceTest.SubjectService" time="72.311">
+    <failure message="timeout&#10;  (Session info: chrome=66.0.3359.181)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}&#10;Session ID: 1ad742ba292195914c6df29837ca23a2" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 1ad742ba292195914c6df29837ca23a2
+	at TestCase.ServiceTest.SubjectService.subjectServiceTest(SubjectService.java:23)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 39653
+Only local connections are allowed.
+五月 22, 2018 8:26:06 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+[1526992078.527][SEVERE]: Timed out receiving message from renderer: -40.032
+[1526992078.527][SEVERE]: Timed out receiving message from renderer: -40.033
+]]></system-err>
+  </testcase>
+  <testcase name="teachingAndTrainingTest" classname="TestCase.ServiceTest.TeachingAndTraining" time="10.102">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[3]/div[3]/div[2]/a[8]/img&quot;}&#10;  (Session info: chrome=66.0.3359.181)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}&#10;Session ID: af926b5adf2999cfd64950b04ce7365d&#10;*** Element info: {Using=xpath, value=/html/body/div[3]/div[3]/div[2]/a[8]/img}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[3]/div[2]/a[8]/img"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: af926b5adf2999cfd64950b04ce7365d
+*** Element info: {Using=xpath, value=/html/body/div[3]/div[3]/div[2]/a[8]/img}
+	at TestCase.ServiceTest.TeachingAndTraining.teachingAndTrainingTest(TeachingAndTraining.java:23)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 36528
+Only local connections are allowed.
+五月 22, 2018 8:28:00 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

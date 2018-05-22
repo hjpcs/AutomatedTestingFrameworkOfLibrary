@@ -1,0 +1,2248 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary">
+              <span class="suite-name border-failed">AutomatedTestingFrameworkOfLibrary</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AutomatedTestingFrameworkOfLibrary">
+                    <span>C:\idea\IdeaProjects\AutomatedTestingFrameworkOfLibrary\test.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AutomatedTestingFrameworkOfLibrary">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AutomatedTestingFrameworkOfLibrary">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AutomatedTestingFrameworkOfLibrary">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AutomatedTestingFrameworkOfLibrary">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AutomatedTestingFrameworkOfLibrary">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AutomatedTestingFrameworkOfLibrary">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">44 methods, 10 failed,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AutomatedTestingFrameworkOfLibrary" class="hide-methods failed suite-AutomatedTestingFrameworkOfLibrary"> (hide)</a> <!-- hide-methods failed suite-AutomatedTestingFrameworkOfLibrary -->
+                      <a href="#" panel-name="suite-AutomatedTestingFrameworkOfLibrary" class="show-methods failed suite-AutomatedTestingFrameworkOfLibrary"> (show)</a> <!-- show-methods failed suite-AutomatedTestingFrameworkOfLibrary -->
+                    </span>
+                    <div class="method-list-content failed suite-AutomatedTestingFrameworkOfLibrary">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ResourceTest.CharacteristicResources" hash-for-method="characteristicResourcesTest">characteristicResourcesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ResourceTest.ChinesePatentAndStandard" hash-for-method="chinesePatentAndStandardTest">chinesePatentAndStandardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ResourceTest.ChineseYearbook" hash-for-method="chineseYearbookTest">chineseYearbookTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.LearningCenterTest.EddieCorsonReportingHall" hash-for-method="eddieCorsonReportingHallTest">eddieCorsonReportingHallTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ResourceTest.GlobalOpenCurriculumResources" hash-for-method="globalOpenCurriculumResourcesTest">globalOpenCurriculumResourcesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ActivityTest.Other" hash-for-method="otherTest">otherTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ServiceTest.QuestionAnswer" hash-for-method="questionAnswerTest">questionAnswerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ServiceTest.ReaderService" hash-for-method="readerServiceTest">readerServiceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ServiceTest.SubjectService" hash-for-method="subjectServiceTest">subjectServiceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ServiceTest.TeachingAndTraining" hash-for-method="teachingAndTrainingTest">teachingAndTrainingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AutomatedTestingFrameworkOfLibrary -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AutomatedTestingFrameworkOfLibrary" class="hide-methods passed suite-AutomatedTestingFrameworkOfLibrary"> (hide)</a> <!-- hide-methods passed suite-AutomatedTestingFrameworkOfLibrary -->
+                      <a href="#" panel-name="suite-AutomatedTestingFrameworkOfLibrary" class="show-methods passed suite-AutomatedTestingFrameworkOfLibrary"> (show)</a> <!-- show-methods passed suite-AutomatedTestingFrameworkOfLibrary -->
+                    </span>
+                    <div class="method-list-content passed suite-AutomatedTestingFrameworkOfLibrary">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.AccountRelatedTest.AccountInfo" hash-for-method="accountInfoTest">accountInfoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ActivityTest.Activity" hash-for-method="activityTest">activityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ActivityTest.Appreciate" hash-for-method="appreciateTest">appreciateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ServiceTest.CheckAndCheck" hash-for-method="checkAndCheckTest">checkAndCheckTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ResourceTest.ChineseIndexOrLiterature" hash-for-method="chineseIndexOrLiteratureTest">chineseIndexOrLiteratureTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ResourceTest.ChineseNumericValueOrFact" hash-for-method="chineseNumericValueOrFactTest">chineseNumericValueOrFactTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ResourceTest.ChinesePeriodicalNewspaper" hash-for-method="chinesePeriodicalNewspaperTest">chinesePeriodicalNewspaperTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.LearningCenterTest.Credit" hash-for-method="creditTest">creditTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ResourceTest.DissertationsAndTheses" hash-for-method="dissertationsAndThesesTest">dissertationsAndThesesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ServiceTest.DocumentDelivery" hash-for-method="documentDeliveryTest">documentDeliveryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.LearningCenterTest.EddieCorsonMedia" hash-for-method="eddieCorsonMediaTest">eddieCorsonMediaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ResourceTest.ElectronicBooks" hash-for-method="electronicBooksTest">electronicBooksTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ResourceTest.ForeignElectronicPeriodicals" hash-for-method="foreignElectronicPeriodicalsTest">foreignElectronicPeriodicalsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ResourceTest.FreeResources" hash-for-method="freeResourcesTest">freeResourcesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ServiceTest.InformationService" hash-for-method="informationServiceTest">informationServiceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.LearningCenterTest.LearningCenterOL" hash-for-method="learningCenterOLTest">learningCenterOLTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ActivityTest.Lecture" hash-for-method="lectureTest">lectureTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.AccountRelatedTest.Login" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.LearningCenterTest.Mooc" hash-for-method="moocTest">moocTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.LearningCenterTest.MultimediaAccountingVideo" hash-for-method="multimediaAccountingVideoTest">multimediaAccountingVideoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ResourceTest.MultimediaLearningLibrary" hash-for-method="multimediaLearningLibraryTest">multimediaLearningLibraryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.RecommendationTest.NewArrivals" hash-for-method="newArrivalsTest">newArrivalsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.InfoTest.Notice" hash-for-method="noticeTest">noticeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ServiceTest.NoveltySearch" hash-for-method="noveltySearchTest">noveltySearchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ResourceTest.OffcampusAccess" hash-for-method="offcampusAccessTest">offcampusAccessTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ServiceTest.PatentService" hash-for-method="patentServicekTest">patentServicekTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.LearningCenterTest.PublicAwareness" hash-for-method="publicAwarenessTest">publicAwarenessTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ActivityTest.Read" hash-for-method="readTest">readTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.InfoTest.RealTimeInfo" hash-for-method="realTimeInfoTest">realTimeInfoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ServiceTest.ReservationService" hash-for-method="reservationServiceTest">reservationServiceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.InfoTest.ResourceDynamics" hash-for-method="resourceDynamicsTest">resourceDynamicsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.ActivityTest.Salon" hash-for-method="salonTest">salonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.LearningCenterTest.StartPoint" hash-for-method="startPointTest">startPointTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomatedTestingFrameworkOfLibrary" title="TestCase.RecommendationTest.ThemeRecommendation" hash-for-method="themeRecommendationTest">themeRecommendationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AutomatedTestingFrameworkOfLibrary -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AutomatedTestingFrameworkOfLibrary" class="panel AutomatedTestingFrameworkOfLibrary">
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCase.ResourceTest.GlobalOpenCurriculumResources</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="globalOpenCurriculumResourcesTest">
+                  </a> <!-- globalOpenCurriculumResourcesTest -->
+                  <span class="method-name">globalOpenCurriculumResourcesTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 78d2e0f157f3aaadbc710144f761e40b
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:275)
+	at Utils.ActionBot.getTitle(ActionBot.java:209)
+	at Utils.ActionBot.titleAssert(ActionBot.java:294)
+	at TestCase.ResourceTest.GlobalOpenCurriculumResources.globalOpenCurriculumResourcesTest(GlobalOpenCurriculumResources.java:25)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-failed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCase.ServiceTest.SubjectService</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="subjectServiceTest">
+                  </a> <!-- subjectServiceTest -->
+                  <span class="method-name">subjectServiceTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 1ad742ba292195914c6df29837ca23a2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+	at PageObject.ServicePage.goSubjectService(ServicePage.java:32)
+	at TestCase.ServiceTest.SubjectService.subjectServiceTest(SubjectService.java:23)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-failed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCase.LearningCenterTest.EddieCorsonReportingHall</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="eddieCorsonReportingHallTest">
+                  </a> <!-- eddieCorsonReportingHallTest -->
+                  <span class="method-name">eddieCorsonReportingHallTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: 网页标题与预期不符合 expected [爱迪科森网上报告厅] but found [无法找到资源。]
+	at Utils.ActionBot.titleAssert(ActionBot.java:294)
+	at TestCase.LearningCenterTest.EddieCorsonReportingHall.eddieCorsonReportingHallTest(EddieCorsonReportingHall.java:25)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-failed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCase.ResourceTest.ChineseYearbook</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chineseYearbookTest">
+                  </a> <!-- chineseYearbookTest -->
+                  <span class="method-name">chineseYearbookTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: 网页标题与预期不符合 expected [中国年鉴网络出版总库] but found [欢迎使用 KNS5.5 数据库平台]
+	at Utils.ActionBot.titleAssert(ActionBot.java:294)
+	at TestCase.ResourceTest.ChineseYearbook.chineseYearbookTest(ChineseYearbook.java:25)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-failed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCase.ResourceTest.ChinesePatentAndStandard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chinesePatentAndStandardTest">
+                  </a> <!-- chinesePatentAndStandardTest -->
+                  <span class="method-name">chinesePatentAndStandardTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: bcdea528ad9308c2c03fffdcc8711d78
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:275)
+	at Utils.ActionBot.getTitle(ActionBot.java:209)
+	at Utils.ActionBot.titleAssert(ActionBot.java:294)
+	at TestCase.ResourceTest.ChinesePatentAndStandard.chinesePatentAndStandardTest(ChinesePatentAndStandard.java:25)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-failed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCase.ServiceTest.QuestionAnswer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="questionAnswerTest">
+                  </a> <!-- questionAnswerTest -->
+                  <span class="method-name">questionAnswerTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;keyword&quot;}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 4153ff41db77c8f703435b862e7c9bc0
+*** Element info: {Using=name, value=keyword}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:395)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at Utils.ActionBot.findElementByName(ActionBot.java:33)
+	at Utils.ActionBot.sendkeysByName(ActionBot.java:134)
+	at PageObject.JointReferencePage.setKeyword(JointReferencePage.java:99)
+	at TestCase.ServiceTest.QuestionAnswer.questionAnswerTest(QuestionAnswer.java:26)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-failed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCase.ServiceTest.ReaderService</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readerServiceTest">
+                  </a> <!-- readerServiceTest -->
+                  <span class="method-name">readerServiceTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[3]/div[5]/div[2]/a[1]/img&quot;}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: ef5980ba73538fbb4423a2d63c09ff12
+*** Element info: {Using=xpath, value=/html/body/div[3]/div[5]/div[2]/a[1]/img}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at Utils.ActionBot.findElemetnByXpath(ActionBot.java:58)
+	at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+	at PageObject.ServicePage.goCollectionDistribution(ServicePage.java:80)
+	at TestCase.ServiceTest.ReaderService.readerServiceTest(ReaderService.java:24)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-failed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCase.ActivityTest.Other</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="otherTest">
+                  </a> <!-- otherTest -->
+                  <span class="method-name">otherTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: e0a8443afe3646b85da9e88022908142
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+	at PageObject.HomePage.goActivity(HomePage.java:97)
+	at TestCase.ActivityTest.Other.otherTest(Other.java:22)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-failed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCase.ServiceTest.TeachingAndTraining</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="teachingAndTrainingTest">
+                  </a> <!-- teachingAndTrainingTest -->
+                  <span class="method-name">teachingAndTrainingTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[3]/div[3]/div[2]/a[8]/img&quot;}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: af926b5adf2999cfd64950b04ce7365d
+*** Element info: {Using=xpath, value=/html/body/div[3]/div[3]/div[2]/a[8]/img}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at Utils.ActionBot.findElemetnByXpath(ActionBot.java:58)
+	at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+	at PageObject.ServicePage.goTeachingAndTraining(ServicePage.java:60)
+	at TestCase.ServiceTest.TeachingAndTraining.teachingAndTrainingTest(TeachingAndTraining.java:23)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-failed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCase.ResourceTest.CharacteristicResources</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="characteristicResourcesTest">
+                  </a> <!-- characteristicResourcesTest -->
+                  <span class="method-name">characteristicResourcesTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;DESKTOP-9K58VOG&apos;, ip: &apos;10.184.5.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 69c1098312aec90a5d0fc4253b6b00cd
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:275)
+	at Utils.ActionBot.getTitle(ActionBot.java:209)
+	at Utils.ActionBot.titleAssert(ActionBot.java:294)
+	at TestCase.ResourceTest.CharacteristicResources.characteristicResourcesTest(CharacteristicResources.java:25)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-failed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.InfoTest.RealTimeInfo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="realTimeInfoTest">
+                  </a> <!-- realTimeInfoTest -->
+                  <span class="method-name">realTimeInfoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.LearningCenterTest.MultimediaAccountingVideo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multimediaAccountingVideoTest">
+                  </a> <!-- multimediaAccountingVideoTest -->
+                  <span class="method-name">multimediaAccountingVideoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.LearningCenterTest.EddieCorsonMedia</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="eddieCorsonMediaTest">
+                  </a> <!-- eddieCorsonMediaTest -->
+                  <span class="method-name">eddieCorsonMediaTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.LearningCenterTest.StartPoint</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="startPointTest">
+                  </a> <!-- startPointTest -->
+                  <span class="method-name">startPointTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ServiceTest.ReservationService</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="reservationServiceTest">
+                  </a> <!-- reservationServiceTest -->
+                  <span class="method-name">reservationServiceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.InfoTest.Notice</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="noticeTest">
+                  </a> <!-- noticeTest -->
+                  <span class="method-name">noticeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ResourceTest.ChineseIndexOrLiterature</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chineseIndexOrLiteratureTest">
+                  </a> <!-- chineseIndexOrLiteratureTest -->
+                  <span class="method-name">chineseIndexOrLiteratureTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ActivityTest.Salon</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="salonTest">
+                  </a> <!-- salonTest -->
+                  <span class="method-name">salonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.AccountRelatedTest.AccountInfo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountInfoTest">
+                  </a> <!-- accountInfoTest -->
+                  <span class="method-name">accountInfoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ServiceTest.CheckAndCheck</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAndCheckTest">
+                  </a> <!-- checkAndCheckTest -->
+                  <span class="method-name">checkAndCheckTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ResourceTest.ForeignElectronicPeriodicals</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="foreignElectronicPeriodicalsTest">
+                  </a> <!-- foreignElectronicPeriodicalsTest -->
+                  <span class="method-name">foreignElectronicPeriodicalsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ActivityTest.Read</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readTest">
+                  </a> <!-- readTest -->
+                  <span class="method-name">readTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ResourceTest.MultimediaLearningLibrary</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multimediaLearningLibraryTest">
+                  </a> <!-- multimediaLearningLibraryTest -->
+                  <span class="method-name">multimediaLearningLibraryTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ServiceTest.PatentService</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patentServicekTest">
+                  </a> <!-- patentServicekTest -->
+                  <span class="method-name">patentServicekTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ResourceTest.ElectronicBooks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="electronicBooksTest">
+                  </a> <!-- electronicBooksTest -->
+                  <span class="method-name">electronicBooksTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ServiceTest.InformationService</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="informationServiceTest">
+                  </a> <!-- informationServiceTest -->
+                  <span class="method-name">informationServiceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.LearningCenterTest.Credit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="creditTest">
+                  </a> <!-- creditTest -->
+                  <span class="method-name">creditTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ActivityTest.Lecture</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="lectureTest">
+                  </a> <!-- lectureTest -->
+                  <span class="method-name">lectureTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.LearningCenterTest.Mooc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="moocTest">
+                  </a> <!-- moocTest -->
+                  <span class="method-name">moocTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.RecommendationTest.NewArrivals</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newArrivalsTest">
+                  </a> <!-- newArrivalsTest -->
+                  <span class="method-name">newArrivalsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ResourceTest.ChinesePeriodicalNewspaper</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chinesePeriodicalNewspaperTest">
+                  </a> <!-- chinesePeriodicalNewspaperTest -->
+                  <span class="method-name">chinesePeriodicalNewspaperTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ResourceTest.ChineseNumericValueOrFact</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chineseNumericValueOrFactTest">
+                  </a> <!-- chineseNumericValueOrFactTest -->
+                  <span class="method-name">chineseNumericValueOrFactTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ResourceTest.FreeResources</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="freeResourcesTest">
+                  </a> <!-- freeResourcesTest -->
+                  <span class="method-name">freeResourcesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ActivityTest.Activity</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="activityTest">
+                  </a> <!-- activityTest -->
+                  <span class="method-name">activityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.RecommendationTest.ThemeRecommendation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="themeRecommendationTest">
+                  </a> <!-- themeRecommendationTest -->
+                  <span class="method-name">themeRecommendationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.AccountRelatedTest.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ResourceTest.DissertationsAndTheses</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dissertationsAndThesesTest">
+                  </a> <!-- dissertationsAndThesesTest -->
+                  <span class="method-name">dissertationsAndThesesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.InfoTest.ResourceDynamics</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="resourceDynamicsTest">
+                  </a> <!-- resourceDynamicsTest -->
+                  <span class="method-name">resourceDynamicsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ResourceTest.OffcampusAccess</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="offcampusAccessTest">
+                  </a> <!-- offcampusAccessTest -->
+                  <span class="method-name">offcampusAccessTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.LearningCenterTest.LearningCenterOL</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="learningCenterOLTest">
+                  </a> <!-- learningCenterOLTest -->
+                  <span class="method-name">learningCenterOLTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ServiceTest.NoveltySearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="noveltySearchTest">
+                  </a> <!-- noveltySearchTest -->
+                  <span class="method-name">noveltySearchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ActivityTest.Appreciate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="appreciateTest">
+                  </a> <!-- appreciateTest -->
+                  <span class="method-name">appreciateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.LearningCenterTest.PublicAwareness</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="publicAwarenessTest">
+                  </a> <!-- publicAwarenessTest -->
+                  <span class="method-name">publicAwarenessTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+          <div class="suite-AutomatedTestingFrameworkOfLibrary-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCase.ServiceTest.DocumentDelivery</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="documentDeliveryTest">
+                  </a> <!-- documentDeliveryTest -->
+                  <span class="method-name">documentDeliveryTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomatedTestingFrameworkOfLibrary-class-passed -->
+        </div> <!-- panel AutomatedTestingFrameworkOfLibrary -->
+        <div panel-name="test-xml-AutomatedTestingFrameworkOfLibrary" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\idea\IdeaProjects\AutomatedTestingFrameworkOfLibrary\test.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;AutomatedTestingFrameworkOfLibrary&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;AccountRelatedTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.AccountRelatedTest.AccountInfo&quot;/&gt;
+      &lt;class name=&quot;TestCase.AccountRelatedTest.Login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AccountRelatedTest --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;ActivityTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.ActivityTest.Activity&quot;/&gt;
+      &lt;class name=&quot;TestCase.ActivityTest.Appreciate&quot;/&gt;
+      &lt;class name=&quot;TestCase.ActivityTest.Lecture&quot;/&gt;
+      &lt;class name=&quot;TestCase.ActivityTest.Other&quot;/&gt;
+      &lt;class name=&quot;TestCase.ActivityTest.Read&quot;/&gt;
+      &lt;class name=&quot;TestCase.ActivityTest.Salon&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ActivityTest --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;InfoTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.InfoTest.Notice&quot;/&gt;
+      &lt;class name=&quot;TestCase.InfoTest.RealTimeInfo&quot;/&gt;
+      &lt;class name=&quot;TestCase.InfoTest.ResourceDynamics&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- InfoTest --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;LearningCenterTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.LearningCenterTest.Credit&quot;/&gt;
+      &lt;class name=&quot;TestCase.LearningCenterTest.EddieCorsonMedia&quot;/&gt;
+      &lt;class name=&quot;TestCase.LearningCenterTest.EddieCorsonReportingHall&quot;/&gt;
+      &lt;class name=&quot;TestCase.LearningCenterTest.LearningCenterOL&quot;/&gt;
+      &lt;class name=&quot;TestCase.LearningCenterTest.Mooc&quot;/&gt;
+      &lt;class name=&quot;TestCase.LearningCenterTest.MultimediaAccountingVideo&quot;/&gt;
+      &lt;class name=&quot;TestCase.LearningCenterTest.PublicAwareness&quot;/&gt;
+      &lt;class name=&quot;TestCase.LearningCenterTest.StartPoint&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LearningCenterTest --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;RecommendationTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.RecommendationTest.NewArrivals&quot;/&gt;
+      &lt;class name=&quot;TestCase.RecommendationTest.ThemeRecommendation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RecommendationTest --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;ResourceTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.ResourceTest.CharacteristicResources&quot;/&gt;
+      &lt;class name=&quot;TestCase.ResourceTest.ChineseIndexOrLiterature&quot;/&gt;
+      &lt;class name=&quot;TestCase.ResourceTest.ChineseNumericValueOrFact&quot;/&gt;
+      &lt;class name=&quot;TestCase.ResourceTest.ChinesePatentAndStandard&quot;/&gt;
+      &lt;class name=&quot;TestCase.ResourceTest.ChinesePeriodicalNewspaper&quot;/&gt;
+      &lt;class name=&quot;TestCase.ResourceTest.ChineseYearbook&quot;/&gt;
+      &lt;class name=&quot;TestCase.ResourceTest.DissertationsAndTheses&quot;/&gt;
+      &lt;class name=&quot;TestCase.ResourceTest.ElectronicBooks&quot;/&gt;
+      &lt;class name=&quot;TestCase.ResourceTest.ForeignElectronicPeriodicals&quot;/&gt;
+      &lt;class name=&quot;TestCase.ResourceTest.FreeResources&quot;/&gt;
+      &lt;class name=&quot;TestCase.ResourceTest.GlobalOpenCurriculumResources&quot;/&gt;
+      &lt;class name=&quot;TestCase.ResourceTest.MultimediaLearningLibrary&quot;/&gt;
+      &lt;class name=&quot;TestCase.ResourceTest.OffcampusAccess&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ResourceTest --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;ServiceTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCase.ServiceTest.CheckAndCheck&quot;/&gt;
+      &lt;class name=&quot;TestCase.ServiceTest.DocumentDelivery&quot;/&gt;
+      &lt;class name=&quot;TestCase.ServiceTest.InformationService&quot;/&gt;
+      &lt;class name=&quot;TestCase.ServiceTest.NoveltySearch&quot;/&gt;
+      &lt;class name=&quot;TestCase.ServiceTest.PatentService&quot;/&gt;
+      &lt;class name=&quot;TestCase.ServiceTest.QuestionAnswer&quot;/&gt;
+      &lt;class name=&quot;TestCase.ServiceTest.ReaderService&quot;/&gt;
+      &lt;class name=&quot;TestCase.ServiceTest.ReservationService&quot;/&gt;
+      &lt;class name=&quot;TestCase.ServiceTest.SubjectService&quot;/&gt;
+      &lt;class name=&quot;TestCase.ServiceTest.TeachingAndTraining&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ServiceTest --&gt;
+&lt;/suite&gt; &lt;!-- AutomatedTestingFrameworkOfLibrary --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AutomatedTestingFrameworkOfLibrary" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AutomatedTestingFrameworkOfLibrary</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AccountRelatedTest (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">ActivityTest (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">InfoTest (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">LearningCenterTest (8 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">RecommendationTest (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">ResourceTest (13 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">ServiceTest (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AutomatedTestingFrameworkOfLibrary" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AutomatedTestingFrameworkOfLibrary</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AutomatedTestingFrameworkOfLibrary" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AutomatedTestingFrameworkOfLibrary</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AutomatedTestingFrameworkOfLibrary');
+function tableData_AutomatedTestingFrameworkOfLibrary() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(44);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'subjectServiceTest')
+data.setCell(0, 2, 'TestCase.ServiceTest.SubjectService')
+data.setCell(0, 3, 72299);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'chinesePatentAndStandardTest')
+data.setCell(1, 2, 'TestCase.ResourceTest.ChinesePatentAndStandard')
+data.setCell(1, 3, 26313);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'characteristicResourcesTest')
+data.setCell(2, 2, 'TestCase.ResourceTest.CharacteristicResources')
+data.setCell(2, 3, 25013);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'accountInfoTest')
+data.setCell(3, 2, 'TestCase.AccountRelatedTest.AccountInfo')
+data.setCell(3, 3, 23012);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'globalOpenCurriculumResourcesTest')
+data.setCell(4, 2, 'TestCase.ResourceTest.GlobalOpenCurriculumResources')
+data.setCell(4, 3, 21314);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'learningCenterOLTest')
+data.setCell(5, 2, 'TestCase.LearningCenterTest.LearningCenterOL')
+data.setCell(5, 3, 20714);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'otherTest')
+data.setCell(6, 2, 'TestCase.ActivityTest.Other')
+data.setCell(6, 3, 20105);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'questionAnswerTest')
+data.setCell(7, 2, 'TestCase.ServiceTest.QuestionAnswer')
+data.setCell(7, 3, 18145);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'chineseYearbookTest')
+data.setCell(8, 2, 'TestCase.ResourceTest.ChineseYearbook')
+data.setCell(8, 3, 16382);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'chineseNumericValueOrFactTest')
+data.setCell(9, 2, 'TestCase.ResourceTest.ChineseNumericValueOrFact')
+data.setCell(9, 3, 14052);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'reservationServiceTest')
+data.setCell(10, 2, 'TestCase.ServiceTest.ReservationService')
+data.setCell(10, 3, 12784);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'lectureTest')
+data.setCell(11, 2, 'TestCase.ActivityTest.Lecture')
+data.setCell(11, 3, 12636);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'dissertationsAndThesesTest')
+data.setCell(12, 2, 'TestCase.ResourceTest.DissertationsAndTheses')
+data.setCell(12, 3, 11684);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'readerServiceTest')
+data.setCell(13, 2, 'TestCase.ServiceTest.ReaderService')
+data.setCell(13, 3, 10152);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'teachingAndTrainingTest')
+data.setCell(14, 2, 'TestCase.ServiceTest.TeachingAndTraining')
+data.setCell(14, 3, 10102);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'startPointTest')
+data.setCell(15, 2, 'TestCase.LearningCenterTest.StartPoint')
+data.setCell(15, 3, 9163);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'chineseIndexOrLiteratureTest')
+data.setCell(16, 2, 'TestCase.ResourceTest.ChineseIndexOrLiterature')
+data.setCell(16, 3, 8842);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'realTimeInfoTest')
+data.setCell(17, 2, 'TestCase.InfoTest.RealTimeInfo')
+data.setCell(17, 3, 8464);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'informationServiceTest')
+data.setCell(18, 2, 'TestCase.ServiceTest.InformationService')
+data.setCell(18, 3, 8412);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'loginTest')
+data.setCell(19, 2, 'TestCase.AccountRelatedTest.Login')
+data.setCell(19, 3, 8374);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'themeRecommendationTest')
+data.setCell(20, 2, 'TestCase.RecommendationTest.ThemeRecommendation')
+data.setCell(20, 3, 7678);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'patentServicekTest')
+data.setCell(21, 2, 'TestCase.ServiceTest.PatentService')
+data.setCell(21, 3, 6535);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'resourceDynamicsTest')
+data.setCell(22, 2, 'TestCase.InfoTest.ResourceDynamics')
+data.setCell(22, 3, 6319);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'activityTest')
+data.setCell(23, 2, 'TestCase.ActivityTest.Activity')
+data.setCell(23, 3, 5549);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'freeResourcesTest')
+data.setCell(24, 2, 'TestCase.ResourceTest.FreeResources')
+data.setCell(24, 3, 5466);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'salonTest')
+data.setCell(25, 2, 'TestCase.ActivityTest.Salon')
+data.setCell(25, 3, 4834);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'noticeTest')
+data.setCell(26, 2, 'TestCase.InfoTest.Notice')
+data.setCell(26, 3, 4747);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'offcampusAccessTest')
+data.setCell(27, 2, 'TestCase.ResourceTest.OffcampusAccess')
+data.setCell(27, 3, 4630);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'publicAwarenessTest')
+data.setCell(28, 2, 'TestCase.LearningCenterTest.PublicAwareness')
+data.setCell(28, 3, 4489);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'eddieCorsonReportingHallTest')
+data.setCell(29, 2, 'TestCase.LearningCenterTest.EddieCorsonReportingHall')
+data.setCell(29, 3, 4422);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'eddieCorsonMediaTest')
+data.setCell(30, 2, 'TestCase.LearningCenterTest.EddieCorsonMedia')
+data.setCell(30, 3, 4268);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'multimediaAccountingVideoTest')
+data.setCell(31, 2, 'TestCase.LearningCenterTest.MultimediaAccountingVideo')
+data.setCell(31, 3, 4144);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'readTest')
+data.setCell(32, 2, 'TestCase.ActivityTest.Read')
+data.setCell(32, 3, 3911);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'noveltySearchTest')
+data.setCell(33, 2, 'TestCase.ServiceTest.NoveltySearch')
+data.setCell(33, 3, 3768);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'appreciateTest')
+data.setCell(34, 2, 'TestCase.ActivityTest.Appreciate')
+data.setCell(34, 3, 3746);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'multimediaLearningLibraryTest')
+data.setCell(35, 2, 'TestCase.ResourceTest.MultimediaLearningLibrary')
+data.setCell(35, 3, 3692);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'foreignElectronicPeriodicalsTest')
+data.setCell(36, 2, 'TestCase.ResourceTest.ForeignElectronicPeriodicals')
+data.setCell(36, 3, 3273);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'moocTest')
+data.setCell(37, 2, 'TestCase.LearningCenterTest.Mooc')
+data.setCell(37, 3, 2977);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'checkAndCheckTest')
+data.setCell(38, 2, 'TestCase.ServiceTest.CheckAndCheck')
+data.setCell(38, 3, 2454);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'creditTest')
+data.setCell(39, 2, 'TestCase.LearningCenterTest.Credit')
+data.setCell(39, 3, 2253);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'chinesePeriodicalNewspaperTest')
+data.setCell(40, 2, 'TestCase.ResourceTest.ChinesePeriodicalNewspaper')
+data.setCell(40, 3, 2240);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'electronicBooksTest')
+data.setCell(41, 2, 'TestCase.ResourceTest.ElectronicBooks')
+data.setCell(41, 3, 2124);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'newArrivalsTest')
+data.setCell(42, 2, 'TestCase.RecommendationTest.NewArrivals')
+data.setCell(42, 3, 1866);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'documentDeliveryTest')
+data.setCell(43, 2, 'TestCase.ServiceTest.DocumentDelivery')
+data.setCell(43, 3, 1763);
+window.suiteTableData['AutomatedTestingFrameworkOfLibrary']= { tableData: data, tableDiv: 'times-div-AutomatedTestingFrameworkOfLibrary'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-AutomatedTestingFrameworkOfLibrary">
+              </div> <!-- times-div-AutomatedTestingFrameworkOfLibrary -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AutomatedTestingFrameworkOfLibrary" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AutomatedTestingFrameworkOfLibrary</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AutomatedTestingFrameworkOfLibrary" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AutomatedTestingFrameworkOfLibrary" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.AccountRelatedTest.AccountInfo</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">accountInfoTest</span>
+                <span class="method-start">13204 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">36216 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.AccountRelatedTest.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">36963 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">46659 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">55034 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ActivityTest.Activity</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">55806 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">activityTest</span>
+                <span class="method-start">75515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">81064 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ActivityTest.Appreciate</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">81839 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">appreciateTest</span>
+                <span class="method-start">92185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">95932 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ActivityTest.Lecture</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">96685 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">lectureTest</span>
+                <span class="method-start">102218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">114854 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ActivityTest.Other</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">115640 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">otherTest</span>
+                <span class="method-start">123919 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">144035 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ActivityTest.Read</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">144762 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">readTest</span>
+                <span class="method-start">152629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">156540 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ActivityTest.Salon</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">157285 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">salonTest</span>
+                <span class="method-start">170577 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">175411 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.InfoTest.Notice</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">176198 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">noticeTest</span>
+                <span class="method-start">183985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">188732 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.InfoTest.RealTimeInfo</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">189465 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">realTimeInfoTest</span>
+                <span class="method-start">193519 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">201983 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.InfoTest.ResourceDynamics</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">202712 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">resourceDynamicsTest</span>
+                <span class="method-start">209039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">215358 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.LearningCenterTest.Credit</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">216116 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">creditTest</span>
+                <span class="method-start">225285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">227538 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.LearningCenterTest.EddieCorsonMedia</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">228301 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">eddieCorsonMediaTest</span>
+                <span class="method-start">232590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">236858 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.LearningCenterTest.EddieCorsonReportingHall</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">237657 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">eddieCorsonReportingHallTest</span>
+                <span class="method-start">242827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">247249 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.LearningCenterTest.LearningCenterOL</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">248029 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">learningCenterOLTest</span>
+                <span class="method-start">257329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">278043 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.LearningCenterTest.Mooc</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">278798 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">moocTest</span>
+                <span class="method-start">284168 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">287146 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.LearningCenterTest.MultimediaAccountingVideo</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">287902 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">multimediaAccountingVideoTest</span>
+                <span class="method-start">293339 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">297484 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.LearningCenterTest.PublicAwareness</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">298232 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">publicAwarenessTest</span>
+                <span class="method-start">304030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">308519 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.LearningCenterTest.StartPoint</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">309278 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">startPointTest</span>
+                <span class="method-start">314407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">323570 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.RecommendationTest.NewArrivals</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">324399 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">newArrivalsTest</span>
+                <span class="method-start">329457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">331324 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.RecommendationTest.ThemeRecommendation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">332056 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">themeRecommendationTest</span>
+                <span class="method-start">337345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">345023 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ResourceTest.CharacteristicResources</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">345845 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">characteristicResourcesTest</span>
+                <span class="method-start">355314 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">380328 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ResourceTest.ChineseIndexOrLiterature</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">381071 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">chineseIndexOrLiteratureTest</span>
+                <span class="method-start">390504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">399346 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ResourceTest.ChineseNumericValueOrFact</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">400093 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">chineseNumericValueOrFactTest</span>
+                <span class="method-start">409556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">423608 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ResourceTest.ChinesePatentAndStandard</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">424403 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">chinesePatentAndStandardTest</span>
+                <span class="method-start">428344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">454658 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ResourceTest.ChinesePeriodicalNewspaper</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">455405 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">chinesePeriodicalNewspaperTest</span>
+                <span class="method-start">466677 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">468917 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ResourceTest.ChineseYearbook</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">469682 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">chineseYearbookTest</span>
+                <span class="method-start">475437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">491819 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ResourceTest.DissertationsAndTheses</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">492588 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">dissertationsAndThesesTest</span>
+                <span class="method-start">502341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">514025 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ResourceTest.ElectronicBooks</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">514805 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">electronicBooksTest</span>
+                <span class="method-start">518776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">520900 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ResourceTest.ForeignElectronicPeriodicals</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">521694 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">foreignElectronicPeriodicalsTest</span>
+                <span class="method-start">526882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">530155 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ResourceTest.FreeResources</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">530914 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">freeResourcesTest</span>
+                <span class="method-start">536128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">541594 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ResourceTest.GlobalOpenCurriculumResources</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">542382 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">globalOpenCurriculumResourcesTest</span>
+                <span class="method-start">552381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">573696 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ResourceTest.MultimediaLearningLibrary</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">574456 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">multimediaLearningLibraryTest</span>
+                <span class="method-start">579554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">583246 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ResourceTest.OffcampusAccess</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">584055 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">offcampusAccessTest</span>
+                <span class="method-start">589490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">594120 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ServiceTest.CheckAndCheck</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">594913 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkAndCheckTest</span>
+                <span class="method-start">607699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">610153 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ServiceTest.DocumentDelivery</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">610928 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">documentDeliveryTest</span>
+                <span class="method-start">617093 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">618857 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ServiceTest.InformationService</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">619612 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">informationServiceTest</span>
+                <span class="method-start">629630 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">638042 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ServiceTest.NoveltySearch</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">638819 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">noveltySearchTest</span>
+                <span class="method-start">657014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">660782 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ServiceTest.PatentService</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">661541 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">patentServicekTest</span>
+                <span class="method-start">677366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">683901 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ServiceTest.QuestionAnswer</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">684678 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">questionAnswerTest</span>
+                <span class="method-start">696792 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">714937 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ServiceTest.ReaderService</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">715713 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">readerServiceTest</span>
+                <span class="method-start">719557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">729709 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ServiceTest.ReservationService</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">730462 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">reservationServiceTest</span>
+                <span class="method-start">750652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">763436 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ServiceTest.SubjectService</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">764228 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">subjectServiceTest</span>
+                <span class="method-start">805574 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">877874 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCase.ServiceTest.TeachingAndTraining</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">878683 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teachingAndTrainingTest</span>
+                <span class="method-start">903293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">913395 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
