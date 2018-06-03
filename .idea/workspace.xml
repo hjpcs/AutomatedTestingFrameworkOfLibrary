@@ -1,10 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4debd799-70b4-4eb5-9b78-78ea87ac3007" name="Default" comment="">
+    <list default="true" id="8d63ae0a-27ee-445d-bd13-37b2da3d3388" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/testng_6_14_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomatedTestingFrameworkOfLibrary.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/2018-05-22-20-59-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/2018-05-22-21-04-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/2018-05-22-21-13-09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/2018-05-22-21-16-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/2018-05-22-21-31-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase/ResourceTest/ChineseYearbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase/ResourceTest/ChineseYearbook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase/ServiceTest/InformationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase/ServiceTest/InformationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCase/ResourceTest/ChineseYearbook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCase/ResourceTest/ChineseYearbook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCase/ServiceTest/InformationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCase/ServiceTest/InformationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/AccountRelatedTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/AccountRelatedTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/AccountRelatedTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/AccountRelatedTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/ActivityTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/ActivityTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/ActivityTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/ActivityTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/InfoTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/InfoTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/InfoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/InfoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/LearningCenterTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/LearningCenterTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/LearningCenterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/LearningCenterTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/RecommendationTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/RecommendationTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/RecommendationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/RecommendationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/ResourceTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/ResourceTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/ResourceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/ResourceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/ServiceTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/ServiceTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/ServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/ServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AutomatedTestingFrameworkOfLibrary/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.AccountRelatedTest.AccountInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.AccountRelatedTest.AccountInfo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.AccountRelatedTest.Login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.AccountRelatedTest.Login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ActivityTest.Activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ActivityTest.Activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ActivityTest.Appreciate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ActivityTest.Appreciate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ActivityTest.Lecture.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ActivityTest.Lecture.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ActivityTest.Other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ActivityTest.Other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ActivityTest.Read.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ActivityTest.Read.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ActivityTest.Salon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ActivityTest.Salon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.InfoTest.Notice.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.InfoTest.Notice.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.InfoTest.RealTimeInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.InfoTest.RealTimeInfo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.InfoTest.ResourceDynamics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.InfoTest.ResourceDynamics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.Credit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.Credit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.EddieCorsonMedia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.EddieCorsonMedia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.EddieCorsonReportingHall.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.EddieCorsonReportingHall.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.LearningCenterOL.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.LearningCenterOL.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.Mooc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.Mooc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.MultimediaAccountingVideo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.MultimediaAccountingVideo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.PublicAwareness.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.PublicAwareness.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.StartPoint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.LearningCenterTest.StartPoint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.RecommendationTest.NewArrivals.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.RecommendationTest.NewArrivals.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.RecommendationTest.ThemeRecommendation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.RecommendationTest.ThemeRecommendation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.CharacteristicResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.CharacteristicResources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.ChineseIndexOrLiterature.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.ChineseIndexOrLiterature.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.ChineseNumericValueOrFact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.ChineseNumericValueOrFact.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.ChinesePatentAndStandard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.ChinesePatentAndStandard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.ChinesePeriodicalNewspaper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.ChinesePeriodicalNewspaper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.ChineseYearbook.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.ChineseYearbook.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.DissertationsAndTheses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.DissertationsAndTheses.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.ElectronicBooks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.ElectronicBooks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.ForeignElectronicPeriodicals.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.ForeignElectronicPeriodicals.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.FreeResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.FreeResources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.GlobalOpenCurriculumResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.GlobalOpenCurriculumResources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.MultimediaLearningLibrary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.MultimediaLearningLibrary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.OffcampusAccess.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ResourceTest.OffcampusAccess.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.CheckAndCheck.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.CheckAndCheck.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.DocumentDelivery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.DocumentDelivery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.InformationService.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.InformationService.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.NoveltySearch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.NoveltySearch.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.PatentService.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.PatentService.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.QuestionAnswer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.QuestionAnswer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.ReaderService.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.ReaderService.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.ReservationService.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.ReservationService.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.SubjectService.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.SubjectService.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.TeachingAndTraining.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCase.ServiceTest.TeachingAndTraining.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/AutomatedTestingFrameworkOfLibrary/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AutomatedTestingFrameworkOfLibrary/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/AutomatedTestingFrameworkOfLibrary/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AutomatedTestingFrameworkOfLibrary/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/AutomatedTestingFrameworkOfLibrary/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AutomatedTestingFrameworkOfLibrary/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,107 +97,65 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf>
+      <file leaf-file-name="test.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+            <state relative-caret-position="286">
+              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.xml">
+      <file leaf-file-name="emailable-report.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-output/emailable-report.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="154">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultimediaAccountingVideo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/LearningCenterTest/MultimediaAccountingVideo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChinesePatentAndStandard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/ResourceTest/ChinesePatentAndStandard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="20" column="64" lean-forward="true" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChinesePeriodicalNewspaper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/ResourceTest/ChinesePeriodicalNewspaper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChineseYearbook.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/ResourceTest/ChineseYearbook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-132">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Tag Library Descriptor" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>getText</find>
-      <find>getTextBy</find>
-      <find>user</find>
-      <find>scr</find>
-      <find>slee</find>
-      <find>move</find>
-      <find>myb</find>
-      <find>exit</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/PageObject/JointReferencePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageObject/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ActivityTest/Activity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/NoveltySearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ActivityTest/Salon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/AccountRelatedTest/AccountInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/AccountRelatedTest/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ActivityTest/Appreciate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ActivityTest/Lecture.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ActivityTest/Other.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ActivityTest/Read.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/InfoTest/Notice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/InfoTest/RealTimeInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/InfoTest/ResourceDynamics.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/LearningCenterTest/Credit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/LearningCenterTest/EddieCorsonMedia.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/LearningCenterTest/EddieCorsonReportingHall.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/LearningCenterTest/LearningCenterOL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/LearningCenterTest/Mooc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/LearningCenterTest/MultimediaAccountingVideo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/LearningCenterTest/PublicAwareness.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/LearningCenterTest/StartPoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/RecommendationTest/NewArrivals.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/RecommendationTest/ThemeRecommendation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/ChineseIndexOrLiterature.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/CharacteristicResources.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/ChineseNumericValueOrFact.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/ChinesePatentAndStandard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/ChinesePeriodicalNewspaper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/ChineseYearbook.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/ElectronicBooks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/DissertationsAndTheses.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/ForeignElectronicPeriodicals.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/FreeResources.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/PatentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/InformationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/CheckAndCheck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/DocumentDelivery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/QuestionAnswer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/ReaderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/ReservationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/SubjectService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/TeachingAndTraining.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/OffcampusAccess.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/GlobalOpenCurriculumResources.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/MultimediaLearningLibrary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Utils/ActionBot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageObject/BasePage.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Base/BaseTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -132,23 +170,6 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="C:\apache-maven-3.5.3\repo" />
-        <option name="mavenHome" value="C:/apache-maven-3.5.3" />
-        <option name="userSettingsFile" value="C:\apache-maven-3.5.3\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenRunner">
-    <option name="jreName" value="#JAVA_HOME" />
-  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
@@ -158,13 +179,34 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SerializableHasSerialVersionUIDField</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,26 +214,58 @@
               <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedTestingFrameworkOfLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTestingFrameworkOfLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
+              <item name="ResourceTest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.5149425" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -206,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/test.xml">
+  <component name="RunManager" selected="TestNG.InformationService.informationServiceTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -226,53 +300,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/test.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomatedTestingFrameworkOfLibrary" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/test.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomatedTestingFrameworkOfLibrary" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="CharacteristicResources" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChinesePeriodicalNewspaper" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomatedTestingFrameworkOfLibrary" />
       <extension name="coverage">
         <pattern>
@@ -284,7 +312,36 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="TestCase.ResourceTest" />
-      <option name="MAIN_CLASS_NAME" value="TestCase.ResourceTest.CharacteristicResources" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.ResourceTest.ChinesePeriodicalNewspaper" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ChineseYearbook (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomatedTestingFrameworkOfLibrary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.ResourceTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="TestCase.ResourceTest" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.ResourceTest.ChineseYearbook" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -330,19 +387,48 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GlobalOpenCurriculumResources" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="InformationService.informationServiceTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomatedTestingFrameworkOfLibrary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCase.ResourceTest.*" />
+          <option name="PATTERN" value="TestCase.ServiceTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="TestCase.ResourceTest" />
-      <option name="MAIN_CLASS_NAME" value="TestCase.ResourceTest.GlobalOpenCurriculumResources" />
+      <option name="PACKAGE_NAME" value="TestCase.ServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.ServiceTest.InformationService" />
+      <option name="METHOD_NAME" value="informationServiceTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ReaderService" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomatedTestingFrameworkOfLibrary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.ServiceTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="TestCase.ServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.ServiceTest.ReaderService" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -382,19 +468,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.CharacteristicResources" />
+      <item itemvalue="TestNG.ChinesePeriodicalNewspaper" />
       <item itemvalue="TestNG.ChineseYearbook" />
-      <item itemvalue="TestNG.GlobalOpenCurriculumResources" />
-      <item itemvalue="TestNG.C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/testng.xml" />
-      <item itemvalue="TestNG.C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/test.xml" />
+      <item itemvalue="TestNG.ChineseYearbook (1)" />
+      <item itemvalue="TestNG.ReaderService" />
+      <item itemvalue="TestNG.InformationService.informationServiceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/test.xml" />
-        <item itemvalue="TestNG.C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/testng.xml" />
-        <item itemvalue="TestNG.GlobalOpenCurriculumResources" />
+        <item itemvalue="TestNG.InformationService.informationServiceTest" />
+        <item itemvalue="TestNG.ReaderService" />
+        <item itemvalue="TestNG.ChineseYearbook (1)" />
         <item itemvalue="TestNG.ChineseYearbook" />
-        <item itemvalue="TestNG.CharacteristicResources" />
+        <item itemvalue="TestNG.ChinesePeriodicalNewspaper" />
       </list>
     </recent_temporary>
   </component>
@@ -403,129 +489,81 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4debd799-70b4-4eb5-9b78-78ea87ac3007" name="Default" comment="" />
-      <created>1525000495686</created>
+      <changelist id="8d63ae0a-27ee-445d-bd13-37b2da3d3388" name="Default" comment="" />
+      <created>1527953415303</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1525000495686</updated>
-      <workItem from="1525000497754" duration="178000" />
-      <workItem from="1525003350200" duration="201000" />
-      <workItem from="1525003553312" duration="2308000" />
-      <workItem from="1525054133050" duration="4135000" />
-      <workItem from="1525082002930" duration="6269000" />
-      <workItem from="1525091712384" duration="492000" />
-      <workItem from="1525225994121" duration="8103000" />
-      <workItem from="1525315682184" duration="6779000" />
-      <workItem from="1525490360683" duration="122000" />
-      <workItem from="1525574955322" duration="9627000" />
-      <workItem from="1525589432564" duration="4811000" />
-      <workItem from="1525749883969" duration="13087000" />
-      <workItem from="1525850593620" duration="8766000" />
-      <workItem from="1525943697785" duration="12512000" />
-      <workItem from="1526105310408" duration="6117000" />
-      <workItem from="1526190914950" duration="11305000" />
-      <workItem from="1526285278614" duration="11873000" />
-      <workItem from="1526457554051" duration="14719000" />
-      <workItem from="1526559286432" duration="10739000" />
-      <workItem from="1526624499587" duration="14324000" />
-      <workItem from="1526740641699" duration="899000" />
-      <workItem from="1526786225022" duration="15737000" />
-      <workItem from="1526871929906" duration="1582000" />
-      <workItem from="1526873545616" duration="23944000" />
-      <workItem from="1526957088146" duration="2606000" />
-      <workItem from="1526961011709" duration="4536000" />
-      <workItem from="1526979716630" duration="1492000" />
-      <workItem from="1526981266129" duration="4604000" />
-      <workItem from="1526989660005" duration="2049000" />
-      <workItem from="1526992811578" duration="293000" />
-      <workItem from="1526993140753" duration="2629000" />
+      <updated>1527953415303</updated>
+      <workItem from="1527953416571" duration="809000" />
+      <workItem from="1527986398675" duration="648000" />
+      <workItem from="1528004375748" duration="1211000" />
     </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <created>1526958039008</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1526958039008</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__idea_IdeaProjects_AutomatedTestingFrameworkOfLibrary_test_xml - 2018.05.22 at 19h 59m 23s.xml">
+    <history-entry file="C__idea_IdeaProjects_AutomatedTestingFrameworkOfLibrary_test_xml - 2018.06.02 at 23h 35m 52s.xml">
       <configuration name="C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/test.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__idea_IdeaProjects_AutomatedTestingFrameworkOfLibrary_test_xml - 2018.05.22 at 20h 01m 09s.xml">
+    <history-entry file="C__idea_IdeaProjects_AutomatedTestingFrameworkOfLibrary_test_xml - 2018.06.03 at 13h 50m 01s.xml">
       <configuration name="C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/test.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__idea_IdeaProjects_AutomatedTestingFrameworkOfLibrary_test_xml - 2018.05.22 at 20h 10m 21s.xml">
-      <configuration name="C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/test.xml" configurationId="TestNG" />
+    <history-entry file="MultimediaAccountingVideo - 2018.06.03 at 13h 53m 40s.xml">
+      <configuration name="MultimediaAccountingVideo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__idea_IdeaProjects_AutomatedTestingFrameworkOfLibrary_test_xml - 2018.05.22 at 20h 47m 59s.xml">
-      <configuration name="C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/test.xml" configurationId="TestNG" />
+    <history-entry file="MultimediaAccountingVideo_multimediaAccountingVideoTest - 2018.06.03 at 13h 55m 22s.xml">
+      <configuration name="MultimediaAccountingVideo.multimediaAccountingVideoTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__idea_IdeaProjects_AutomatedTestingFrameworkOfLibrary_test_xml - 2018.05.22 at 20h 50m 36s.xml">
-      <configuration name="C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/test.xml" configurationId="TestNG" />
+    <history-entry file="MultimediaAccountingVideo_multimediaAccountingVideoTest - 2018.06.03 at 13h 56m 54s.xml">
+      <configuration name="MultimediaAccountingVideo.multimediaAccountingVideoTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__idea_IdeaProjects_AutomatedTestingFrameworkOfLibrary_test_xml - 2018.05.22 at 20h 51m 31s.xml">
-      <configuration name="C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/test.xml" configurationId="TestNG" />
+    <history-entry file="ChinesePatentAndStandard_chinesePatentAndStandardTest - 2018.06.03 at 13h 57m 45s.xml">
+      <configuration name="ChinesePatentAndStandard.chinesePatentAndStandardTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__idea_IdeaProjects_AutomatedTestingFrameworkOfLibrary_test_xml - 2018.05.22 at 20h 53m 45s.xml">
-      <configuration name="C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/test.xml" configurationId="TestNG" />
+    <history-entry file="ChinesePeriodicalNewspaper - 2018.06.03 at 13h 58m 12s.xml">
+      <configuration name="ChinesePeriodicalNewspaper" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__idea_IdeaProjects_AutomatedTestingFrameworkOfLibrary_test_xml - 2018.05.22 at 21h 05m 32s.xml">
-      <configuration name="C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/test.xml" configurationId="TestNG" />
+    <history-entry file="ChineseYearbook - 2018.06.03 at 13h 58m 48s.xml">
+      <configuration name="ChineseYearbook" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__idea_IdeaProjects_AutomatedTestingFrameworkOfLibrary_test_xml - 2018.05.22 at 21h 19m 38s.xml">
-      <configuration name="C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/test.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__idea_IdeaProjects_AutomatedTestingFrameworkOfLibrary_test_xml - 2018.05.22 at 21h 37m 13s.xml">
-      <configuration name="C:/idea/IdeaProjects/AutomatedTestingFrameworkOfLibrary/test.xml" configurationId="TestNG" />
+    <history-entry file="ChineseYearbook_(1) - 2018.06.03 at 13h 59m 33s.xml">
+      <configuration name="ChineseYearbook (1)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206838000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="2668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3281787" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32874355" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3298969" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4226804" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298969" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30181542" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3281787" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39862543" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,258 +577,71 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/PageObject/MyLibraryPage.java</url>
-          <line>13</line>
-          <properties field="myLent" class="PageObject.MyLibraryPage" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/emailable-report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="41" lean-forward="true" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
-        </state>
+        <state relative-caret-position="-924" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        <state relative-caret-position="286">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/ElectronicBooks.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/DissertationsAndTheses.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/FreeResources.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/PatentService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/CheckAndCheck.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/DocumentDelivery.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/ReservationService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/TeachingAndTraining.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/OffcampusAccess.java" />
-    <entry file="jar://C:/apache-maven-3.5.3/repo/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="628" column="74" selection-start-line="628" selection-start-column="74" selection-end-line="628" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/apache-maven-3.5.3/repo/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestClass.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/ReaderService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/InformationService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/ActivityPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/InfoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/JointReferencePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/LearningCenterPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/RecommendationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/ResourcePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/SurveyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/AccountRelatedTest/AccountInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/AccountRelatedTest/Login.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ActivityTest/Activity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ActivityTest/Appreciate.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ActivityTest/Lecture.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/LearningCenterTest/EddieCorsonReportingHall.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/MyLibraryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/LearningCenterTest/LearningCenterOL.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/SubjectService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/CharacteristicResources.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/ChineseYearbook.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/GlobalOpenCurriculumResources.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ServiceTest/QuestionAnswer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/ServicePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/ForeignElectronicPeriodicals.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/ResourceTest/MultimediaLearningLibrary.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/LearningCenterTest/Credit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/LearningCenterTest/StartPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/ServiceTest/TeachingAndTraining.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="208" selection-start-line="208" selection-end-line="208" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ActionBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="266" selection-start-line="266" selection-end-line="266" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/AccountRelatedTest/AccountInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/emailable-report.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test-output/emailable-report.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        <state relative-caret-position="154">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/LearningCenterTest/MultimediaAccountingVideo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        <state relative-caret-position="176">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/ResourceTest/ChinesePatentAndStandard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="176">
+          <caret line="20" column="64" lean-forward="true" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/ResourceTest/ChinesePeriodicalNewspaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase/ResourceTest/ChineseYearbook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.5149425" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.5149425" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.5149425" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -802,20 +653,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.5149425" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>AutomatedTestingFrameworkOfLibrary</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.5149425" />
-                <option value="0.6" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -823,11 +661,10 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>testng-6.14.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35632184" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

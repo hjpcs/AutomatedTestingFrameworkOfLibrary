@@ -22,7 +22,7 @@ public class ChineseYearbook extends BaseTest {
         homePage.goResource();
         resourcePage.goChineseYearbook();
         actionBot.changeWindow();
-        actionBot.titleAssert("中国年鉴网络出版总库","网页标题与预期不符合");
+        actionBot.urlAssert("http://cnki.heinfo.gov.cn/Kns55/logindigital.aspx","网页url与预期不符合");
     }
 
 }

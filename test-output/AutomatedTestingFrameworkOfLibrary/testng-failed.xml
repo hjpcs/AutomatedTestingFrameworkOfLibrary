@@ -10,31 +10,24 @@
           <include name="afterClass"/>
         </methods>
       </class> <!-- TestCase.LearningCenterTest.EddieCorsonReportingHall -->
+      <class name="TestCase.LearningCenterTest.MultimediaAccountingVideo">
+        <methods>
+          <include name="afterClass"/>
+          <include name="multimediaAccountingVideoTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestCase.LearningCenterTest.MultimediaAccountingVideo -->
     </classes>
   </test> <!-- LearningCenterTest(failed) -->
   <test thread-count="5" verbose="2" name="ResourceTest(failed)">
     <classes>
-      <class name="TestCase.ResourceTest.ChineseYearbook">
+      <class name="TestCase.ResourceTest.ChinesePeriodicalNewspaper">
         <methods>
           <include name="beforeClass"/>
-          <include name="chineseYearbookTest"/>
+          <include name="chinesePeriodicalNewspaperTest"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- TestCase.ResourceTest.ChineseYearbook -->
-      <class name="TestCase.ResourceTest.CharacteristicResources">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="characteristicResourcesTest"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- TestCase.ResourceTest.CharacteristicResources -->
-      <class name="TestCase.ResourceTest.ChinesePatentAndStandard">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="chinesePatentAndStandardTest"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- TestCase.ResourceTest.ChinesePatentAndStandard -->
+      </class> <!-- TestCase.ResourceTest.ChinesePeriodicalNewspaper -->
       <class name="TestCase.ResourceTest.GlobalOpenCurriculumResources">
         <methods>
           <include name="beforeClass"/>
@@ -42,6 +35,38 @@
           <include name="globalOpenCurriculumResourcesTest"/>
         </methods>
       </class> <!-- TestCase.ResourceTest.GlobalOpenCurriculumResources -->
+      <class name="TestCase.ResourceTest.ChineseYearbook">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="chineseYearbookTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestCase.ResourceTest.ChineseYearbook -->
+      <class name="TestCase.ResourceTest.ChinesePatentAndStandard">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="chinesePatentAndStandardTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestCase.ResourceTest.ChinesePatentAndStandard -->
     </classes>
   </test> <!-- ResourceTest(failed) -->
+  <test thread-count="5" verbose="2" name="ServiceTest(failed)">
+    <classes>
+      <class name="TestCase.ServiceTest.InformationService">
+        <methods>
+          <include name="afterClass"/>
+          <include name="informationServiceTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestCase.ServiceTest.InformationService -->
+      <class name="TestCase.ServiceTest.ReaderService">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="readerServiceTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestCase.ServiceTest.ReaderService -->
+    </classes>
+  </test> <!-- ServiceTest(failed) -->
 </suite> <!-- Failed suite [AutomatedTestingFrameworkOfLibrary] -->

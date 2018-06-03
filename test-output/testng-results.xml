@@ -1,191 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="5" ignored="0" total="44" passed="39">
+<testng-results skipped="0" failed="8" ignored="0" total="44" passed="36">
   <reporter-output>
   </reporter-output>
-  <suite name="AutomatedTestingFrameworkOfLibrary" duration-ms="577224" started-at="2018-05-22T13:27:35Z" finished-at="2018-05-22T13:37:12Z">
+  <suite name="AutomatedTestingFrameworkOfLibrary" duration-ms="467032" started-at="2018-06-03T05:42:13Z" finished-at="2018-06-03T05:50:00Z">
     <groups>
     </groups>
-    <test name="AccountRelatedTest" duration-ms="49621" started-at="2018-05-22T13:27:35Z" finished-at="2018-05-22T13:28:25Z">
+    <test name="AccountRelatedTest" duration-ms="42709" started-at="2018-06-03T05:42:13Z" finished-at="2018-06-03T05:42:55Z">
       <class name="TestCase.AccountRelatedTest.AccountInfo">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.AccountRelatedTest.AccountInfo@27f674d]" name="beforeClass" is-config="true" duration-ms="13593" started-at="2018-05-22T13:27:35Z" finished-at="2018-05-22T13:27:49Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.AccountRelatedTest.AccountInfo@1d251891]" name="beforeClass" is-config="true" duration-ms="11018" started-at="2018-06-03T05:42:13Z" finished-at="2018-06-03T05:42:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="accountInfoTest()[pri:0, instance:TestCase.AccountRelatedTest.AccountInfo@27f674d]" name="accountInfoTest" duration-ms="21703" started-at="2018-05-22T13:27:49Z" finished-at="2018-05-22T13:28:10Z">
+        <test-method status="PASS" signature="accountInfoTest()[pri:0, instance:TestCase.AccountRelatedTest.AccountInfo@1d251891]" name="accountInfoTest" duration-ms="19795" started-at="2018-06-03T05:42:24Z" finished-at="2018-06-03T05:42:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountInfoTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.AccountRelatedTest.AccountInfo@27f674d]" name="afterClass" is-config="true" duration-ms="763" started-at="2018-05-22T13:28:10Z" finished-at="2018-05-22T13:28:11Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.AccountRelatedTest.AccountInfo@1d251891]" name="afterClass" is-config="true" duration-ms="781" started-at="2018-06-03T05:42:44Z" finished-at="2018-06-03T05:42:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.AccountRelatedTest.AccountInfo -->
       <class name="TestCase.AccountRelatedTest.Login">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.AccountRelatedTest.Login@1d251891]" name="beforeClass" is-config="true" duration-ms="5250" started-at="2018-05-22T13:28:11Z" finished-at="2018-05-22T13:28:16Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.AccountRelatedTest.Login@48140564]" name="beforeClass" is-config="true" duration-ms="2743" started-at="2018-06-03T05:42:44Z" finished-at="2018-06-03T05:42:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestCase.AccountRelatedTest.Login@1d251891]" name="loginTest" duration-ms="7557" started-at="2018-05-22T13:28:16Z" finished-at="2018-05-22T13:28:24Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestCase.AccountRelatedTest.Login@48140564]" name="loginTest" duration-ms="7607" started-at="2018-06-03T05:42:47Z" finished-at="2018-06-03T05:42:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.AccountRelatedTest.Login@1d251891]" name="afterClass" is-config="true" duration-ms="740" started-at="2018-05-22T13:28:24Z" finished-at="2018-05-22T13:28:25Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.AccountRelatedTest.Login@48140564]" name="afterClass" is-config="true" duration-ms="750" started-at="2018-06-03T05:42:55Z" finished-at="2018-06-03T05:42:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.AccountRelatedTest.Login -->
     </test> <!-- AccountRelatedTest -->
-    <test name="ActivityTest" duration-ms="72584" started-at="2018-05-22T13:28:25Z" finished-at="2018-05-22T13:29:37Z">
+    <test name="ActivityTest" duration-ms="41207" started-at="2018-06-03T05:42:55Z" finished-at="2018-06-03T05:43:37Z">
       <class name="TestCase.ActivityTest.Appreciate">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Appreciate@edf4efb]" name="beforeClass" is-config="true" duration-ms="10413" started-at="2018-05-22T13:28:40Z" finished-at="2018-05-22T13:28:51Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Appreciate@2f7a2457]" name="beforeClass" is-config="true" duration-ms="2533" started-at="2018-06-03T05:43:02Z" finished-at="2018-06-03T05:43:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="appreciateTest()[pri:0, instance:TestCase.ActivityTest.Appreciate@edf4efb]" name="appreciateTest" duration-ms="4948" started-at="2018-05-22T13:28:51Z" finished-at="2018-05-22T13:28:56Z">
+        <test-method status="PASS" signature="appreciateTest()[pri:0, instance:TestCase.ActivityTest.Appreciate@2f7a2457]" name="appreciateTest" duration-ms="3532" started-at="2018-06-03T05:43:05Z" finished-at="2018-06-03T05:43:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appreciateTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Appreciate@edf4efb]" name="afterClass" is-config="true" duration-ms="731" started-at="2018-05-22T13:28:56Z" finished-at="2018-05-22T13:28:56Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Appreciate@2f7a2457]" name="afterClass" is-config="true" duration-ms="715" started-at="2018-06-03T05:43:08Z" finished-at="2018-06-03T05:43:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ActivityTest.Appreciate -->
       <class name="TestCase.ActivityTest.Read">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Read@6108b2d7]" name="beforeClass" is-config="true" duration-ms="5163" started-at="2018-05-22T13:29:16Z" finished-at="2018-05-22T13:29:21Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Read@1554909b]" name="beforeClass" is-config="true" duration-ms="2440" started-at="2018-06-03T05:43:23Z" finished-at="2018-06-03T05:43:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="readTest()[pri:0, instance:TestCase.ActivityTest.Read@6108b2d7]" name="readTest" duration-ms="5148" started-at="2018-05-22T13:29:21Z" finished-at="2018-05-22T13:29:27Z">
+        <test-method status="PASS" signature="readTest()[pri:0, instance:TestCase.ActivityTest.Read@1554909b]" name="readTest" duration-ms="3615" started-at="2018-06-03T05:43:25Z" finished-at="2018-06-03T05:43:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Read@6108b2d7]" name="afterClass" is-config="true" duration-ms="770" started-at="2018-05-22T13:29:27Z" finished-at="2018-05-22T13:29:27Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Read@1554909b]" name="afterClass" is-config="true" duration-ms="760" started-at="2018-06-03T05:43:29Z" finished-at="2018-06-03T05:43:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ActivityTest.Read -->
       <class name="TestCase.ActivityTest.Other">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Other@566776ad]" name="beforeClass" is-config="true" duration-ms="4074" started-at="2018-05-22T13:29:07Z" finished-at="2018-05-22T13:29:11Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Other@6108b2d7]" name="beforeClass" is-config="true" duration-ms="2587" started-at="2018-06-03T05:43:16Z" finished-at="2018-06-03T05:43:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="otherTest()[pri:0, instance:TestCase.ActivityTest.Other@566776ad]" name="otherTest" duration-ms="4897" started-at="2018-05-22T13:29:11Z" finished-at="2018-05-22T13:29:16Z">
+        <test-method status="PASS" signature="otherTest()[pri:0, instance:TestCase.ActivityTest.Other@6108b2d7]" name="otherTest" duration-ms="3622" started-at="2018-06-03T05:43:18Z" finished-at="2018-06-03T05:43:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otherTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Other@566776ad]" name="afterClass" is-config="true" duration-ms="726" started-at="2018-05-22T13:29:16Z" finished-at="2018-05-22T13:29:16Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Other@6108b2d7]" name="afterClass" is-config="true" duration-ms="713" started-at="2018-06-03T05:43:22Z" finished-at="2018-06-03T05:43:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ActivityTest.Other -->
-      <class name="TestCase.ActivityTest.Salon">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Salon@1554909b]" name="beforeClass" is-config="true" duration-ms="5217" started-at="2018-05-22T13:29:27Z" finished-at="2018-05-22T13:29:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="salonTest()[pri:0, instance:TestCase.ActivityTest.Salon@1554909b]" name="salonTest" duration-ms="3889" started-at="2018-05-22T13:29:33Z" finished-at="2018-05-22T13:29:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- salonTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Salon@1554909b]" name="afterClass" is-config="true" duration-ms="761" started-at="2018-05-22T13:29:36Z" finished-at="2018-05-22T13:29:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestCase.ActivityTest.Salon -->
       <class name="TestCase.ActivityTest.Activity">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Activity@7f690630]" name="beforeClass" is-config="true" duration-ms="3907" started-at="2018-05-22T13:28:25Z" finished-at="2018-05-22T13:28:29Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Activity@edf4efb]" name="beforeClass" is-config="true" duration-ms="2281" started-at="2018-06-03T05:42:55Z" finished-at="2018-06-03T05:42:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="activityTest()[pri:0, instance:TestCase.ActivityTest.Activity@7f690630]" name="activityTest" duration-ms="11086" started-at="2018-05-22T13:28:29Z" finished-at="2018-05-22T13:28:40Z">
+        <test-method status="PASS" signature="activityTest()[pri:0, instance:TestCase.ActivityTest.Activity@edf4efb]" name="activityTest" duration-ms="3749" started-at="2018-06-03T05:42:58Z" finished-at="2018-06-03T05:43:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- activityTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Activity@7f690630]" name="afterClass" is-config="true" duration-ms="735" started-at="2018-05-22T13:28:40Z" finished-at="2018-05-22T13:28:40Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Activity@edf4efb]" name="afterClass" is-config="true" duration-ms="779" started-at="2018-06-03T05:43:02Z" finished-at="2018-06-03T05:43:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ActivityTest.Activity -->
-      <class name="TestCase.ActivityTest.Lecture">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Lecture@2f7a2457]" name="beforeClass" is-config="true" duration-ms="5573" started-at="2018-05-22T13:28:56Z" finished-at="2018-05-22T13:29:02Z">
+      <class name="TestCase.ActivityTest.Salon">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Salon@6bf256fa]" name="beforeClass" is-config="true" duration-ms="2686" started-at="2018-06-03T05:43:29Z" finished-at="2018-06-03T05:43:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="lectureTest()[pri:0, instance:TestCase.ActivityTest.Lecture@2f7a2457]" name="lectureTest" duration-ms="3793" started-at="2018-05-22T13:29:02Z" finished-at="2018-05-22T13:29:06Z">
+        <test-method status="PASS" signature="salonTest()[pri:0, instance:TestCase.ActivityTest.Salon@6bf256fa]" name="salonTest" duration-ms="3741" started-at="2018-06-03T05:43:32Z" finished-at="2018-06-03T05:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salonTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Salon@6bf256fa]" name="afterClass" is-config="true" duration-ms="815" started-at="2018-06-03T05:43:36Z" finished-at="2018-06-03T05:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ActivityTest.Salon -->
+      <class name="TestCase.ActivityTest.Lecture">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ActivityTest.Lecture@566776ad]" name="beforeClass" is-config="true" duration-ms="2423" started-at="2018-06-03T05:43:09Z" finished-at="2018-06-03T05:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="lectureTest()[pri:0, instance:TestCase.ActivityTest.Lecture@566776ad]" name="lectureTest" duration-ms="3487" started-at="2018-06-03T05:43:12Z" finished-at="2018-06-03T05:43:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lectureTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Lecture@2f7a2457]" name="afterClass" is-config="true" duration-ms="749" started-at="2018-05-22T13:29:06Z" finished-at="2018-05-22T13:29:07Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ActivityTest.Lecture@566776ad]" name="afterClass" is-config="true" duration-ms="725" started-at="2018-06-03T05:43:15Z" finished-at="2018-06-03T05:43:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ActivityTest.Lecture -->
     </test> <!-- ActivityTest -->
-    <test name="InfoTest" duration-ms="45099" started-at="2018-05-22T13:29:37Z" finished-at="2018-05-22T13:30:22Z">
+    <test name="InfoTest" duration-ms="29434" started-at="2018-06-03T05:43:37Z" finished-at="2018-06-03T05:44:06Z">
       <class name="TestCase.InfoTest.ResourceDynamics">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.InfoTest.ResourceDynamics@380fb434]" name="beforeClass" is-config="true" duration-ms="6010" started-at="2018-05-22T13:30:09Z" finished-at="2018-05-22T13:30:15Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.InfoTest.ResourceDynamics@668bc3d5]" name="beforeClass" is-config="true" duration-ms="2455" started-at="2018-06-03T05:43:57Z" finished-at="2018-06-03T05:44:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="resourceDynamicsTest()[pri:0, instance:TestCase.InfoTest.ResourceDynamics@380fb434]" name="resourceDynamicsTest" duration-ms="6838" started-at="2018-05-22T13:30:15Z" finished-at="2018-05-22T13:30:22Z">
+        <test-method status="PASS" signature="resourceDynamicsTest()[pri:0, instance:TestCase.InfoTest.ResourceDynamics@668bc3d5]" name="resourceDynamicsTest" duration-ms="5879" started-at="2018-06-03T05:44:00Z" finished-at="2018-06-03T05:44:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourceDynamicsTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.InfoTest.ResourceDynamics@380fb434]" name="afterClass" is-config="true" duration-ms="742" started-at="2018-05-22T13:30:22Z" finished-at="2018-05-22T13:30:22Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.InfoTest.ResourceDynamics@668bc3d5]" name="afterClass" is-config="true" duration-ms="744" started-at="2018-06-03T05:44:05Z" finished-at="2018-06-03T05:44:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.InfoTest.ResourceDynamics -->
       <class name="TestCase.InfoTest.Notice">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.InfoTest.Notice@5ebec15]" name="beforeClass" is-config="true" duration-ms="5179" started-at="2018-05-22T13:29:37Z" finished-at="2018-05-22T13:29:42Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.InfoTest.Notice@21bcffb5]" name="beforeClass" is-config="true" duration-ms="3306" started-at="2018-06-03T05:43:37Z" finished-at="2018-06-03T05:43:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="noticeTest()[pri:0, instance:TestCase.InfoTest.Notice@5ebec15]" name="noticeTest" duration-ms="4200" started-at="2018-05-22T13:29:42Z" finished-at="2018-05-22T13:29:47Z">
+        <test-method status="PASS" signature="noticeTest()[pri:0, instance:TestCase.InfoTest.Notice@21bcffb5]" name="noticeTest" duration-ms="4669" started-at="2018-06-03T05:43:40Z" finished-at="2018-06-03T05:43:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- noticeTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.InfoTest.Notice@5ebec15]" name="afterClass" is-config="true" duration-ms="740" started-at="2018-05-22T13:29:47Z" finished-at="2018-05-22T13:29:47Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.InfoTest.Notice@21bcffb5]" name="afterClass" is-config="true" duration-ms="727" started-at="2018-06-03T05:43:45Z" finished-at="2018-06-03T05:43:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.InfoTest.Notice -->
       <class name="TestCase.InfoTest.RealTimeInfo">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.InfoTest.RealTimeInfo@21bcffb5]" name="beforeClass" is-config="true" duration-ms="9296" started-at="2018-05-22T13:29:47Z" finished-at="2018-05-22T13:29:57Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.InfoTest.RealTimeInfo@380fb434]" name="beforeClass" is-config="true" duration-ms="2771" started-at="2018-06-03T05:43:45Z" finished-at="2018-06-03T05:43:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="realTimeInfoTest()[pri:0, instance:TestCase.InfoTest.RealTimeInfo@21bcffb5]" name="realTimeInfoTest" duration-ms="11350" started-at="2018-05-22T13:29:57Z" finished-at="2018-05-22T13:30:08Z">
+        <test-method status="PASS" signature="realTimeInfoTest()[pri:0, instance:TestCase.InfoTest.RealTimeInfo@380fb434]" name="realTimeInfoTest" duration-ms="8124" started-at="2018-06-03T05:43:48Z" finished-at="2018-06-03T05:43:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- realTimeInfoTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.InfoTest.RealTimeInfo@21bcffb5]" name="afterClass" is-config="true" duration-ms="743" started-at="2018-05-22T13:30:08Z" finished-at="2018-05-22T13:30:09Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.InfoTest.RealTimeInfo@380fb434]" name="afterClass" is-config="true" duration-ms="755" started-at="2018-06-03T05:43:56Z" finished-at="2018-06-03T05:43:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.InfoTest.RealTimeInfo -->
     </test> <!-- InfoTest -->
-    <test name="LearningCenterTest" duration-ms="104610" started-at="2018-05-22T13:30:22Z" finished-at="2018-05-22T13:32:07Z">
+    <test name="LearningCenterTest" duration-ms="102790" started-at="2018-06-03T05:44:06Z" finished-at="2018-06-03T05:45:49Z">
       <class name="TestCase.LearningCenterTest.EddieCorsonMedia">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonMedia@3b81a1bc]" name="beforeClass" is-config="true" duration-ms="5159" started-at="2018-05-22T13:30:38Z" finished-at="2018-05-22T13:30:43Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonMedia@64616ca2]" name="beforeClass" is-config="true" duration-ms="2518" started-at="2018-06-03T05:44:14Z" finished-at="2018-06-03T05:44:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="eddieCorsonMediaTest()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonMedia@3b81a1bc]" name="eddieCorsonMediaTest" duration-ms="3329" started-at="2018-05-22T13:30:43Z" finished-at="2018-05-22T13:30:47Z">
+        <test-method status="PASS" signature="eddieCorsonMediaTest()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonMedia@64616ca2]" name="eddieCorsonMediaTest" duration-ms="6256" started-at="2018-06-03T05:44:16Z" finished-at="2018-06-03T05:44:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eddieCorsonMediaTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonMedia@3b81a1bc]" name="afterClass" is-config="true" duration-ms="819" started-at="2018-05-22T13:30:47Z" finished-at="2018-05-22T13:30:47Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonMedia@64616ca2]" name="afterClass" is-config="true" duration-ms="803" started-at="2018-06-03T05:44:23Z" finished-at="2018-06-03T05:44:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.LearningCenterTest.EddieCorsonMedia -->
       <class name="TestCase.LearningCenterTest.EddieCorsonReportingHall">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonReportingHall@64616ca2]" name="beforeClass" is-config="true" duration-ms="9452" started-at="2018-05-22T13:30:47Z" finished-at="2018-05-22T13:30:57Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonReportingHall@13fee20c]" name="beforeClass" is-config="true" duration-ms="2705" started-at="2018-06-03T05:44:23Z" finished-at="2018-06-03T05:44:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="eddieCorsonReportingHallTest()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonReportingHall@64616ca2]" name="eddieCorsonReportingHallTest" duration-ms="3050" started-at="2018-05-22T13:30:57Z" finished-at="2018-05-22T13:31:00Z">
+        <test-method status="FAIL" signature="eddieCorsonReportingHallTest()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonReportingHall@13fee20c]" name="eddieCorsonReportingHallTest" duration-ms="4264" started-at="2018-06-03T05:44:26Z" finished-at="2018-06-03T05:44:30Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[网页标题与预期不符合 expected [爱迪科森网上报告厅] but found [无法找到资源。]]]>
@@ -229,203 +229,342 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eddieCorsonReportingHallTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonReportingHall@64616ca2]" name="afterClass" is-config="true" duration-ms="783" started-at="2018-05-22T13:31:00Z" finished-at="2018-05-22T13:31:01Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.EddieCorsonReportingHall@13fee20c]" name="afterClass" is-config="true" duration-ms="750" started-at="2018-06-03T05:44:30Z" finished-at="2018-06-03T05:44:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.LearningCenterTest.EddieCorsonReportingHall -->
       <class name="TestCase.LearningCenterTest.StartPoint">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.StartPoint@735f7ae5]" name="beforeClass" is-config="true" duration-ms="4105" started-at="2018-05-22T13:31:53Z" finished-at="2018-05-22T13:31:57Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.StartPoint@180bc464]" name="beforeClass" is-config="true" duration-ms="2373" started-at="2018-06-03T05:45:41Z" finished-at="2018-06-03T05:45:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="startPointTest()[pri:0, instance:TestCase.LearningCenterTest.StartPoint@735f7ae5]" name="startPointTest" duration-ms="9168" started-at="2018-05-22T13:31:57Z" finished-at="2018-05-22T13:32:06Z">
+        <test-method status="PASS" signature="startPointTest()[pri:0, instance:TestCase.LearningCenterTest.StartPoint@180bc464]" name="startPointTest" duration-ms="4927" started-at="2018-06-03T05:45:43Z" finished-at="2018-06-03T05:45:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startPointTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.StartPoint@735f7ae5]" name="afterClass" is-config="true" duration-ms="795" started-at="2018-05-22T13:32:06Z" finished-at="2018-05-22T13:32:07Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.StartPoint@180bc464]" name="afterClass" is-config="true" duration-ms="803" started-at="2018-06-03T05:45:48Z" finished-at="2018-06-03T05:45:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.LearningCenterTest.StartPoint -->
       <class name="TestCase.LearningCenterTest.Credit">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.Credit@5f2050f6]" name="beforeClass" is-config="true" duration-ms="6116" started-at="2018-05-22T13:30:22Z" finished-at="2018-05-22T13:30:28Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.Credit@3b81a1bc]" name="beforeClass" is-config="true" duration-ms="2625" started-at="2018-06-03T05:44:06Z" finished-at="2018-06-03T05:44:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="creditTest()[pri:0, instance:TestCase.LearningCenterTest.Credit@5f2050f6]" name="creditTest" duration-ms="8910" started-at="2018-05-22T13:30:28Z" finished-at="2018-05-22T13:30:37Z">
+        <test-method status="PASS" signature="creditTest()[pri:0, instance:TestCase.LearningCenterTest.Credit@3b81a1bc]" name="creditTest" duration-ms="4371" started-at="2018-06-03T05:44:09Z" finished-at="2018-06-03T05:44:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creditTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.Credit@5f2050f6]" name="afterClass" is-config="true" duration-ms="765" started-at="2018-05-22T13:30:37Z" finished-at="2018-05-22T13:30:38Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.Credit@3b81a1bc]" name="afterClass" is-config="true" duration-ms="732" started-at="2018-06-03T05:44:13Z" finished-at="2018-06-03T05:44:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.LearningCenterTest.Credit -->
       <class name="TestCase.LearningCenterTest.LearningCenterOL">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.LearningCenterOL@13fee20c]" name="beforeClass" is-config="true" duration-ms="6689" started-at="2018-05-22T13:31:01Z" finished-at="2018-05-22T13:31:07Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.LearningCenterOL@4e04a765]" name="beforeClass" is-config="true" duration-ms="9377" started-at="2018-06-03T05:44:31Z" finished-at="2018-06-03T05:44:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="learningCenterOLTest()[pri:0, instance:TestCase.LearningCenterTest.LearningCenterOL@13fee20c]" name="learningCenterOLTest" duration-ms="9861" started-at="2018-05-22T13:31:07Z" finished-at="2018-05-22T13:31:17Z">
+        <test-method status="PASS" signature="learningCenterOLTest()[pri:0, instance:TestCase.LearningCenterTest.LearningCenterOL@4e04a765]" name="learningCenterOLTest" duration-ms="15089" started-at="2018-06-03T05:44:41Z" finished-at="2018-06-03T05:44:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learningCenterOLTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.LearningCenterOL@13fee20c]" name="afterClass" is-config="true" duration-ms="764" started-at="2018-05-22T13:31:17Z" finished-at="2018-05-22T13:31:18Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.LearningCenterOL@4e04a765]" name="afterClass" is-config="true" duration-ms="776" started-at="2018-06-03T05:44:56Z" finished-at="2018-06-03T05:44:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.LearningCenterTest.LearningCenterOL -->
       <class name="TestCase.LearningCenterTest.Mooc">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.Mooc@4e04a765]" name="beforeClass" is-config="true" duration-ms="5039" started-at="2018-05-22T13:31:18Z" finished-at="2018-05-22T13:31:23Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.Mooc@783e6358]" name="beforeClass" is-config="true" duration-ms="13204" started-at="2018-06-03T05:44:56Z" finished-at="2018-06-03T05:45:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="moocTest()[pri:0, instance:TestCase.LearningCenterTest.Mooc@4e04a765]" name="moocTest" duration-ms="4894" started-at="2018-05-22T13:31:23Z" finished-at="2018-05-22T13:31:28Z">
+        <test-method status="PASS" signature="moocTest()[pri:0, instance:TestCase.LearningCenterTest.Mooc@783e6358]" name="moocTest" duration-ms="8228" started-at="2018-06-03T05:45:10Z" finished-at="2018-06-03T05:45:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moocTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.Mooc@4e04a765]" name="afterClass" is-config="true" duration-ms="767" started-at="2018-05-22T13:31:28Z" finished-at="2018-05-22T13:31:29Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.Mooc@783e6358]" name="afterClass" is-config="true" duration-ms="732" started-at="2018-06-03T05:45:18Z" finished-at="2018-06-03T05:45:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.LearningCenterTest.Mooc -->
       <class name="TestCase.LearningCenterTest.MultimediaAccountingVideo">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.MultimediaAccountingVideo@783e6358]" name="beforeClass" is-config="true" duration-ms="8142" started-at="2018-05-22T13:31:29Z" finished-at="2018-05-22T13:31:37Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.MultimediaAccountingVideo@17550481]" name="beforeClass" is-config="true" duration-ms="5541" started-at="2018-06-03T05:45:19Z" finished-at="2018-06-03T05:45:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="multimediaAccountingVideoTest()[pri:0, instance:TestCase.LearningCenterTest.MultimediaAccountingVideo@783e6358]" name="multimediaAccountingVideoTest" duration-ms="7034" started-at="2018-05-22T13:31:37Z" finished-at="2018-05-22T13:31:44Z">
+        <test-method status="FAIL" signature="multimediaAccountingVideoTest()[pri:0, instance:TestCase.LearningCenterTest.MultimediaAccountingVideo@17550481]" name="multimediaAccountingVideoTest" duration-ms="10123" started-at="2018-06-03T05:45:24Z" finished-at="2018-06-03T05:45:34Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"正保多媒体会计视频"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.3.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 225508cb71559a4214c76c5b52f918aa
+*** Element info: {Using=link text, value=正保多媒体会计视频}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"正保多媒体会计视频"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.3.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 225508cb71559a4214c76c5b52f918aa
+*** Element info: {Using=link text, value=正保多媒体会计视频}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:371)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at Utils.ActionBot.findElementByLinkText(ActionBot.java:48)
+at Utils.ActionBot.clickByLinkText(ActionBot.java:108)
+at PageObject.LearningCenterPage.goMultimediaAccountingVideo(LearningCenterPage.java:33)
+at TestCase.LearningCenterTest.MultimediaAccountingVideo.multimediaAccountingVideoTest(MultimediaAccountingVideo.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multimediaAccountingVideoTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.MultimediaAccountingVideo@783e6358]" name="afterClass" is-config="true" duration-ms="761" started-at="2018-05-22T13:31:44Z" finished-at="2018-05-22T13:31:45Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.MultimediaAccountingVideo@17550481]" name="afterClass" is-config="true" duration-ms="754" started-at="2018-06-03T05:45:34Z" finished-at="2018-06-03T05:45:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.LearningCenterTest.MultimediaAccountingVideo -->
       <class name="TestCase.LearningCenterTest.PublicAwareness">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.PublicAwareness@17550481]" name="beforeClass" is-config="true" duration-ms="5016" started-at="2018-05-22T13:31:45Z" finished-at="2018-05-22T13:31:50Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.LearningCenterTest.PublicAwareness@735f7ae5]" name="beforeClass" is-config="true" duration-ms="2494" started-at="2018-06-03T05:45:35Z" finished-at="2018-06-03T05:45:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="publicAwarenessTest()[pri:0, instance:TestCase.LearningCenterTest.PublicAwareness@17550481]" name="publicAwarenessTest" duration-ms="2431" started-at="2018-05-22T13:31:50Z" finished-at="2018-05-22T13:31:52Z">
+        <test-method status="PASS" signature="publicAwarenessTest()[pri:0, instance:TestCase.LearningCenterTest.PublicAwareness@735f7ae5]" name="publicAwarenessTest" duration-ms="2558" started-at="2018-06-03T05:45:38Z" finished-at="2018-06-03T05:45:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- publicAwarenessTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.PublicAwareness@17550481]" name="afterClass" is-config="true" duration-ms="752" started-at="2018-05-22T13:31:52Z" finished-at="2018-05-22T13:31:53Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.LearningCenterTest.PublicAwareness@735f7ae5]" name="afterClass" is-config="true" duration-ms="770" started-at="2018-06-03T05:45:40Z" finished-at="2018-06-03T05:45:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.LearningCenterTest.PublicAwareness -->
     </test> <!-- LearningCenterTest -->
-    <test name="RecommendationTest" duration-ms="19839" started-at="2018-05-22T13:32:07Z" finished-at="2018-05-22T13:32:27Z">
+    <test name="RecommendationTest" duration-ms="17928" started-at="2018-06-03T05:45:49Z" finished-at="2018-06-03T05:46:07Z">
       <class name="TestCase.RecommendationTest.NewArrivals">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.RecommendationTest.NewArrivals@5d624da6]" name="beforeClass" is-config="true" duration-ms="5394" started-at="2018-05-22T13:32:07Z" finished-at="2018-05-22T13:32:12Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.RecommendationTest.NewArrivals@1e67b872]" name="beforeClass" is-config="true" duration-ms="2355" started-at="2018-06-03T05:45:49Z" finished-at="2018-06-03T05:45:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="newArrivalsTest()[pri:0, instance:TestCase.RecommendationTest.NewArrivals@5d624da6]" name="newArrivalsTest" duration-ms="1065" started-at="2018-05-22T13:32:12Z" finished-at="2018-05-22T13:32:13Z">
+        <test-method status="PASS" signature="newArrivalsTest()[pri:0, instance:TestCase.RecommendationTest.NewArrivals@1e67b872]" name="newArrivalsTest" duration-ms="1320" started-at="2018-06-03T05:45:51Z" finished-at="2018-06-03T05:45:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newArrivalsTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.RecommendationTest.NewArrivals@5d624da6]" name="afterClass" is-config="true" duration-ms="754" started-at="2018-05-22T13:32:13Z" finished-at="2018-05-22T13:32:14Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.RecommendationTest.NewArrivals@1e67b872]" name="afterClass" is-config="true" duration-ms="689" started-at="2018-06-03T05:45:53Z" finished-at="2018-06-03T05:45:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.RecommendationTest.NewArrivals -->
       <class name="TestCase.RecommendationTest.ThemeRecommendation">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.RecommendationTest.ThemeRecommendation@1e67b872]" name="beforeClass" is-config="true" duration-ms="5165" started-at="2018-05-22T13:32:14Z" finished-at="2018-05-22T13:32:19Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.RecommendationTest.ThemeRecommendation@60addb54]" name="beforeClass" is-config="true" duration-ms="3105" started-at="2018-06-03T05:45:53Z" finished-at="2018-06-03T05:45:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="themeRecommendationTest()[pri:0, instance:TestCase.RecommendationTest.ThemeRecommendation@1e67b872]" name="themeRecommendationTest" duration-ms="6684" started-at="2018-05-22T13:32:19Z" finished-at="2018-05-22T13:32:26Z">
+        <test-method status="PASS" signature="themeRecommendationTest()[pri:0, instance:TestCase.RecommendationTest.ThemeRecommendation@60addb54]" name="themeRecommendationTest" duration-ms="9680" started-at="2018-06-03T05:45:56Z" finished-at="2018-06-03T05:46:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- themeRecommendationTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.RecommendationTest.ThemeRecommendation@1e67b872]" name="afterClass" is-config="true" duration-ms="777" started-at="2018-05-22T13:32:26Z" finished-at="2018-05-22T13:32:27Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.RecommendationTest.ThemeRecommendation@60addb54]" name="afterClass" is-config="true" duration-ms="777" started-at="2018-06-03T05:46:06Z" finished-at="2018-06-03T05:46:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.RecommendationTest.ThemeRecommendation -->
     </test> <!-- RecommendationTest -->
-    <test name="ResourceTest" duration-ms="182227" started-at="2018-05-22T13:32:27Z" finished-at="2018-05-22T13:35:29Z">
+    <test name="ResourceTest" duration-ms="144264" started-at="2018-06-03T05:46:07Z" finished-at="2018-06-03T05:48:31Z">
       <class name="TestCase.ResourceTest.ChineseIndexOrLiterature">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChineseIndexOrLiterature@3a03464]" name="beforeClass" is-config="true" duration-ms="5196" started-at="2018-05-22T13:32:54Z" finished-at="2018-05-22T13:32:59Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChineseIndexOrLiterature@2d3fcdbd]" name="beforeClass" is-config="true" duration-ms="2543" started-at="2018-06-03T05:46:14Z" finished-at="2018-06-03T05:46:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="chineseIndexOrLiteratureTest()[pri:0, instance:TestCase.ResourceTest.ChineseIndexOrLiterature@3a03464]" name="chineseIndexOrLiteratureTest" duration-ms="2345" started-at="2018-05-22T13:32:59Z" finished-at="2018-05-22T13:33:02Z">
+        <test-method status="PASS" signature="chineseIndexOrLiteratureTest()[pri:0, instance:TestCase.ResourceTest.ChineseIndexOrLiterature@2d3fcdbd]" name="chineseIndexOrLiteratureTest" duration-ms="1589" started-at="2018-06-03T05:46:16Z" finished-at="2018-06-03T05:46:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chineseIndexOrLiteratureTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChineseIndexOrLiterature@3a03464]" name="afterClass" is-config="true" duration-ms="766" started-at="2018-05-22T13:33:02Z" finished-at="2018-05-22T13:33:02Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChineseIndexOrLiterature@2d3fcdbd]" name="afterClass" is-config="true" duration-ms="725" started-at="2018-06-03T05:46:18Z" finished-at="2018-06-03T05:46:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ResourceTest.ChineseIndexOrLiterature -->
       <class name="TestCase.ResourceTest.OffcampusAccess">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.OffcampusAccess@54a097cc]" name="beforeClass" is-config="true" duration-ms="5184" started-at="2018-05-22T13:35:22Z" finished-at="2018-05-22T13:35:27Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.OffcampusAccess@36f6e879]" name="beforeClass" is-config="true" duration-ms="2300" started-at="2018-06-03T05:48:27Z" finished-at="2018-06-03T05:48:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="offcampusAccessTest()[pri:0, instance:TestCase.ResourceTest.OffcampusAccess@54a097cc]" name="offcampusAccessTest" duration-ms="976" started-at="2018-05-22T13:35:27Z" finished-at="2018-05-22T13:35:28Z">
+        <test-method status="PASS" signature="offcampusAccessTest()[pri:0, instance:TestCase.ResourceTest.OffcampusAccess@36f6e879]" name="offcampusAccessTest" duration-ms="872" started-at="2018-06-03T05:48:30Z" finished-at="2018-06-03T05:48:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- offcampusAccessTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.OffcampusAccess@54a097cc]" name="afterClass" is-config="true" duration-ms="731" started-at="2018-05-22T13:35:28Z" finished-at="2018-05-22T13:35:29Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.OffcampusAccess@36f6e879]" name="afterClass" is-config="true" duration-ms="736" started-at="2018-06-03T05:48:30Z" finished-at="2018-06-03T05:48:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ResourceTest.OffcampusAccess -->
-      <class name="TestCase.ResourceTest.ElectronicBooks">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ElectronicBooks@366e2eef]" name="beforeClass" is-config="true" duration-ms="7143" started-at="2018-05-22T13:34:15Z" finished-at="2018-05-22T13:34:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="electronicBooksTest()[pri:0, instance:TestCase.ResourceTest.ElectronicBooks@366e2eef]" name="electronicBooksTest" duration-ms="2054" started-at="2018-05-22T13:34:22Z" finished-at="2018-05-22T13:34:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- electronicBooksTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ElectronicBooks@366e2eef]" name="afterClass" is-config="true" duration-ms="752" started-at="2018-05-22T13:34:24Z" finished-at="2018-05-22T13:34:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestCase.ResourceTest.ElectronicBooks -->
       <class name="TestCase.ResourceTest.ChinesePeriodicalNewspaper">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChinesePeriodicalNewspaper@6537cf78]" name="beforeClass" is-config="true" duration-ms="6180" started-at="2018-05-22T13:33:28Z" finished-at="2018-05-22T13:33:34Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChinesePeriodicalNewspaper@67b6d4ae]" name="beforeClass" is-config="true" duration-ms="2480" started-at="2018-06-03T05:46:37Z" finished-at="2018-06-03T05:46:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="chinesePeriodicalNewspaperTest()[pri:0, instance:TestCase.ResourceTest.ChinesePeriodicalNewspaper@6537cf78]" name="chinesePeriodicalNewspaperTest" duration-ms="9059" started-at="2018-05-22T13:33:34Z" finished-at="2018-05-22T13:33:43Z">
+        <test-method status="FAIL" signature="chinesePeriodicalNewspaperTest()[pri:0, instance:TestCase.ResourceTest.ChinesePeriodicalNewspaper@67b6d4ae]" name="chinesePeriodicalNewspaperTest" duration-ms="20874" started-at="2018-06-03T05:46:40Z" finished-at="2018-06-03T05:47:00Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.3.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 35def854297f96aa00f363757dd64929]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.3.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 35def854297f96aa00f363757dd64929
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:275)
+at Utils.ActionBot.getTitle(ActionBot.java:209)
+at Utils.ActionBot.titleAssert(ActionBot.java:294)
+at TestCase.ResourceTest.ChinesePeriodicalNewspaper.chinesePeriodicalNewspaperTest(ChinesePeriodicalNewspaper.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chinesePeriodicalNewspaperTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChinesePeriodicalNewspaper@6537cf78]" name="afterClass" is-config="true" duration-ms="758" started-at="2018-05-22T13:33:43Z" finished-at="2018-05-22T13:33:44Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChinesePeriodicalNewspaper@67b6d4ae]" name="afterClass" is-config="true" duration-ms="743" started-at="2018-06-03T05:47:00Z" finished-at="2018-06-03T05:47:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ResourceTest.ChinesePeriodicalNewspaper -->
-      <class name="TestCase.ResourceTest.DissertationsAndTheses">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.DissertationsAndTheses@34b7bfc0]" name="beforeClass" is-config="true" duration-ms="4250" started-at="2018-05-22T13:34:00Z" finished-at="2018-05-22T13:34:04Z">
+      <class name="TestCase.ResourceTest.ElectronicBooks">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ElectronicBooks@6df97b55]" name="beforeClass" is-config="true" duration-ms="2398" started-at="2018-06-03T05:47:39Z" finished-at="2018-06-03T05:47:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="dissertationsAndThesesTest()[pri:0, instance:TestCase.ResourceTest.DissertationsAndTheses@34b7bfc0]" name="dissertationsAndThesesTest" duration-ms="10372" started-at="2018-05-22T13:34:04Z" finished-at="2018-05-22T13:34:14Z">
+        <test-method status="PASS" signature="electronicBooksTest()[pri:0, instance:TestCase.ResourceTest.ElectronicBooks@6df97b55]" name="electronicBooksTest" duration-ms="1951" started-at="2018-06-03T05:47:41Z" finished-at="2018-06-03T05:47:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- electronicBooksTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ElectronicBooks@6df97b55]" name="afterClass" is-config="true" duration-ms="729" started-at="2018-06-03T05:47:43Z" finished-at="2018-06-03T05:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ElectronicBooks -->
+      <class name="TestCase.ResourceTest.DissertationsAndTheses">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.DissertationsAndTheses@366e2eef]" name="beforeClass" is-config="true" duration-ms="2249" started-at="2018-06-03T05:47:26Z" finished-at="2018-06-03T05:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="dissertationsAndThesesTest()[pri:0, instance:TestCase.ResourceTest.DissertationsAndTheses@366e2eef]" name="dissertationsAndThesesTest" duration-ms="10229" started-at="2018-06-03T05:47:28Z" finished-at="2018-06-03T05:47:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dissertationsAndThesesTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.DissertationsAndTheses@34b7bfc0]" name="afterClass" is-config="true" duration-ms="734" started-at="2018-05-22T13:34:14Z" finished-at="2018-05-22T13:34:15Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.DissertationsAndTheses@366e2eef]" name="afterClass" is-config="true" duration-ms="754" started-at="2018-06-03T05:47:38Z" finished-at="2018-06-03T05:47:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ResourceTest.DissertationsAndTheses -->
       <class name="TestCase.ResourceTest.ChinesePatentAndStandard">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChinesePatentAndStandard@617c74e5]" name="beforeClass" is-config="true" duration-ms="5072" started-at="2018-05-22T13:33:12Z" finished-at="2018-05-22T13:33:17Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChinesePatentAndStandard@6537cf78]" name="beforeClass" is-config="true" duration-ms="2227" started-at="2018-06-03T05:46:24Z" finished-at="2018-06-03T05:46:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="chinesePatentAndStandardTest()[pri:0, instance:TestCase.ResourceTest.ChinesePatentAndStandard@617c74e5]" name="chinesePatentAndStandardTest" duration-ms="10190" started-at="2018-05-22T13:33:17Z" finished-at="2018-05-22T13:33:27Z">
+        <test-method status="FAIL" signature="chinesePatentAndStandardTest()[pri:0, instance:TestCase.ResourceTest.ChinesePatentAndStandard@6537cf78]" name="chinesePatentAndStandardTest" duration-ms="10108" started-at="2018-06-03T05:46:26Z" finished-at="2018-06-03T05:46:36Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"中国专利数据库（万方）"}
@@ -434,10 +573,10 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.3.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
-Session ID: 264ddcb969a4fb8f113a8730b497a634
+Session ID: d86217ad912e0024772d21fbbd0e3b55
 *** Element info: {Using=link text, value=中国专利数据库（万方）}]]>
             </message>
             <full-stacktrace>
@@ -447,10 +586,10 @@ Session ID: 264ddcb969a4fb8f113a8730b497a634
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.3.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
-Session ID: 264ddcb969a4fb8f113a8730b497a634
+Session ID: d86217ad912e0024772d21fbbd0e3b55
 *** Element info: {Using=link text, value=中国专利数据库（万方）}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -502,31 +641,31 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chinesePatentAndStandardTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChinesePatentAndStandard@617c74e5]" name="afterClass" is-config="true" duration-ms="745" started-at="2018-05-22T13:33:27Z" finished-at="2018-05-22T13:33:28Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChinesePatentAndStandard@6537cf78]" name="afterClass" is-config="true" duration-ms="734" started-at="2018-06-03T05:46:36Z" finished-at="2018-06-03T05:46:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ResourceTest.ChinesePatentAndStandard -->
       <class name="TestCase.ResourceTest.MultimediaLearningLibrary">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.MultimediaLearningLibrary@7225790e]" name="beforeClass" is-config="true" duration-ms="9337" started-at="2018-05-22T13:35:09Z" finished-at="2018-05-22T13:35:18Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.MultimediaLearningLibrary@54a097cc]" name="beforeClass" is-config="true" duration-ms="2490" started-at="2018-06-03T05:48:20Z" finished-at="2018-06-03T05:48:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="multimediaLearningLibraryTest()[pri:0, instance:TestCase.ResourceTest.MultimediaLearningLibrary@7225790e]" name="multimediaLearningLibraryTest" duration-ms="3344" started-at="2018-05-22T13:35:18Z" finished-at="2018-05-22T13:35:21Z">
+        <test-method status="PASS" signature="multimediaLearningLibraryTest()[pri:0, instance:TestCase.ResourceTest.MultimediaLearningLibrary@54a097cc]" name="multimediaLearningLibraryTest" duration-ms="4208" started-at="2018-06-03T05:48:22Z" finished-at="2018-06-03T05:48:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multimediaLearningLibraryTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.MultimediaLearningLibrary@7225790e]" name="afterClass" is-config="true" duration-ms="775" started-at="2018-05-22T13:35:21Z" finished-at="2018-05-22T13:35:22Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.MultimediaLearningLibrary@54a097cc]" name="afterClass" is-config="true" duration-ms="759" started-at="2018-06-03T05:48:27Z" finished-at="2018-06-03T05:48:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ResourceTest.MultimediaLearningLibrary -->
       <class name="TestCase.ResourceTest.GlobalOpenCurriculumResources">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.GlobalOpenCurriculumResources@35fb3008]" name="beforeClass" is-config="true" duration-ms="4446" started-at="2018-05-22T13:34:43Z" finished-at="2018-05-22T13:34:47Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.GlobalOpenCurriculumResources@7225790e]" name="beforeClass" is-config="true" duration-ms="2437" started-at="2018-06-03T05:47:56Z" finished-at="2018-06-03T05:47:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="globalOpenCurriculumResourcesTest()[pri:0, instance:TestCase.ResourceTest.GlobalOpenCurriculumResources@35fb3008]" name="globalOpenCurriculumResourcesTest" duration-ms="20885" started-at="2018-05-22T13:34:47Z" finished-at="2018-05-22T13:35:08Z">
+        <test-method status="FAIL" signature="globalOpenCurriculumResourcesTest()[pri:0, instance:TestCase.ResourceTest.GlobalOpenCurriculumResources@7225790e]" name="globalOpenCurriculumResourcesTest" duration-ms="20991" started-at="2018-06-03T05:47:58Z" finished-at="2018-06-03T05:48:19Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[timeout
@@ -534,10 +673,10 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.3.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
-Session ID: 500b77e35be8c40da74d2315de7efc02]]>
+Session ID: 5b1bd0c0c00c094b982abdb7b7df0573]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: timeout
@@ -545,10 +684,10 @@ Session ID: 500b77e35be8c40da74d2315de7efc02]]>
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.3.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
-Session ID: 500b77e35be8c40da74d2315de7efc02
+Session ID: 5b1bd0c0c00c094b982abdb7b7df0573
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -596,17 +735,31 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalOpenCurriculumResourcesTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.GlobalOpenCurriculumResources@35fb3008]" name="afterClass" is-config="true" duration-ms="750" started-at="2018-05-22T13:35:08Z" finished-at="2018-05-22T13:35:09Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.GlobalOpenCurriculumResources@7225790e]" name="afterClass" is-config="true" duration-ms="767" started-at="2018-06-03T05:48:19Z" finished-at="2018-06-03T05:48:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ResourceTest.GlobalOpenCurriculumResources -->
       <class name="TestCase.ResourceTest.CharacteristicResources">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.CharacteristicResources@4909b8da]" name="beforeClass" is-config="true" duration-ms="5671" started-at="2018-05-22T13:32:27Z" finished-at="2018-05-22T13:32:32Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.CharacteristicResources@3a03464]" name="beforeClass" is-config="true" duration-ms="2415" started-at="2018-06-03T05:46:07Z" finished-at="2018-06-03T05:46:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="characteristicResourcesTest()[pri:0, instance:TestCase.ResourceTest.CharacteristicResources@4909b8da]" name="characteristicResourcesTest" duration-ms="20914" started-at="2018-05-22T13:32:32Z" finished-at="2018-05-22T13:32:53Z">
+        <test-method status="PASS" signature="characteristicResourcesTest()[pri:0, instance:TestCase.ResourceTest.CharacteristicResources@3a03464]" name="characteristicResourcesTest" duration-ms="3434" started-at="2018-06-03T05:46:09Z" finished-at="2018-06-03T05:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- characteristicResourcesTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.CharacteristicResources@3a03464]" name="afterClass" is-config="true" duration-ms="720" started-at="2018-06-03T05:46:13Z" finished-at="2018-06-03T05:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.CharacteristicResources -->
+      <class name="TestCase.ResourceTest.ChineseYearbook">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChineseYearbook@34b7bfc0]" name="beforeClass" is-config="true" duration-ms="2567" started-at="2018-06-03T05:47:01Z" finished-at="2018-06-03T05:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="chineseYearbookTest()[pri:0, instance:TestCase.ResourceTest.ChineseYearbook@34b7bfc0]" name="chineseYearbookTest" duration-ms="21070" started-at="2018-06-03T05:47:04Z" finished-at="2018-06-03T05:47:25Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[timeout
@@ -614,10 +767,10 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.3.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
-Session ID: 9ee73fb14f9445238a9a476cae904a7d]]>
+Session ID: 53698bbb9b8431e6270906835dbcfdee]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: timeout
@@ -625,10 +778,10 @@ Session ID: 9ee73fb14f9445238a9a476cae904a7d]]>
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.3.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
-Session ID: 9ee73fb14f9445238a9a476cae904a7d
+Session ID: 53698bbb9b8431e6270906835dbcfdee
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -642,10 +795,10 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:275)
-at Utils.ActionBot.getTitle(ActionBot.java:209)
-at Utils.ActionBot.titleAssert(ActionBot.java:294)
-at TestCase.ResourceTest.CharacteristicResources.characteristicResourcesTest(CharacteristicResources.java:25)
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:281)
+at Utils.ActionBot.getCurrentUrl(ActionBot.java:213)
+at Utils.ActionBot.urlAssert(ActionBot.java:303)
+at TestCase.ResourceTest.ChineseYearbook.chineseYearbookTest(ChineseYearbook.java:25)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -675,44 +828,158 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- characteristicResourcesTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.CharacteristicResources@4909b8da]" name="afterClass" is-config="true" duration-ms="757" started-at="2018-05-22T13:32:53Z" finished-at="2018-05-22T13:32:54Z">
+        </test-method> <!-- chineseYearbookTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChineseYearbook@34b7bfc0]" name="afterClass" is-config="true" duration-ms="698" started-at="2018-06-03T05:47:25Z" finished-at="2018-06-03T05:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- TestCase.ResourceTest.CharacteristicResources -->
-      <class name="TestCase.ResourceTest.ChineseYearbook">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChineseYearbook@67b6d4ae]" name="beforeClass" is-config="true" duration-ms="5121" started-at="2018-05-22T13:33:44Z" finished-at="2018-05-22T13:33:49Z">
+      </class> <!-- TestCase.ResourceTest.ChineseYearbook -->
+      <class name="TestCase.ResourceTest.ChineseNumericValueOrFact">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChineseNumericValueOrFact@617c74e5]" name="beforeClass" is-config="true" duration-ms="2406" started-at="2018-06-03T05:46:18Z" finished-at="2018-06-03T05:46:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="chineseYearbookTest()[pri:0, instance:TestCase.ResourceTest.ChineseYearbook@67b6d4ae]" name="chineseYearbookTest" duration-ms="10177" started-at="2018-05-22T13:33:49Z" finished-at="2018-05-22T13:33:59Z">
+        <test-method status="PASS" signature="chineseNumericValueOrFactTest()[pri:0, instance:TestCase.ResourceTest.ChineseNumericValueOrFact@617c74e5]" name="chineseNumericValueOrFactTest" duration-ms="2444" started-at="2018-06-03T05:46:21Z" finished-at="2018-06-03T05:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chineseNumericValueOrFactTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChineseNumericValueOrFact@617c74e5]" name="afterClass" is-config="true" duration-ms="747" started-at="2018-06-03T05:46:23Z" finished-at="2018-06-03T05:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ChineseNumericValueOrFact -->
+      <class name="TestCase.ResourceTest.FreeResources">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.FreeResources@35fb3008]" name="beforeClass" is-config="true" duration-ms="2248" started-at="2018-06-03T05:47:50Z" finished-at="2018-06-03T05:47:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="freeResourcesTest()[pri:0, instance:TestCase.ResourceTest.FreeResources@35fb3008]" name="freeResourcesTest" duration-ms="2465" started-at="2018-06-03T05:47:52Z" finished-at="2018-06-03T05:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeResourcesTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.FreeResources@35fb3008]" name="afterClass" is-config="true" duration-ms="764" started-at="2018-06-03T05:47:55Z" finished-at="2018-06-03T05:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.FreeResources -->
+      <class name="TestCase.ResourceTest.ForeignElectronicPeriodicals">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ForeignElectronicPeriodicals@3cbbc1e0]" name="beforeClass" is-config="true" duration-ms="2443" started-at="2018-06-03T05:47:44Z" finished-at="2018-06-03T05:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="foreignElectronicPeriodicalsTest()[pri:0, instance:TestCase.ResourceTest.ForeignElectronicPeriodicals@3cbbc1e0]" name="foreignElectronicPeriodicalsTest" duration-ms="3175" started-at="2018-06-03T05:47:46Z" finished-at="2018-06-03T05:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foreignElectronicPeriodicalsTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ForeignElectronicPeriodicals@3cbbc1e0]" name="afterClass" is-config="true" duration-ms="742" started-at="2018-06-03T05:47:49Z" finished-at="2018-06-03T05:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ResourceTest.ForeignElectronicPeriodicals -->
+    </test> <!-- ResourceTest -->
+    <test name="ServiceTest" duration-ms="88499" started-at="2018-06-03T05:48:31Z" finished-at="2018-06-03T05:50:00Z">
+      <class name="TestCase.ServiceTest.PatentService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.PatentService@7f560810]" name="beforeClass" is-config="true" duration-ms="9957" started-at="2018-06-03T05:49:05Z" finished-at="2018-06-03T05:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="patentServicekTest()[pri:0, instance:TestCase.ServiceTest.PatentService@7f560810]" name="patentServicekTest" duration-ms="1208" started-at="2018-06-03T05:49:15Z" finished-at="2018-06-03T05:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patentServicekTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.PatentService@7f560810]" name="afterClass" is-config="true" duration-ms="761" started-at="2018-06-03T05:49:16Z" finished-at="2018-06-03T05:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.PatentService -->
+      <class name="TestCase.ServiceTest.SubjectService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.SubjectService@337d0578]" name="beforeClass" is-config="true" duration-ms="2314" started-at="2018-06-03T05:49:41Z" finished-at="2018-06-03T05:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="subjectServiceTest()[pri:0, instance:TestCase.ServiceTest.SubjectService@337d0578]" name="subjectServiceTest" duration-ms="11029" started-at="2018-06-03T05:49:44Z" finished-at="2018-06-03T05:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subjectServiceTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.SubjectService@337d0578]" name="afterClass" is-config="true" duration-ms="786" started-at="2018-06-03T05:49:55Z" finished-at="2018-06-03T05:49:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.SubjectService -->
+      <class name="TestCase.ServiceTest.QuestionAnswer">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.QuestionAnswer@69d9c55]" name="beforeClass" is-config="true" duration-ms="3531" started-at="2018-06-03T05:49:17Z" finished-at="2018-06-03T05:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="questionAnswerTest()[pri:0, instance:TestCase.ServiceTest.QuestionAnswer@69d9c55]" name="questionAnswerTest" duration-ms="1399" started-at="2018-06-03T05:49:20Z" finished-at="2018-06-03T05:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- questionAnswerTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.QuestionAnswer@69d9c55]" name="afterClass" is-config="true" duration-ms="706" started-at="2018-06-03T05:49:22Z" finished-at="2018-06-03T05:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.QuestionAnswer -->
+      <class name="TestCase.ServiceTest.CheckAndCheck">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.CheckAndCheck@3dd3bcd]" name="beforeClass" is-config="true" duration-ms="10195" started-at="2018-06-03T05:48:31Z" finished-at="2018-06-03T05:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="checkAndCheckTest()[pri:0, instance:TestCase.ServiceTest.CheckAndCheck@3dd3bcd]" name="checkAndCheckTest" duration-ms="1392" started-at="2018-06-03T05:48:41Z" finished-at="2018-06-03T05:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAndCheckTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.CheckAndCheck@3dd3bcd]" name="afterClass" is-config="true" duration-ms="747" started-at="2018-06-03T05:48:43Z" finished-at="2018-06-03T05:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.CheckAndCheck -->
+      <class name="TestCase.ServiceTest.TeachingAndTraining">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.TeachingAndTraining@59e84876]" name="beforeClass" is-config="true" duration-ms="2207" started-at="2018-06-03T05:49:56Z" finished-at="2018-06-03T05:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="teachingAndTrainingTest()[pri:0, instance:TestCase.ServiceTest.TeachingAndTraining@59e84876]" name="teachingAndTrainingTest" duration-ms="1194" started-at="2018-06-03T05:49:58Z" finished-at="2018-06-03T05:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teachingAndTrainingTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.TeachingAndTraining@59e84876]" name="afterClass" is-config="true" duration-ms="742" started-at="2018-06-03T05:49:59Z" finished-at="2018-06-03T05:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.ServiceTest.TeachingAndTraining -->
+      <class name="TestCase.ServiceTest.ReaderService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.ReaderService@13a57a3b]" name="beforeClass" is-config="true" duration-ms="2381" started-at="2018-06-03T05:49:22Z" finished-at="2018-06-03T05:49:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="readerServiceTest()[pri:0, instance:TestCase.ServiceTest.ReaderService@13a57a3b]" name="readerServiceTest" duration-ms="10105" started-at="2018-06-03T05:49:25Z" finished-at="2018-06-03T05:49:35Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"中国知网年鉴数据库（2013年－2016年）"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[5]/div[2]/a[1]/img"}
   (Session info: chrome=66.0.3359.181)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.3.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
-Session ID: 30cbd55fe6f76d5afcabd6083d0df665
-*** Element info: {Using=link text, value=中国知网年鉴数据库（2013年－2016年）}]]>
+Session ID: fd0135702bf1452868ffac62654e80d3
+*** Element info: {Using=xpath, value=/html/body/div[3]/div[5]/div[2]/a[1]/img}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"中国知网年鉴数据库（2013年－2016年）"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div[5]/div[2]/a[1]/img"}
   (Session info: chrome=66.0.3359.181)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-9K58VOG', ip: '10.184.5.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+System info: host: 'DESKTOP-9K58VOG', ip: '10.184.3.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\GoldOil\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
-Session ID: 30cbd55fe6f76d5afcabd6083d0df665
-*** Element info: {Using=link text, value=中国知网年鉴数据库（2013年－2016年）}
+Session ID: fd0135702bf1452868ffac62654e80d3
+*** Element info: {Using=xpath, value=/html/body/div[3]/div[5]/div[2]/a[1]/img}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -726,13 +993,13 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:371)
-at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-at Utils.ActionBot.findElementByLinkText(ActionBot.java:48)
-at Utils.ActionBot.clickByLinkText(ActionBot.java:108)
-at PageObject.ResourcePage.goChineseYearbook(ResourcePage.java:39)
-at TestCase.ResourceTest.ChineseYearbook.chineseYearbookTest(ChineseYearbook.java:23)
+at Utils.ActionBot.findElemetnByXpath(ActionBot.java:58)
+at Utils.ActionBot.clickByXpath(ActionBot.java:118)
+at PageObject.ServicePage.goCollectionDistribution(ServicePage.java:80)
+at TestCase.ServiceTest.ReaderService.readerServiceTest(ReaderService.java:24)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -762,192 +1029,104 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chineseYearbookTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChineseYearbook@67b6d4ae]" name="afterClass" is-config="true" duration-ms="737" started-at="2018-05-22T13:33:59Z" finished-at="2018-05-22T13:34:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestCase.ResourceTest.ChineseYearbook -->
-      <class name="TestCase.ResourceTest.ChineseNumericValueOrFact">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ChineseNumericValueOrFact@2d3fcdbd]" name="beforeClass" is-config="true" duration-ms="5005" started-at="2018-05-22T13:33:02Z" finished-at="2018-05-22T13:33:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="chineseNumericValueOrFactTest()[pri:0, instance:TestCase.ResourceTest.ChineseNumericValueOrFact@2d3fcdbd]" name="chineseNumericValueOrFactTest" duration-ms="3361" started-at="2018-05-22T13:33:07Z" finished-at="2018-05-22T13:33:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chineseNumericValueOrFactTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ChineseNumericValueOrFact@2d3fcdbd]" name="afterClass" is-config="true" duration-ms="734" started-at="2018-05-22T13:33:11Z" finished-at="2018-05-22T13:33:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestCase.ResourceTest.ChineseNumericValueOrFact -->
-      <class name="TestCase.ResourceTest.FreeResources">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.FreeResources@3cbbc1e0]" name="beforeClass" is-config="true" duration-ms="5463" started-at="2018-05-22T13:34:34Z" finished-at="2018-05-22T13:34:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="freeResourcesTest()[pri:0, instance:TestCase.ResourceTest.FreeResources@3cbbc1e0]" name="freeResourcesTest" duration-ms="2413" started-at="2018-05-22T13:34:39Z" finished-at="2018-05-22T13:34:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- freeResourcesTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.FreeResources@3cbbc1e0]" name="afterClass" is-config="true" duration-ms="774" started-at="2018-05-22T13:34:42Z" finished-at="2018-05-22T13:34:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestCase.ResourceTest.FreeResources -->
-      <class name="TestCase.ResourceTest.ForeignElectronicPeriodicals">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ResourceTest.ForeignElectronicPeriodicals@6df97b55]" name="beforeClass" is-config="true" duration-ms="4016" started-at="2018-05-22T13:34:25Z" finished-at="2018-05-22T13:34:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="foreignElectronicPeriodicalsTest()[pri:0, instance:TestCase.ResourceTest.ForeignElectronicPeriodicals@6df97b55]" name="foreignElectronicPeriodicalsTest" duration-ms="4270" started-at="2018-05-22T13:34:29Z" finished-at="2018-05-22T13:34:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- foreignElectronicPeriodicalsTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ResourceTest.ForeignElectronicPeriodicals@6df97b55]" name="afterClass" is-config="true" duration-ms="749" started-at="2018-05-22T13:34:33Z" finished-at="2018-05-22T13:34:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestCase.ResourceTest.ForeignElectronicPeriodicals -->
-    </test> <!-- ResourceTest -->
-    <test name="ServiceTest" duration-ms="103072" started-at="2018-05-22T13:35:29Z" finished-at="2018-05-22T13:37:12Z">
-      <class name="TestCase.ServiceTest.PatentService">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.PatentService@153f5a29]" name="beforeClass" is-config="true" duration-ms="10081" started-at="2018-05-22T13:36:21Z" finished-at="2018-05-22T13:36:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="patentServicekTest()[pri:0, instance:TestCase.ServiceTest.PatentService@153f5a29]" name="patentServicekTest" duration-ms="2303" started-at="2018-05-22T13:36:31Z" finished-at="2018-05-22T13:36:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- patentServicekTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.PatentService@153f5a29]" name="afterClass" is-config="true" duration-ms="755" started-at="2018-05-22T13:36:33Z" finished-at="2018-05-22T13:36:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestCase.ServiceTest.PatentService -->
-      <class name="TestCase.ServiceTest.SubjectService">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.SubjectService@7ca48474]" name="beforeClass" is-config="true" duration-ms="2775" started-at="2018-05-22T13:36:54Z" finished-at="2018-05-22T13:36:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="subjectServiceTest()[pri:0, instance:TestCase.ServiceTest.SubjectService@7ca48474]" name="subjectServiceTest" duration-ms="9748" started-at="2018-05-22T13:36:57Z" finished-at="2018-05-22T13:37:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subjectServiceTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.SubjectService@7ca48474]" name="afterClass" is-config="true" duration-ms="801" started-at="2018-05-22T13:37:07Z" finished-at="2018-05-22T13:37:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestCase.ServiceTest.SubjectService -->
-      <class name="TestCase.ServiceTest.QuestionAnswer">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.QuestionAnswer@7f560810]" name="beforeClass" is-config="true" duration-ms="2426" started-at="2018-05-22T13:36:34Z" finished-at="2018-05-22T13:36:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="questionAnswerTest()[pri:0, instance:TestCase.ServiceTest.QuestionAnswer@7f560810]" name="questionAnswerTest" duration-ms="2528" started-at="2018-05-22T13:36:36Z" finished-at="2018-05-22T13:36:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- questionAnswerTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.QuestionAnswer@7f560810]" name="afterClass" is-config="true" duration-ms="742" started-at="2018-05-22T13:36:39Z" finished-at="2018-05-22T13:36:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestCase.ServiceTest.QuestionAnswer -->
-      <class name="TestCase.ServiceTest.CheckAndCheck">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.CheckAndCheck@12843fce]" name="beforeClass" is-config="true" duration-ms="13599" started-at="2018-05-22T13:35:29Z" finished-at="2018-05-22T13:35:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="checkAndCheckTest()[pri:0, instance:TestCase.ServiceTest.CheckAndCheck@12843fce]" name="checkAndCheckTest" duration-ms="3098" started-at="2018-05-22T13:35:43Z" finished-at="2018-05-22T13:35:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkAndCheckTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.CheckAndCheck@12843fce]" name="afterClass" is-config="true" duration-ms="769" started-at="2018-05-22T13:35:46Z" finished-at="2018-05-22T13:35:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestCase.ServiceTest.CheckAndCheck -->
-      <class name="TestCase.ServiceTest.ReservationService">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.ReservationService@13a57a3b]" name="beforeClass" is-config="true" duration-ms="2612" started-at="2018-05-22T13:36:48Z" finished-at="2018-05-22T13:36:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="reservationServiceTest()[pri:0, instance:TestCase.ServiceTest.ReservationService@13a57a3b]" name="reservationServiceTest" duration-ms="2667" started-at="2018-05-22T13:36:51Z" finished-at="2018-05-22T13:36:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reservationServiceTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.ReservationService@13a57a3b]" name="afterClass" is-config="true" duration-ms="762" started-at="2018-05-22T13:36:53Z" finished-at="2018-05-22T13:36:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestCase.ServiceTest.ReservationService -->
-      <class name="TestCase.ServiceTest.ReaderService">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.ReaderService@69d9c55]" name="beforeClass" is-config="true" duration-ms="2397" started-at="2018-05-22T13:36:39Z" finished-at="2018-05-22T13:36:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="readerServiceTest()[pri:0, instance:TestCase.ServiceTest.ReaderService@69d9c55]" name="readerServiceTest" duration-ms="5512" started-at="2018-05-22T13:36:42Z" finished-at="2018-05-22T13:36:47Z">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- readerServiceTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.ReaderService@69d9c55]" name="afterClass" is-config="true" duration-ms="758" started-at="2018-05-22T13:36:47Z" finished-at="2018-05-22T13:36:48Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.ReaderService@13a57a3b]" name="afterClass" is-config="true" duration-ms="742" started-at="2018-06-03T05:49:35Z" finished-at="2018-06-03T05:49:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ServiceTest.ReaderService -->
-      <class name="TestCase.ServiceTest.TeachingAndTraining">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.TeachingAndTraining@337d0578]" name="beforeClass" is-config="true" duration-ms="2452" started-at="2018-05-22T13:37:07Z" finished-at="2018-05-22T13:37:10Z">
+      <class name="TestCase.ServiceTest.ReservationService">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.ReservationService@7ca48474]" name="beforeClass" is-config="true" duration-ms="2255" started-at="2018-06-03T05:49:35Z" finished-at="2018-06-03T05:49:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="teachingAndTrainingTest()[pri:0, instance:TestCase.ServiceTest.TeachingAndTraining@337d0578]" name="teachingAndTrainingTest" duration-ms="1563" started-at="2018-05-22T13:37:10Z" finished-at="2018-05-22T13:37:11Z">
+        <test-method status="PASS" signature="reservationServiceTest()[pri:0, instance:TestCase.ServiceTest.ReservationService@7ca48474]" name="reservationServiceTest" duration-ms="2984" started-at="2018-06-03T05:49:38Z" finished-at="2018-06-03T05:49:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teachingAndTrainingTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.TeachingAndTraining@337d0578]" name="afterClass" is-config="true" duration-ms="758" started-at="2018-05-22T13:37:11Z" finished-at="2018-05-22T13:37:12Z">
+        </test-method> <!-- reservationServiceTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.ReservationService@7ca48474]" name="afterClass" is-config="true" duration-ms="769" started-at="2018-06-03T05:49:41Z" finished-at="2018-06-03T05:49:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- TestCase.ServiceTest.TeachingAndTraining -->
+      </class> <!-- TestCase.ServiceTest.ReservationService -->
       <class name="TestCase.ServiceTest.NoveltySearch">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.NoveltySearch@26f67b76]" name="beforeClass" is-config="true" duration-ms="9999" started-at="2018-05-22T13:36:08Z" finished-at="2018-05-22T13:36:18Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.NoveltySearch@153f5a29]" name="beforeClass" is-config="true" duration-ms="9919" started-at="2018-06-03T05:48:53Z" finished-at="2018-06-03T05:49:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="noveltySearchTest()[pri:0, instance:TestCase.ServiceTest.NoveltySearch@26f67b76]" name="noveltySearchTest" duration-ms="1498" started-at="2018-05-22T13:36:18Z" finished-at="2018-05-22T13:36:20Z">
+        <test-method status="PASS" signature="noveltySearchTest()[pri:0, instance:TestCase.ServiceTest.NoveltySearch@153f5a29]" name="noveltySearchTest" duration-ms="1287" started-at="2018-06-03T05:49:03Z" finished-at="2018-06-03T05:49:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- noveltySearchTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.NoveltySearch@26f67b76]" name="afterClass" is-config="true" duration-ms="772" started-at="2018-05-22T13:36:20Z" finished-at="2018-05-22T13:36:21Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.NoveltySearch@153f5a29]" name="afterClass" is-config="true" duration-ms="728" started-at="2018-06-03T05:49:04Z" finished-at="2018-06-03T05:49:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ServiceTest.NoveltySearch -->
       <class name="TestCase.ServiceTest.InformationService">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.InformationService@97e1986]" name="beforeClass" is-config="true" duration-ms="4299" started-at="2018-05-22T13:35:59Z" finished-at="2018-05-22T13:36:03Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.InformationService@26f67b76]" name="beforeClass" is-config="true" duration-ms="2477" started-at="2018-06-03T05:48:48Z" finished-at="2018-06-03T05:48:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="informationServiceTest()[pri:0, instance:TestCase.ServiceTest.InformationService@97e1986]" name="informationServiceTest" duration-ms="4540" started-at="2018-05-22T13:36:03Z" finished-at="2018-05-22T13:36:08Z">
+        <test-method status="FAIL" signature="informationServiceTest()[pri:0, instance:TestCase.ServiceTest.InformationService@26f67b76]" name="informationServiceTest" duration-ms="1826" started-at="2018-06-03T05:48:50Z" finished-at="2018-06-03T05:48:52Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[网页url与预期不符合 expected [http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/18] but found [http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/16]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 网页url与预期不符合 expected [http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/18] but found [http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/16]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at Utils.ActionBot.urlAssert(ActionBot.java:303)
+at TestCase.ServiceTest.InformationService.informationServiceTest(InformationService.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- informationServiceTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.InformationService@97e1986]" name="afterClass" is-config="true" duration-ms="746" started-at="2018-05-22T13:36:08Z" finished-at="2018-05-22T13:36:08Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.InformationService@26f67b76]" name="afterClass" is-config="true" duration-ms="732" started-at="2018-06-03T05:48:52Z" finished-at="2018-06-03T05:48:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestCase.ServiceTest.InformationService -->
       <class name="TestCase.ServiceTest.DocumentDelivery">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.DocumentDelivery@3dd3bcd]" name="beforeClass" is-config="true" duration-ms="9337" started-at="2018-05-22T13:35:47Z" finished-at="2018-05-22T13:35:56Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCase.ServiceTest.DocumentDelivery@97e1986]" name="beforeClass" is-config="true" duration-ms="2447" started-at="2018-06-03T05:48:44Z" finished-at="2018-06-03T05:48:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="documentDeliveryTest()[pri:0, instance:TestCase.ServiceTest.DocumentDelivery@3dd3bcd]" name="documentDeliveryTest" duration-ms="2030" started-at="2018-05-22T13:35:56Z" finished-at="2018-05-22T13:35:58Z">
+        <test-method status="PASS" signature="documentDeliveryTest()[pri:0, instance:TestCase.ServiceTest.DocumentDelivery@97e1986]" name="documentDeliveryTest" duration-ms="926" started-at="2018-06-03T05:48:46Z" finished-at="2018-06-03T05:48:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- documentDeliveryTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.DocumentDelivery@3dd3bcd]" name="afterClass" is-config="true" duration-ms="739" started-at="2018-05-22T13:35:58Z" finished-at="2018-05-22T13:35:59Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCase.ServiceTest.DocumentDelivery@97e1986]" name="afterClass" is-config="true" duration-ms="733" started-at="2018-06-03T05:48:47Z" finished-at="2018-06-03T05:48:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

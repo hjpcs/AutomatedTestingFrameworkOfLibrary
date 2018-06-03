@@ -23,32 +23,32 @@ public class InformationService extends BaseTest {
         servicePage.goInformationService();
 
         jointReferencePage.clickScientificResearchSupportService();
-        actionBot.urlAssert("http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/16",
+        actionBot.urlAssert("http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/20",
                 "网页url与预期不符合");
         actionBot.browserBack();
 
         jointReferencePage.clickSubjectRetrievalAndProblemService();
-        actionBot.urlAssert("http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/18",
+        actionBot.urlAssert("http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/16",
                 "网页url与预期不符合");
         actionBot.browserBack();
 
         jointReferencePage.clickTeachingSupportService();
-        actionBot.urlAssert("http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/19",
+        actionBot.urlAssert("http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/18",
                 "网页url与预期不符合");
         actionBot.browserBack();
 
         jointReferencePage.clickFreeResourceRecommendation();
-        actionBot.urlAssert("http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/331",
+        actionBot.urlAssert("http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/19",
                 "网页url与预期不符合");
         actionBot.browserBack();
 
         jointReferencePage.clickElsevier();
-        actionBot.urlAssert("http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/321",
+        actionBot.urlAssert("http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/331",
                 "网页url与预期不符合");
         actionBot.browserBack();
 
         jointReferencePage.clickSimilarityDetectionInPaper();
-        actionBot.urlAssert("http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/20",
+        actionBot.urlAssert("http://lib.zjxu.edu.cn/PCWeb/JointReferenceConsult/intelligenceServiceDetailTab/id/321",
                 "网页url与预期不符合");
         actionBot.browserBack();
     }
