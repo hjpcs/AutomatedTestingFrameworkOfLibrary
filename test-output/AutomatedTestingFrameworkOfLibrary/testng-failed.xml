@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [AutomatedTestingFrameworkOfLibrary]">
+  <test thread-count="5" verbose="2" name="AccountRelatedTest(failed)">
+    <classes>
+      <class name="TestCase.AccountRelatedTest.Login">
+        <methods>
+          <include name="loginTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestCase.AccountRelatedTest.Login -->
+    </classes>
+  </test> <!-- AccountRelatedTest(failed) -->
+  <test thread-count="5" verbose="2" name="InfoTest(failed)">
+    <classes>
+      <class name="TestCase.InfoTest.RealTimeInfo">
+        <methods>
+          <include name="realTimeInfoTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestCase.InfoTest.RealTimeInfo -->
+    </classes>
+  </test> <!-- InfoTest(failed) -->
   <test thread-count="5" verbose="2" name="LearningCenterTest(failed)">
     <classes>
+      <class name="TestCase.LearningCenterTest.StartPoint">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="startPointTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestCase.LearningCenterTest.StartPoint -->
       <class name="TestCase.LearningCenterTest.EddieCorsonReportingHall">
         <methods>
           <include name="eddieCorsonReportingHallTest"/>
@@ -21,20 +50,6 @@
   </test> <!-- LearningCenterTest(failed) -->
   <test thread-count="5" verbose="2" name="ResourceTest(failed)">
     <classes>
-      <class name="TestCase.ResourceTest.ChinesePeriodicalNewspaper">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="chinesePeriodicalNewspaperTest"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- TestCase.ResourceTest.ChinesePeriodicalNewspaper -->
-      <class name="TestCase.ResourceTest.GlobalOpenCurriculumResources">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-          <include name="globalOpenCurriculumResourcesTest"/>
-        </methods>
-      </class> <!-- TestCase.ResourceTest.GlobalOpenCurriculumResources -->
       <class name="TestCase.ResourceTest.ChineseYearbook">
         <methods>
           <include name="beforeClass"/>
@@ -42,31 +57,41 @@
           <include name="afterClass"/>
         </methods>
       </class> <!-- TestCase.ResourceTest.ChineseYearbook -->
-      <class name="TestCase.ResourceTest.ChinesePatentAndStandard">
+      <class name="TestCase.ResourceTest.ElectronicBooks">
         <methods>
           <include name="beforeClass"/>
-          <include name="chinesePatentAndStandardTest"/>
+          <include name="electronicBooksTest"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- TestCase.ResourceTest.ChinesePatentAndStandard -->
+      </class> <!-- TestCase.ResourceTest.ElectronicBooks -->
+      <class name="TestCase.ResourceTest.ChineseNumericValueOrFact">
+        <methods>
+          <include name="chineseNumericValueOrFactTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestCase.ResourceTest.ChineseNumericValueOrFact -->
+      <class name="TestCase.ResourceTest.ChinesePeriodicalNewspaper">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="chinesePeriodicalNewspaperTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestCase.ResourceTest.ChinesePeriodicalNewspaper -->
+      <class name="TestCase.ResourceTest.ForeignElectronicPeriodicals">
+        <methods>
+          <include name="afterClass"/>
+          <include name="foreignElectronicPeriodicalsTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestCase.ResourceTest.ForeignElectronicPeriodicals -->
+      <class name="TestCase.ResourceTest.GlobalOpenCurriculumResources">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="globalOpenCurriculumResourcesTest"/>
+        </methods>
+      </class> <!-- TestCase.ResourceTest.GlobalOpenCurriculumResources -->
     </classes>
   </test> <!-- ResourceTest(failed) -->
-  <test thread-count="5" verbose="2" name="ServiceTest(failed)">
-    <classes>
-      <class name="TestCase.ServiceTest.InformationService">
-        <methods>
-          <include name="afterClass"/>
-          <include name="informationServiceTest"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- TestCase.ServiceTest.InformationService -->
-      <class name="TestCase.ServiceTest.ReaderService">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="readerServiceTest"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- TestCase.ServiceTest.ReaderService -->
-    </classes>
-  </test> <!-- ServiceTest(failed) -->
 </suite> <!-- Failed suite [AutomatedTestingFrameworkOfLibrary] -->

@@ -22,7 +22,7 @@ public class ForeignElectronicPeriodicals extends BaseTest {
         homePage.goResource();
         resourcePage.goForeignElectronicPeriodicals();
         actionBot.changeWindow();
-        actionBot.titleAssert("Web of Science [v.5.29] - 所有数据库基本检索","网页标题与预期不符合");
+        actionBot.titleAssert("Web of Science [v.5.29] - 所有数据库 基本检索","网页标题与预期不符合");
     }
 
 }
